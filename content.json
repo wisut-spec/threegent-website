@@ -1,116 +1,116 @@
 {
   "hero": {
     "eyebrow_en": "Industrial Mineral Trading Specialists",
-    "eyebrow_th": "ผู้เชี่ยวชาญการค้าแร่ธาตุอุตสาหกรรม",
+    "eyebrow_th": "à¸à¸¹à¹à¹à¸à¸µà¹à¸¢à¸§à¸à¸²à¸à¸à¸²à¸£à¸à¹à¸²à¹à¸£à¹à¸à¸²à¸à¸¸à¸­à¸¸à¸à¸ªà¸²à¸«à¸à¸£à¸£à¸¡",
     "headline_en": "The Right Materials,<br><em>Delivered Right</em><br>For Your Business",
-    "headline_th": "วัตถุดิบที่ใช่<br><em>ส่งถึงมือคุณ</em><br>เพื่อธุรกิจที่สำเร็จ",
-    "sub_en": "From small workshops to large-scale manufacturers — local or international — we source and supply industrial minerals with consistency, accountability, and environmental responsibility.",
-    "sub_th": "ไม่ว่าจะเป็นโรงงานขนาดเล็กหรือขนาดใหญ่ ในประเทศหรือต่างประเทศ เราจัดหาและจำหน่ายแร่ธาตุอุตสาหกรรมด้วยความสม่ำเสมอ รับผิดชอบ และใส่ใจสิ่งแวดล้อม",
+    "headline_th": "à¸§à¸±à¸à¸à¸¸à¸à¸´à¸à¸à¸µà¹à¹à¸à¹<br><em>à¸ªà¹à¸à¸à¸¶à¸à¸¡à¸·à¸­à¸à¸¸à¸</em><br>à¹à¸à¸·à¹à¸­à¸à¸¸à¸£à¸à¸´à¸à¸à¸µà¹à¸ªà¸³à¹à¸£à¹à¸",
+    "sub_en": "From small workshops to large-scale manufacturers â local or international â we source and supply industrial minerals with consistency, accountability, and environmental responsibility.",
+    "sub_th": "à¹à¸¡à¹à¸§à¹à¸²à¸à¸°à¹à¸à¹à¸à¹à¸£à¸à¸à¸²à¸à¸à¸à¸²à¸à¹à¸¥à¹à¸à¸«à¸£à¸·à¸­à¸à¸à¸²à¸à¹à¸«à¸à¹ à¹à¸à¸à¸£à¸°à¹à¸à¸¨à¸«à¸£à¸·à¸­à¸à¹à¸²à¸à¸à¸£à¸°à¹à¸à¸¨ à¹à¸£à¸²à¸à¸±à¸à¸«à¸²à¹à¸¥à¸°à¸à¸³à¸«à¸à¹à¸²à¸¢à¹à¸£à¹à¸à¸²à¸à¸¸à¸­à¸¸à¸à¸ªà¸²à¸«à¸à¸£à¸£à¸¡à¸à¹à¸§à¸¢à¸à¸§à¸²à¸¡à¸ªà¸¡à¹à¸³à¹à¸ªà¸¡à¸­ à¸£à¸±à¸à¸à¸´à¸à¸à¸­à¸ à¹à¸¥à¸°à¹à¸ªà¹à¹à¸à¸ªà¸´à¹à¸à¹à¸§à¸à¸¥à¹à¸­à¸¡",
     "btn1_en": "Explore Products",
-    "btn1_th": "ดูสินค้าทั้งหมด",
+    "btn1_th": "à¸à¸¹à¸ªà¸´à¸à¸à¹à¸²à¸à¸±à¹à¸à¸«à¸¡à¸",
     "btn2_en": "Contact Us",
-    "btn2_th": "ติดต่อเรา",
+    "btn2_th": "à¸à¸´à¸à¸à¹à¸­à¹à¸£à¸²",
     "nav_cta_en": "Get Quote",
-    "nav_cta_th": "ขอใบเสนอราคา",
+    "nav_cta_th": "à¸à¸­à¹à¸à¹à¸ªà¸à¸­à¸£à¸²à¸à¸²",
     "stats": [
       {
         "num": "+",
         "en": "Growing Portfolio",
-        "th": "พอร์ตสินค้าที่เติบโต"
+        "th": "à¸à¸­à¸£à¹à¸à¸ªà¸´à¸à¸à¹à¸²à¸à¸µà¹à¹à¸à¸´à¸à¹à¸"
       },
       {
         "num": "100%",
         "en": "Quality Tested",
-        "th": "ผ่านการทดสอบ"
+        "th": "à¸à¹à¸²à¸à¸à¸²à¸£à¸à¸à¸ªà¸­à¸"
       },
       {
         "num": "Global",
         "en": "Supply Chain",
-        "th": "ห่วงโซ่อุปทาน"
+        "th": "à¸«à¹à¸§à¸à¹à¸à¹à¸­à¸¸à¸à¸à¸²à¸"
       },
       {
         "num": "Multi",
         "en": "Industry Sectors",
-        "th": "หลากหลายอุตสาหกรรม"
+        "th": "à¸«à¸¥à¸²à¸à¸«à¸¥à¸²à¸¢à¸­à¸¸à¸à¸ªà¸²à¸«à¸à¸£à¸£à¸¡"
       }
     ]
   },
   "about": {
     "label_en": "About Us",
-    "label_th": "เกี่ยวกับเรา",
+    "label_th": "à¹à¸à¸µà¹à¸¢à¸§à¸à¸±à¸à¹à¸£à¸²",
     "title_en": "Your Trusted Partner in Industrial Mineral Trading",
-    "title_th": "พันธมิตรที่เชื่อถือได้ในการค้าแร่ธาตุอุตสาหกรรม",
+    "title_th": "à¸à¸±à¸à¸à¸¡à¸´à¸à¸£à¸à¸µà¹à¹à¸à¸·à¹à¸­à¸à¸·à¸­à¹à¸à¹à¹à¸à¸à¸²à¸£à¸à¹à¸²à¹à¸£à¹à¸à¸²à¸à¸¸à¸­à¸¸à¸à¸ªà¸²à¸«à¸à¸£à¸£à¸¡",
     "p1_en": "Three Gent Intertrade is a new-generation mineral trading company built on drive, transparency, and a genuine passion for connecting quality raw materials with the industries that need them most.",
-    "p1_th": "ทรี เจนท์ อินเตอร์เทรด คือบริษัทการค้าแร่ธาตุรุ่นใหม่ ที่ก่อตั้งขึ้นด้วยความมุ่งมั่น โปร่งใส และความตั้งใจในการเชื่อมต่อวัตถุดิบคุณภาพดีกับอุตสาหกรรมที่ต้องการ",
+    "p1_th": "à¸à¸£à¸µ à¹à¸à¸à¸à¹ à¸­à¸´à¸à¹à¸à¸­à¸£à¹à¹à¸à¸£à¸ à¸à¸·à¸­à¸à¸£à¸´à¸©à¸±à¸à¸à¸²à¸£à¸à¹à¸²à¹à¸£à¹à¸à¸²à¸à¸¸à¸£à¸¸à¹à¸à¹à¸«à¸¡à¹ à¸à¸µà¹à¸à¹à¸­à¸à¸±à¹à¸à¸à¸¶à¹à¸à¸à¹à¸§à¸¢à¸à¸§à¸²à¸¡à¸¡à¸¸à¹à¸à¸¡à¸±à¹à¸ à¹à¸à¸£à¹à¸à¹à¸ª à¹à¸¥à¸°à¸à¸§à¸²à¸¡à¸à¸±à¹à¸à¹à¸à¹à¸à¸à¸²à¸£à¹à¸à¸·à¹à¸­à¸¡à¸à¹à¸­à¸§à¸±à¸à¸à¸¸à¸à¸´à¸à¸à¸¸à¸à¸ à¸²à¸à¸à¸µà¸à¸±à¸à¸­à¸¸à¸à¸ªà¸²à¸«à¸à¸£à¸£à¸¡à¸à¸µà¹à¸à¹à¸­à¸à¸à¸²à¸£",
     "p2_en": "We are not limited by geography, industry, or scale. Whether you are a growing SME or an established manufacturer, we are here to find the right mineral, in the right grade, at a price that works for you.",
-    "p2_th": "เราไม่จำกัดตัวเองด้วยภูมิภาค อุตสาหกรรม หรือขนาดของธุรกิจ ไม่ว่าคุณจะเป็น SME ที่กำลังเติบโต หรือผู้ผลิตรายใหญ่ เราพร้อมหาแร่ธาตุที่เหมาะสมในเกรดและราคาที่ใช่สำหรับคุณ",
-    "p3_en": "Young, agile, and always open to new opportunities — we adapt fast, communicate directly, and treat every client relationship as a long-term partnership worth building from day one.",
-    "p3_th": "เราเป็นทีมหนุ่มสาวที่คล่องตัว เปิดรับโอกาสใหม่เสมอ ปรับตัวได้เร็ว สื่อสารตรงไปตรงมา และมองทุกความสัมพันธ์กับลูกค้าเป็นหุ้นส่วนระยะยาว",
+    "p2_th": "à¹à¸£à¸²à¹à¸¡à¹à¸à¸³à¸à¸±à¸à¸à¸±à¸§à¹à¸­à¸à¸à¹à¸§à¸¢à¸ à¸¹à¸¡à¸´à¸ à¸²à¸ à¸­à¸¸à¸à¸ªà¸²à¸«à¸à¸£à¸£à¸¡ à¸«à¸£à¸·à¸­à¸à¸à¸²à¸à¸à¸­à¸à¸à¸¸à¸£à¸à¸´à¸ à¹à¸¡à¹à¸§à¹à¸²à¸à¸¸à¸à¸à¸°à¹à¸à¹à¸ SME à¸à¸µà¹à¸à¸³à¸¥à¸±à¸à¹à¸à¸´à¸à¹à¸ à¸«à¸£à¸·à¸­à¸à¸¹à¹à¸à¸¥à¸´à¸à¸£à¸²à¸¢à¹à¸«à¸à¹ à¹à¸£à¸²à¸à¸£à¹à¸­à¸¡à¸«à¸²à¹à¸£à¹à¸à¸²à¸à¸¸à¸à¸µà¹à¹à¸«à¸¡à¸²à¸°à¸ªà¸¡à¹à¸à¹à¸à¸£à¸à¹à¸¥à¸°à¸£à¸²à¸à¸²à¸à¸µà¹à¹à¸à¹à¸ªà¸³à¸«à¸£à¸±à¸à¸à¸¸à¸",
+    "p3_en": "Young, agile, and always open to new opportunities â we adapt fast, communicate directly, and treat every client relationship as a long-term partnership worth building from day one.",
+    "p3_th": "à¹à¸£à¸²à¹à¸à¹à¸à¸à¸µà¸¡à¸«à¸à¸¸à¹à¸¡à¸ªà¸²à¸§à¸à¸µà¹à¸à¸¥à¹à¸­à¸à¸à¸±à¸§ à¹à¸à¸´à¸à¸£à¸±à¸à¹à¸­à¸à¸²à¸ªà¹à¸«à¸¡à¹à¹à¸ªà¸¡à¸­ à¸à¸£à¸±à¸à¸à¸±à¸§à¹à¸à¹à¹à¸£à¹à¸§ à¸ªà¸·à¹à¸­à¸ªà¸²à¸£à¸à¸£à¸à¹à¸à¸à¸£à¸à¸¡à¸² à¹à¸¥à¸°à¸¡à¸­à¸à¸à¸¸à¸à¸à¸§à¸²à¸¡à¸ªà¸±à¸¡à¸à¸±à¸à¸à¹à¸à¸±à¸à¸¥à¸¹à¸à¸à¹à¸²à¹à¸à¹à¸à¸«à¸¸à¹à¸à¸ªà¹à¸§à¸à¸£à¸°à¸¢à¸°à¸¢à¸²à¸§",
     "points": [
       {
         "title_en": "Rigorous Supplier Selection",
-        "title_th": "คัดสรรซัพพลายเออร์อย่างเข้มงวด",
+        "title_th": "à¸à¸±à¸à¸ªà¸£à¸£à¸à¸±à¸à¸à¸¥à¸²à¸¢à¹à¸­à¸­à¸£à¹à¸­à¸¢à¹à¸²à¸à¹à¸à¹à¸¡à¸à¸§à¸",
         "desc_en": "Only trusted, vetted global suppliers pass our evaluation process.",
-        "desc_th": "มีเพียงซัพพลายเออร์ระดับโลกที่ผ่านการตรวจสอบเท่านั้น"
+        "desc_th": "à¸¡à¸µà¹à¸à¸µà¸¢à¸à¸à¸±à¸à¸à¸¥à¸²à¸¢à¹à¸­à¸­à¸£à¹à¸£à¸°à¸à¸±à¸à¹à¸¥à¸à¸à¸µà¹à¸à¹à¸²à¸à¸à¸²à¸£à¸à¸£à¸§à¸à¸ªà¸­à¸à¹à¸à¹à¸²à¸à¸±à¹à¸"
       },
       {
         "title_en": "Batch-by-Batch Quality Inspection",
-        "title_th": "ตรวจสอบคุณภาพทุกล็อต",
+        "title_th": "à¸à¸£à¸§à¸à¸ªà¸­à¸à¸à¸¸à¸à¸ à¸²à¸à¸à¸¸à¸à¸¥à¹à¸­à¸",
         "desc_en": "Every shipment is individually tested before delivery.",
-        "desc_th": "ทุกการส่งมอบผ่านการทดสอบรายบุคคลก่อนจัดส่ง"
+        "desc_th": "à¸à¸¸à¸à¸à¸²à¸£à¸ªà¹à¸à¸¡à¸­à¸à¸à¹à¸²à¸à¸à¸²à¸£à¸à¸à¸ªà¸­à¸à¸£à¸²à¸¢à¸à¸¸à¸à¸à¸¥à¸à¹à¸­à¸à¸à¸±à¸à¸ªà¹à¸"
       },
       {
         "title_en": "Regular Mine Site Visits",
-        "title_th": "ตรวจเยี่ยมเหมืองสม่ำเสมอ",
+        "title_th": "à¸à¸£à¸§à¸à¹à¸¢à¸µà¹à¸¢à¸¡à¹à¸«à¸¡à¸·à¸­à¸à¸ªà¸¡à¹à¸³à¹à¸ªà¸¡à¸­",
         "desc_en": "On-the-ground verification ensures source integrity.",
-        "desc_th": "การตรวจสอบโดยตรงรับประกันความสมบูรณ์ของแหล่งที่มา"
+        "desc_th": "à¸à¸²à¸£à¸à¸£à¸§à¸à¸ªà¸­à¸à¹à¸à¸¢à¸à¸£à¸à¸£à¸±à¸à¸à¸£à¸°à¸à¸±à¸à¸à¸§à¸²à¸¡à¸ªà¸¡à¸à¸¹à¸£à¸à¹à¸à¸­à¸à¹à¸«à¸¥à¹à¸à¸à¸µà¹à¸¡à¸²"
       },
       {
         "title_en": "Environmentally Responsible",
-        "title_th": "รับผิดชอบต่อสิ่งแวดล้อม",
+        "title_th": "à¸£à¸±à¸à¸à¸´à¸à¸à¸­à¸à¸à¹à¸­à¸ªà¸´à¹à¸à¹à¸§à¸à¸¥à¹à¸­à¸¡",
         "desc_en": "Supporting sustainable and eco-conscious supply chains.",
-        "desc_th": "สนับสนุนห่วงโซ่อุปทานที่ยั่งยืนและเป็นมิตรต่อสิ่งแวดล้อม"
+        "desc_th": "à¸ªà¸à¸±à¸à¸ªà¸à¸¸à¸à¸«à¹à¸§à¸à¹à¸à¹à¸­à¸¸à¸à¸à¸²à¸à¸à¸µà¹à¸¢à¸±à¹à¸à¸¢à¸·à¸à¹à¸¥à¸°à¹à¸à¹à¸à¸¡à¸´à¸à¸£à¸à¹à¸­à¸ªà¸´à¹à¸à¹à¸§à¸à¸¥à¹à¸­à¸¡"
       },
       {
         "title_en": "Young & Agile Team",
-        "title_th": "ทีมหนุ่มสาวคล่องตัว",
+        "title_th": "à¸à¸µà¸¡à¸«à¸à¸¸à¹à¸¡à¸ªà¸²à¸§à¸à¸¥à¹à¸­à¸à¸à¸±à¸§",
         "desc_en": "Fresh perspective, fast response, and drive to grow with clients.",
-        "desc_th": "มุมมองใหม่ ตอบสนองเร็ว มุ่งมั่นที่จะเติบโตไปพร้อมกับลูกค้า"
+        "desc_th": "à¸¡à¸¸à¸¡à¸¡à¸­à¸à¹à¸«à¸¡à¹ à¸à¸­à¸à¸ªà¸à¸­à¸à¹à¸£à¹à¸§ à¸¡à¸¸à¹à¸à¸¡à¸±à¹à¸à¸à¸µà¹à¸à¸°à¹à¸à¸´à¸à¹à¸à¹à¸à¸à¸£à¹à¸­à¸¡à¸à¸±à¸à¸¥à¸¹à¸à¸à¹à¸²"
       },
       {
         "title_en": "Open to All Industries",
-        "title_th": "เปิดรับทุกอุตสาหกรรม",
-        "desc_en": "No industry is off the table — we will find a way to supply.",
-        "desc_th": "ไม่มีอุตสาหกรรมไหนที่เราปฏิเสธ หากคุณต้องการแร่ธาตุ เราพร้อมจัดหาให้"
+        "title_th": "à¹à¸à¸´à¸à¸£à¸±à¸à¸à¸¸à¸à¸­à¸¸à¸à¸ªà¸²à¸«à¸à¸£à¸£à¸¡",
+        "desc_en": "No industry is off the table â we will find a way to supply.",
+        "desc_th": "à¹à¸¡à¹à¸¡à¸µà¸­à¸¸à¸à¸ªà¸²à¸«à¸à¸£à¸£à¸¡à¹à¸«à¸à¸à¸µà¹à¹à¸£à¸²à¸à¸à¸´à¹à¸ªà¸ à¸«à¸²à¸à¸à¸¸à¸à¸à¹à¸­à¸à¸à¸²à¸£à¹à¸£à¹à¸à¸²à¸à¸¸ à¹à¸£à¸²à¸à¸£à¹à¸­à¸¡à¸à¸±à¸à¸«à¸²à¹à¸«à¹"
       }
     ]
   },
   "products": {
     "label_en": "Products & Services",
-    "label_th": "สินค้าและบริการ",
+    "label_th": "à¸ªà¸´à¸à¸à¹à¸²à¹à¸¥à¸°à¸à¸£à¸´à¸à¸²à¸£",
     "title_en": "Quality Industrial Minerals for Multiple Sectors",
-    "title_th": "แร่ธาตุอุตสาหกรรมคุณภาพสูงสำหรับหลากหลายภาคส่วน",
+    "title_th": "à¹à¸£à¹à¸à¸²à¸à¸¸à¸­à¸¸à¸à¸ªà¸²à¸«à¸à¸£à¸£à¸¡à¸à¸¸à¸à¸ à¸²à¸à¸ªà¸¹à¸à¸ªà¸³à¸«à¸£à¸±à¸à¸«à¸¥à¸²à¸à¸«à¸¥à¸²à¸¢à¸ à¸²à¸à¸ªà¹à¸§à¸",
     "items": [
       {
         "sub_en": "Calcium Sulfate",
-        "sub_th": "แคลเซียมซัลเฟต",
+        "sub_th": "à¹à¸à¸¥à¹à¸à¸µà¸¢à¸¡à¸à¸±à¸¥à¹à¸à¸",
         "name_en": "Gypsum",
-        "name_th": "ยิปซัม",
-        "desc_en": "A versatile mineral widely used in the production of tiles, ceramics, plasterboard, and cement. Also applied in agriculture as a soil conditioner. Available in various grades — contact us for specifications.",
-        "desc_th": "แร่อเนกประสงค์ที่ใช้กันอย่างแพร่หลายในการผลิตกระเบื้อง เซรามิก ยิปซัมบอร์ด และซีเมนต์ ใช้ในการเกษตรเป็นตัวปรับสภาพดิน มีหลายเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะ",
+        "name_th": "à¸¢à¸´à¸à¸à¸±à¸¡",
+        "desc_en": "A versatile mineral widely used in the production of tiles, ceramics, plasterboard, and cement. Also applied in agriculture as a soil conditioner. Available in various grades â contact us for specifications.",
+        "desc_th": "à¹à¸£à¹à¸­à¹à¸à¸à¸à¸£à¸°à¸ªà¸à¸à¹à¸à¸µà¹à¹à¸à¹à¸à¸±à¸à¸­à¸¢à¹à¸²à¸à¹à¸à¸£à¹à¸«à¸¥à¸²à¸¢à¹à¸à¸à¸²à¸£à¸à¸¥à¸´à¸à¸à¸£à¸°à¹à¸à¸·à¹à¸­à¸ à¹à¸à¸£à¸²à¸¡à¸´à¸ à¸¢à¸´à¸à¸à¸±à¸¡à¸à¸­à¸£à¹à¸ à¹à¸¥à¸°à¸à¸µà¹à¸¡à¸à¸à¹ à¹à¸à¹à¹à¸à¸à¸²à¸£à¹à¸à¸©à¸à¸£à¹à¸à¹à¸à¸à¸±à¸§à¸à¸£à¸±à¸à¸ªà¸ à¸²à¸à¸à¸´à¸ à¸¡à¸µà¸«à¸¥à¸²à¸¢à¹à¸à¸£à¸ â à¸à¸´à¸à¸à¹à¸­à¹à¸£à¸²à¹à¸à¸·à¹à¸­à¸à¸­à¸à¹à¸­à¸¡à¸¹à¸¥à¸à¸³à¹à¸à¸²à¸°",
         "tags_en": "Tiles & Ceramics,Construction,Agriculture",
-        "tags_th": "กระเบื้อง & เซรามิก,ก่อสร้าง,เกษตรกรรม",
+        "tags_th": "à¸à¸£à¸°à¹à¸à¸·à¹à¸­à¸ & à¹à¸à¸£à¸²à¸¡à¸´à¸,à¸à¹à¸­à¸ªà¸£à¹à¸²à¸,à¹à¸à¸©à¸à¸£à¸à¸£à¸£à¸¡",
         "img": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Gypsum%20MainProduct.jpeg"
       },
       {
         "sub_en": "Manganese Oxide",
-        "sub_th": "แมงกานีสออกไซด์",
+        "sub_th": "à¹à¸¡à¸à¸à¸²à¸à¸µà¸ªà¸­à¸­à¸à¹à¸à¸à¹",
         "name_en": "Manganese",
-        "name_th": "แมงกานีส",
-        "desc_en": "A multi-industry mineral essential for steel production, battery manufacturing, ceramics, glass, and chemical applications. Available in various grades — contact us for specifications.",
-        "desc_th": "แร่ธาตุที่จำเป็นสำหรับหลายอุตสาหกรรม ทั้งการผลิตเหล็กกล้า แบตเตอรี่ เซรามิก แก้ว และการใช้งานทางเคมี มีหลายเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะ",
+        "name_th": "à¹à¸¡à¸à¸à¸²à¸à¸µà¸ª",
+        "desc_en": "A multi-industry mineral essential for steel production, battery manufacturing, ceramics, glass, and chemical applications. Available in various grades â contact us for specifications.",
+        "desc_th": "à¹à¸£à¹à¸à¸²à¸à¸¸à¸à¸µà¹à¸à¸³à¹à¸à¹à¸à¸ªà¸³à¸«à¸£à¸±à¸à¸«à¸¥à¸²à¸¢à¸­à¸¸à¸à¸ªà¸²à¸«à¸à¸£à¸£à¸¡ à¸à¸±à¹à¸à¸à¸²à¸£à¸à¸¥à¸´à¸à¹à¸«à¸¥à¹à¸à¸à¸¥à¹à¸² à¹à¸à¸à¹à¸à¸­à¸£à¸µà¹ à¹à¸à¸£à¸²à¸¡à¸´à¸ à¹à¸à¹à¸§ à¹à¸¥à¸°à¸à¸²à¸£à¹à¸à¹à¸à¸²à¸à¸à¸²à¸à¹à¸à¸¡à¸µ à¸¡à¸µà¸«à¸¥à¸²à¸¢à¹à¸à¸£à¸ â à¸à¸´à¸à¸à¹à¸­à¹à¸£à¸²à¹à¸à¸·à¹à¸­à¸à¸­à¸à¹à¸­à¸¡à¸¹à¸¥à¸à¸³à¹à¸à¸²à¸°",
         "tags_en": "Steel Production,Battery Grade,Ceramics & Glass",
-        "tags_th": "การผลิตเหล็ก,เกรดแบตเตอรี่,เซรามิก & แก้ว",
+        "tags_th": "à¸à¸²à¸£à¸à¸¥à¸´à¸à¹à¸«à¸¥à¹à¸,à¹à¸à¸£à¸à¹à¸à¸à¹à¸à¸­à¸£à¸µà¹,à¹à¸à¸£à¸²à¸¡à¸´à¸ & à¹à¸à¹à¸§",
         "img": "https://github.com/wisut-spec/threegent-website/blob/main/images/Manganese3.jpg?raw=true"
       }
     ]
@@ -118,78 +118,78 @@
   "coming": [
     {
       "name_en": "Dolomite",
-      "name_th": "โดโลไมต์",
+      "name_th": "à¹à¸à¹à¸¥à¹à¸¡à¸à¹",
       "desc_en": "Premium dolomite powder for agriculture, construction, and industrial applications.",
-      "desc_th": "ดินขาวพรีเมียมสำหรับอุตสาหกรรมเกษตร ก่อสร้าง และอุตสาหกรรมทั่วไป"
+      "desc_th": "à¸à¸´à¸à¸à¸²à¸§à¸à¸£à¸µà¹à¸¡à¸µà¸¢à¸¡à¸ªà¸³à¸«à¸£à¸±à¸à¸­à¸¸à¸à¸ªà¸²à¸«à¸à¸£à¸£à¸¡à¹à¸à¸©à¸à¸£ à¸à¹à¸­à¸ªà¸£à¹à¸²à¸ à¹à¸¥à¸°à¸­à¸¸à¸à¸ªà¸²à¸«à¸à¸£à¸£à¸¡à¸à¸±à¹à¸§à¹à¸"
     },
     {
       "name_en": "Calcite",
-      "name_th": "แคลไซต์",
+      "name_th": "à¹à¸à¸¥à¹à¸à¸à¹",
       "desc_en": "Fine calcite powder for paint, plastics, paper, and pharmaceutical industries.",
-      "desc_th": "แคลไซต์ผงละเอียดสำหรับอุตสาหกรรมสี พลาสติก กระดาษ และเภสัชกรรม"
+      "desc_th": "à¹à¸à¸¥à¹à¸à¸à¹à¸à¸à¸¥à¸°à¹à¸­à¸µà¸¢à¸à¸ªà¸³à¸«à¸£à¸±à¸à¸­à¸¸à¸à¸ªà¸²à¸«à¸à¸£à¸£à¸¡à¸ªà¸µ à¸à¸¥à¸²à¸ªà¸à¸´à¸ à¸à¸£à¸°à¸à¸²à¸© à¹à¸¥à¸°à¹à¸ à¸ªà¸±à¸à¸à¸£à¸£à¸¡"
     }
   ],
   "quality": {
     "label_en": "Quality Standards & Sustainability",
-    "label_th": "มาตรฐานคุณภาพและความยั่งยืน",
+    "label_th": "à¸¡à¸²à¸à¸£à¸à¸²à¸à¸à¸¸à¸à¸ à¸²à¸à¹à¸¥à¸°à¸à¸§à¸²à¸¡à¸¢à¸±à¹à¸à¸¢à¸·à¸",
     "title_en": "Quality at the Core of Every Operation",
-    "title_th": "คุณภาพคือหัวใจของทุกการดำเนินงาน",
+    "title_th": "à¸à¸¸à¸à¸ à¸²à¸à¸à¸·à¸­à¸«à¸±à¸§à¹à¸à¸à¸­à¸à¸à¸¸à¸à¸à¸²à¸£à¸à¸³à¹à¸à¸´à¸à¸à¸²à¸",
     "cards": [
       {
         "num": "01",
         "title_en": "Rigorous Supplier Selection",
-        "title_th": "คัดสรรซัพพลายเออร์อย่างเข้มงวด",
+        "title_th": "à¸à¸±à¸à¸ªà¸£à¸£à¸à¸±à¸à¸à¸¥à¸²à¸¢à¹à¸­à¸­à¸£à¹à¸­à¸¢à¹à¸²à¸à¹à¸à¹à¸¡à¸à¸§à¸",
         "desc_en": "Only trusted global suppliers who pass our stringent evaluation criteria.",
-        "desc_th": "มีเพียงซัพพลายเออร์ที่ผ่านเกณฑ์ประเมินที่เข้มงวดเท่านั้น"
+        "desc_th": "à¸¡à¸µà¹à¸à¸µà¸¢à¸à¸à¸±à¸à¸à¸¥à¸²à¸¢à¹à¸­à¸­à¸£à¹à¸à¸µà¹à¸à¹à¸²à¸à¹à¸à¸à¸à¹à¸à¸£à¸°à¹à¸¡à¸´à¸à¸à¸µà¹à¹à¸à¹à¸¡à¸à¸§à¸à¹à¸à¹à¸²à¸à¸±à¹à¸"
       },
       {
         "num": "02",
         "title_en": "Batch Quality Inspection",
-        "title_th": "ตรวจสอบคุณภาพทุกล็อต",
+        "title_th": "à¸à¸£à¸§à¸à¸ªà¸­à¸à¸à¸¸à¸à¸ à¸²à¸à¸à¸¸à¸à¸¥à¹à¸­à¸",
         "desc_en": "Every single batch is individually tested and certified before reaching clients.",
-        "desc_th": "ทุกล็อตผ่านการทดสอบและรับรองเฉพาะบุคคลก่อนส่งถึงลูกค้า"
+        "desc_th": "à¸à¸¸à¸à¸¥à¹à¸­à¸à¸à¹à¸²à¸à¸à¸²à¸£à¸à¸à¸ªà¸­à¸à¹à¸¥à¸°à¸£à¸±à¸à¸£à¸­à¸à¹à¸à¸à¸²à¸°à¸à¸¸à¸à¸à¸¥à¸à¹à¸­à¸à¸ªà¹à¸à¸à¸¶à¸à¸¥à¸¹à¸à¸à¹à¸²"
       },
       {
         "num": "03",
         "title_en": "Mine Site Visits",
-        "title_th": "ตรวจเยี่ยมแหล่งเหมือง",
+        "title_th": "à¸à¸£à¸§à¸à¹à¸¢à¸µà¹à¸¢à¸¡à¹à¸«à¸¥à¹à¸à¹à¸«à¸¡à¸·à¸­à¸",
         "desc_en": "Regular on-site visits ensure material integrity and responsible extraction.",
-        "desc_th": "การเยี่ยมชมสถานที่จริงอย่างสม่ำเสมอรับประกันความสมบูรณ์ของวัสดุ"
+        "desc_th": "à¸à¸²à¸£à¹à¸¢à¸µà¹à¸¢à¸¡à¸à¸¡à¸ªà¸à¸²à¸à¸à¸µà¹à¸à¸£à¸´à¸à¸­à¸¢à¹à¸²à¸à¸ªà¸¡à¹à¸³à¹à¸ªà¸¡à¸­à¸£à¸±à¸à¸à¸£à¸°à¸à¸±à¸à¸à¸§à¸²à¸¡à¸ªà¸¡à¸à¸¹à¸£à¸à¹à¸à¸­à¸à¸§à¸±à¸ªà¸à¸¸"
       },
       {
         "num": "04",
         "title_en": "Eco-Responsible Chain",
-        "title_th": "ห่วงโซ่รับผิดชอบต่อสิ่งแวดล้อม",
+        "title_th": "à¸«à¹à¸§à¸à¹à¸à¹à¸£à¸±à¸à¸à¸´à¸à¸à¸­à¸à¸à¹à¸­à¸ªà¸´à¹à¸à¹à¸§à¸à¸¥à¹à¸­à¸¡",
         "desc_en": "Committed to supporting environmentally responsible supply chains globally.",
-        "desc_th": "มุ่งมั่นสนับสนุนห่วงโซ่อุปทานที่รับผิดชอบต่อสิ่งแวดล้อมทั่วโลก"
+        "desc_th": "à¸¡à¸¸à¹à¸à¸¡à¸±à¹à¸à¸ªà¸à¸±à¸à¸ªà¸à¸¸à¸à¸«à¹à¸§à¸à¹à¸à¹à¸­à¸¸à¸à¸à¸²à¸à¸à¸µà¹à¸£à¸±à¸à¸à¸´à¸à¸à¸­à¸à¸à¹à¸­à¸ªà¸´à¹à¸à¹à¸§à¸à¸¥à¹à¸­à¸¡à¸à¸±à¹à¸§à¹à¸¥à¸"
       },
       {
         "num": "05",
         "title_en": "Transparent Pricing",
-        "title_th": "ราคาโปร่งใส",
-        "desc_en": "No hidden fees, no surprises — clear pricing and honest communication.",
-        "desc_th": "ไม่มีค่าใช้จ่ายซ่อนเร้น ราคาชัดเจนและสื่อสารตรงไปตรงมา"
+        "title_th": "à¸£à¸²à¸à¸²à¹à¸à¸£à¹à¸à¹à¸ª",
+        "desc_en": "No hidden fees, no surprises â clear pricing and honest communication.",
+        "desc_th": "à¹à¸¡à¹à¸¡à¸µà¸à¹à¸²à¹à¸à¹à¸à¹à¸²à¸¢à¸à¹à¸­à¸à¹à¸£à¹à¸ à¸£à¸²à¸à¸²à¸à¸±à¸à¹à¸à¸à¹à¸¥à¸°à¸ªà¸·à¹à¸­à¸ªà¸²à¸£à¸à¸£à¸à¹à¸à¸à¸£à¸à¸¡à¸²"
       },
       {
         "num": "06",
         "title_en": "Responsive Service",
-        "title_th": "บริการตอบสนองเร็ว",
+        "title_th": "à¸à¸£à¸´à¸à¸²à¸£à¸à¸­à¸à¸ªà¸à¸­à¸à¹à¸£à¹à¸§",
         "desc_en": "Fast replies, proactive updates, and a team that treats your timeline as priority.",
-        "desc_th": "ตอบกลับเร็ว อัปเดตเชิงรุก และทีมที่ถือว่าตารางเวลาของคุณคือความสำคัญ"
+        "desc_th": "à¸à¸­à¸à¸à¸¥à¸±à¸à¹à¸£à¹à¸§ à¸­à¸±à¸à¹à¸à¸à¹à¸à¸´à¸à¸£à¸¸à¸ à¹à¸¥à¸°à¸à¸µà¸¡à¸à¸µà¹à¸à¸·à¸­à¸§à¹à¸²à¸à¸²à¸£à¸²à¸à¹à¸§à¸¥à¸²à¸à¸­à¸à¸à¸¸à¸à¸à¸·à¸­à¸à¸§à¸²à¸¡à¸ªà¸³à¸à¸±à¸"
       }
     ]
   },
   "team": {
     "label_en": "Our Team",
-    "label_th": "ทีมงานของเรา",
+    "label_th": "à¸à¸µà¸¡à¸à¸²à¸à¸à¸­à¸à¹à¸£à¸²",
     "title_en": "The People Behind Three Gent Intertrade",
-    "title_th": "ทีมงานเบื้องหลัง ทรี เจนท์ อินเตอร์เทรด",
+    "title_th": "à¸à¸µà¸¡à¸à¸²à¸à¹à¸à¸·à¹à¸­à¸à¸«à¸¥à¸±à¸ à¸à¸£à¸µ à¹à¸à¸à¸à¹ à¸­à¸´à¸à¹à¸à¸­à¸£à¹à¹à¸à¸£à¸",
     "members": [
       {
         "name": "Wisut Phakdee",
         "nick": "Boy",
         "role_en": "President",
-        "role_th": "ประธานบริษัท",
+        "role_th": "à¸à¸£à¸°à¸à¸²à¸à¸à¸£à¸´à¸©à¸±à¸",
         "phone": "+66 61 225 9987",
         "email": "wisut@threegent.com",
         "img": ""
@@ -198,44 +198,44 @@
         "name": "Sakon Raiwon",
         "nick": "Top",
         "role_en": "Vice President · Sourcing & Raw Material Consultant",
-        "role_th": "รองประธาน · ที่ปรึกษาการจัดหาและวัตถุดิบ",
-        "phone": "",
-        "email": "",
+        "role_th": "à¸£à¸­à¸à¸à¸£à¸°à¸à¸²à¸ Â· à¸à¸µà¹à¸à¸£à¸¶à¸à¸©à¸²à¸à¸²à¸£à¸à¸±à¸à¸«à¸²à¹à¸¥à¸°à¸§à¸±à¸à¸à¸¸à¸à¸´à¸",
+        "phone": "+66  96 198 9554",
+        "email": "sakon@threegent.com",
         "img": ""
       },
       {
         "name": "Witchapon Raiwon",
         "nick": "Two",
         "role_en": "Vice President · Business Growth Consultant",
-        "role_th": "รองประธาน · ที่ปรึกษาการเติบโตทางธุรกิจ",
-        "phone": "",
-        "email": "",
+        "role_th": "à¸£à¸­à¸à¸à¸£à¸°à¸à¸²à¸ Â· à¸à¸µà¹à¸à¸£à¸¶à¸à¸©à¸²à¸à¸²à¸£à¹à¸à¸´à¸à¹à¸à¸à¸²à¸à¸à¸¸à¸£à¸à¸´à¸",
+        "phone": "+66  99 302 2004",
+        "email": "witchapon@threegent.com",
         "img": ""
       }
     ]
   },
   "contact": {
     "label_en": "Contact Us",
-    "label_th": "ติดต่อเรา",
+    "label_th": "à¸à¸´à¸à¸à¹à¸­à¹à¸£à¸²",
     "title_en": "Let's Work Together",
-    "title_th": "มาร่วมงานกัน",
+    "title_th": "à¸¡à¸²à¸£à¹à¸§à¸¡à¸à¸²à¸à¸à¸±à¸",
     "email": "wisut@threegent.com",
     "line": "@3gent",
     "line_url": "https://page.line.me/3gent",
     "location": "Bangkok, Thailand",
     "cta_headline_en": "Ready to Source<br><em>Premium Minerals?</em>",
-    "cta_headline_th": "พร้อมจัดหา<br><em>แร่ธาตุคุณภาพสูง?</em>",
-    "cta_sub_en": "Contact our team today — fast response, competitive pricing, quality supply.",
-    "cta_sub_th": "ติดต่อทีมของเราวันนี้ — ตอบเร็ว ราคาดี คุณภาพมาตรฐาน",
+    "cta_headline_th": "à¸à¸£à¹à¸­à¸¡à¸à¸±à¸à¸«à¸²<br><em>à¹à¸£à¹à¸à¸²à¸à¸¸à¸à¸¸à¸à¸ à¸²à¸à¸ªà¸¹à¸?</em>",
+    "cta_sub_en": "Contact our team today â fast response, competitive pricing, quality supply.",
+    "cta_sub_th": "à¸à¸´à¸à¸à¹à¸­à¸à¸µà¸¡à¸à¸­à¸à¹à¸£à¸²à¸§à¸±à¸à¸à¸µà¹ â à¸à¸­à¸à¹à¸£à¹à¸§ à¸£à¸²à¸à¸²à¸à¸µ à¸à¸¸à¸à¸ à¸²à¸à¸¡à¸²à¸à¸£à¸à¸²à¸",
     "cta_btn_en": "Send Inquiry",
-    "cta_btn_th": "ส่งข้อความ"
+    "cta_btn_th": "à¸ªà¹à¸à¸à¹à¸­à¸à¸§à¸²à¸¡"
   },
   "footer": {
     "brand": "THREE GENT INTERTRADE",
-    "copy": "© 2026 · Thailand"
+    "copy": "Â© 2026 Â· Thailand"
   },
   "meta": {
-    "title": "Three Gent Intertrade — Gypsum · Manganese",
+    "title": "Three Gent Intertrade â Gypsum Â· Manganese",
     "desc": "Leading importer and distributor of high-quality industrial mineral powders for construction, ceramic, and multi-industry sectors in Thailand."
   }
 }
