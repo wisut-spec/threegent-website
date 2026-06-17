@@ -100,7 +100,7 @@
         "desc_th": "แร่อเนกประสงค์ที่ใช้กันอย่างแพร่หลายในการผลิตกระเบื้อง เซรามิก ยิปซัมบอร์ด และซีเมนต์ ใช้ในการเกษตรเป็นตัวปรับสภาพดิน มีหลายเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะ",
         "tags_en": "Tiles & Ceramics,Construction,Agriculture",
         "tags_th": "กระเบื้อง & เซรามิก,ก่อสร้าง,เกษตรกรรม",
-        "img": "https://github.com/wisut-spec/threegent-website/blob/main/images/Gypsum%20MainProduct.jpeg?raw=true"
+        "img": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Gypsum%20MainProduct.jpeg"
       },
       {
         "sub_en": "Manganese Oxide",
@@ -111,7 +111,7 @@
         "desc_th": "แร่ธาตุที่จำเป็นสำหรับหลายอุตสาหกรรม ทั้งการผลิตเหล็กกล้า แบตเตอรี่ เซรามิก แก้ว และการใช้งานทางเคมี มีหลายเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะ",
         "tags_en": "Steel Production,Battery Grade,Ceramics & Glass",
         "tags_th": "การผลิตเหล็ก,เกรดแบตเตอรี่,เซรามิก & แก้ว",
-        "img": "https://github.com/wisut-spec/threegent-website/blob/main/images/Manganese3.jpg?raw=true"
+        "img": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Manganese3.jpg"
       }
     ]
   },
