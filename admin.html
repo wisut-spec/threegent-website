@@ -540,7 +540,10 @@ async function loadContent() {
     const res = await fetch(`https://api.github.com/repos/${REPO}/contents/${DATA_FILE}`,{headers:{Authorization:`token ${ghToken}`}});
     if (res.status === 404) { contentData = getDefault(); fillForms(); showToast('ใช้ข้อมูลเริ่มต้น ✓','success'); return; }
     const json = await res.json();
-    contentData = JSON.parse(atob(json.content.replace(/\n/g,'')));
+    const binary = atob(json.content.replace(/\n/g,''));
+    const bytes = new Uint8Array(binary.length);
+    for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+    contentData = JSON.parse(new TextDecoder('utf-8').decode(bytes));
     fillForms(); showToast('โหลดข้อมูลสำเร็จ ✓','success');
   } catch(e) { contentData = getDefault(); fillForms(); showToast('ใช้ข้อมูลเริ่มต้น','loading'); }
 }
