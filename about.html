@@ -29,19 +29,74 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Three Gent Intertrade",
-  "alternateName": "3Gent Intertrade",
-  "url": "https://threegent.com",
-  "logo": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/logo.jpg",
-  "description": "Importer and distributor of industrial mineral powders, including Gypsum and Manganese, for construction, ceramics, and manufacturing industries.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Bangkok",
-    "addressCountry": "TH"
-  },
-  "sameAs": [
-    "https://page.line.me/3gent"
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://threegent.com/#organization",
+      "name": "Three Gent Intertrade Co., Ltd.",
+      "legalName": "บริษัท ทรีเจ้นท์ อินเตอร์เทรด จำกัด",
+      "taxID": "0105568043859",
+      "url": "https://threegent.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/logo.jpg"
+      },
+      "description": "Importer and distributor of industrial mineral powders, including Gypsum and Manganese, for construction, ceramics, and manufacturing industries.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "119/72 ถนนร่วมมิตรพัฒนา",
+        "addressLocality": "แขวงท่าแร้ง เขตบางเขน",
+        "addressRegion": "กรุงเทพมหานคร",
+        "addressCountry": "TH"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+66-99-302-2004",
+          "contactType": "sales",
+          "availableLanguage": ["en", "th"]
+        }
+      ],
+      "sameAs": [
+        "https://page.line.me/3gent",
+        "https://wa.me/66993022004"
+      ],
+      "employee": [
+        {"@id": "https://threegent.com/#wisut-phakdee"},
+        {"@id": "https://threegent.com/#sakon-raiwon"},
+        {"@id": "https://threegent.com/#witchapon-raiwon"}
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://threegent.com/#wisut-phakdee",
+      "name": "Wisut Phakdee",
+      "jobTitle": "President",
+      "telephone": "+66-61-225-9987",
+      "email": "wisut@threegent.com",
+      "image": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/wisut.jpg",
+      "worksFor": {"@id": "https://threegent.com/#organization"}
+    },
+    {
+      "@type": "Person",
+      "@id": "https://threegent.com/#sakon-raiwon",
+      "name": "Sakon Raiwon",
+      "jobTitle": "Vice President, Sourcing & Raw Material Consultant",
+      "telephone": "+66-96-198-9554",
+      "email": "sakon@threegent.com",
+      "image": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/sakon.jpg",
+      "worksFor": {"@id": "https://threegent.com/#organization"}
+    },
+    {
+      "@type": "Person",
+      "@id": "https://threegent.com/#witchapon-raiwon",
+      "name": "Witchapon Raiwon",
+      "jobTitle": "Vice President, Business Growth Consultant",
+      "telephone": "+66-99-302-2004",
+      "email": "witchapon@threegent.com",
+      "image": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/witchapon.jpg",
+      "worksFor": {"@id": "https://threegent.com/#organization"}
+    }
   ]
 }
 </script>

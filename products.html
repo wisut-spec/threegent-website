@@ -30,18 +30,34 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Three Gent Intertrade",
-  "alternateName": "3Gent Intertrade",
+  "@id": "https://threegent.com/#organization",
+  "name": "Three Gent Intertrade Co., Ltd.",
+  "legalName": "บริษัท ทรีเจ้นท์ อินเตอร์เทรด จำกัด",
+  "taxID": "0105568043859",
   "url": "https://threegent.com",
-  "logo": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/logo.jpg",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/logo.jpg"
+  },
   "description": "Importer and distributor of industrial mineral powders, including Gypsum and Manganese, for construction, ceramics, and manufacturing industries.",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Bangkok",
+    "streetAddress": "119/72 ถนนร่วมมิตรพัฒนา",
+    "addressLocality": "แขวงท่าแร้ง เขตบางเขน",
+    "addressRegion": "กรุงเทพมหานคร",
     "addressCountry": "TH"
   },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+66-99-302-2004",
+      "contactType": "sales",
+      "availableLanguage": ["en", "th"]
+    }
+  ],
   "sameAs": [
-    "https://page.line.me/3gent"
+    "https://page.line.me/3gent",
+    "https://wa.me/66993022004"
   ]
 }
 </script>
@@ -51,24 +67,60 @@
   "@graph": [
     {
       "@type": "Product",
-      "name": "Gypsum Powder",
+      "name": "Gypsum (Calcium Sulfate)",
       "alternateName": "Calcium Sulfate",
-      "description": "Industrial-grade gypsum powder used in tiles, ceramics, plasterboard, cement, and as an agricultural soil conditioner.",
-      "category": "Industrial Mineral",
+      "description": "A versatile mineral widely used in the production of tiles, ceramics, plasterboard, and cement. Also applied in agriculture as a soil conditioner. Available in various grades — contact us for specifications.",
+      "category": ["Industrial Minerals", "Construction Materials"],
       "brand": {
         "@type": "Brand",
-        "name": "Three Gent Intertrade"
+        "name": "Three Gent Intertrade Co., Ltd."
+      },
+      "manufacturer": {
+        "@id": "https://threegent.com/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@id": "https://threegent.com/#organization"
+        },
+        "price": "0",
+        "priceCurrency": "THB",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "0",
+          "priceCurrency": "THB",
+          "description": "Price on application — contact us for a quote based on order volume"
+        }
       }
     },
     {
       "@type": "Product",
       "name": "Manganese Oxide",
       "alternateName": "Manganese",
-      "description": "Industrial-grade manganese oxide used in steel production, battery manufacturing, ceramics, glass, and chemical applications.",
-      "category": "Industrial Mineral",
+      "description": "A multi-industry mineral essential for steel production, battery manufacturing, ceramics, glass, and chemical applications. Widely used across both traditional and emerging industries. Available in various grades — contact us for specifications.",
+      "category": ["Industrial Minerals", "Steel Production", "Battery Materials"],
       "brand": {
         "@type": "Brand",
-        "name": "Three Gent Intertrade"
+        "name": "Three Gent Intertrade Co., Ltd."
+      },
+      "manufacturer": {
+        "@id": "https://threegent.com/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@id": "https://threegent.com/#organization"
+        },
+        "price": "0",
+        "priceCurrency": "THB",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "0",
+          "priceCurrency": "THB",
+          "description": "Price on application — contact us for a quote based on order volume"
+        }
       }
     }
   ]
