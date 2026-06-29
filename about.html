@@ -137,29 +137,11 @@ html[lang="th"] .c-info-title, html[lang="th"] .c-lbl,
 html[lang="th"] .fg label, html[lang="th"] .btn-submit,
 html[lang="th"] .footer-logo, html[lang="th"] .mobile-nav a,
 html[lang="th"] .lang-btn, html[lang="th"] .product-cta,
-html[lang="th"] .ptag, html[lang="th"] .ticker-label,
-html[lang="th"] .ticker-item, html[lang="th"] .ticker-symbol {
+html[lang="th"] .ptag {
   font-family:'IBM Plex Sans Thai',sans-serif !important;
   letter-spacing: 0 !important;
 }
 
-/* ─── TICKER BAR ─── */
-.ticker-wrap{background:var(--navy-mid);border-bottom:1px solid rgba(30,136,229,0.25);overflow:hidden;height:36px;display:flex;align-items:center}
-.ticker-label{background:var(--blue-vivid);color:#fff;font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:0 14px;height:100%;display:flex;align-items:center;white-space:nowrap;flex-shrink:0;font-family:'Montserrat',sans-serif}
-.ticker-track{display:flex;animation:ticker-scroll 35s linear infinite;gap:0}
-.ticker-track:hover{animation-play-state:paused}
-.ticker-item{display:flex;align-items:center;gap:8px;padding:0 28px;white-space:nowrap;border-right:1px solid rgba(30,136,229,0.18);height:36px;font-size:12px;font-family:'Montserrat',sans-serif}
-.ticker-symbol{color:var(--sky);font-weight:700;font-size:11px;letter-spacing:0.5px}
-.ticker-price{color:#E8F0FE;font-weight:600}
-.ticker-change.up{color:#4CAF50}
-.ticker-change.down{color:#EF5350}
-.ticker-change.flat{color:var(--muted)}
-.ticker-dot{width:5px;height:5px;border-radius:50%;flex-shrink:0}
-.ticker-dot.up{background:#4CAF50}
-.ticker-dot.down{background:#EF5350}
-.ticker-dot.flat{background:var(--muted)}
-.ticker-loading{color:var(--muted);font-size:11px;padding:0 16px;font-family:'Montserrat',sans-serif}
-@keyframes ticker-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
 /* ─── TOPBAR ─── */
 .topbar{background:var(--navy);color:var(--muted);font-size:12px;padding:8px 3rem;display:flex;justify-content:space-between;align-items:center}
@@ -329,7 +311,6 @@ footer{background:var(--navy);padding:2rem 3rem;display:flex;justify-content:spa
   .quality-grid{grid-template-columns:repeat(2,1fr)}
 }
 @media(max-width:768px){
-  .ticker-label{display:none}
   .topbar{display:none}
   nav{padding:0 1.2rem}
   .nav-links{display:none}
@@ -384,15 +365,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
 </head>
 <body>
 
-<!-- TICKER BAR -->
-<div class="ticker-wrap" id="ticker-wrap">
-  <div class="ticker-label">LIVE</div>
-  <div style="overflow:hidden;flex:1;display:flex;align-items:center">
-    <div class="ticker-track" id="ticker-track">
-      <span class="ticker-loading" id="ticker-loading">Loading market data...</span>
-    </div>
-  </div>
-</div>
+<!-- TICKER REMOVED ON THIS PAGE (kept on Home only) -->
 
 <!-- TOPBAR REMOVED -->
 
@@ -597,90 +570,6 @@ function toggleMobileNav(){
   document.body.style.overflow = document.getElementById('mobile-nav').classList.contains('open') ? 'hidden' : '';
 }
 
-// ─── TICKER BAR ───
-const TICKER_SYMBOLS = [
-  {id:'bitcoin', symbol:'BTC/USD', type:'crypto'},
-];
-const FIAT_PAIRS = [
-  {from:'USD', to:'THB', symbol:'USD/THB'},
-  {from:'CNY', to:'THB', symbol:'CNY/THB'},
-];
-
-let tickerData = [];
-let tickerPrev = {};
-
-function formatPrice(n, decimals){
-  if(n >= 1000) return n.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
-  return n.toFixed(decimals);
-}
-
-function changeClass(val){
-  if(val > 0) return 'up';
-  if(val < 0) return 'down';
-  return 'flat';
-}
-
-function buildTickerHTML(items){
-  const doubled = [...items, ...items]; // seamless loop
-  return doubled.map(d => {
-    const cls = changeClass(d.change);
-    const arrow = d.change > 0 ? '▲' : d.change < 0 ? '▼' : '■';
-    const changeStr = d.change !== null ? `${arrow} ${Math.abs(d.change).toFixed(2)}%` : '';
-    return `<div class="ticker-item">
-      <span class="ticker-dot ${cls}"></span>
-      <span class="ticker-symbol">${d.symbol}</span>
-      <span class="ticker-price">${d.price}</span>
-      <span class="ticker-change ${cls}">${changeStr}</span>
-    </div>`;
-  }).join('');
-}
-
-async function fetchCrypto(){
-  const ids = TICKER_SYMBOLS.map(s=>s.id).join(',');
-  const res = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${ids}&vs_currencies=usd&include_24hr_change=true`);
-  const data = await res.json();
-  return TICKER_SYMBOLS.map(s => ({
-    symbol: s.symbol,
-    price: '$' + formatPrice(data[s.id].usd, 2),
-    change: data[s.id].usd_24h_change ?? null
-  }));
-}
-
-async function fetchFiat(){
-  const results = [];
-  for(const pair of FIAT_PAIRS){
-    try{
-      const res = await fetch(`https://open.er-api.com/v6/latest/${pair.from}`);
-      const data = await res.json();
-      const rate = data.rates[pair.to];
-      const prev = tickerPrev[pair.symbol] ?? rate;
-      const change = prev ? ((rate - prev)/prev)*100 : null;
-      tickerPrev[pair.symbol] = rate;
-      results.push({symbol: pair.symbol, price: formatPrice(rate,4), change});
-    }catch(e){/* skip */}
-  }
-  return results;
-}
-
-async function refreshTicker(){
-  try{
-    const [crypto, fiat] = await Promise.all([fetchCrypto(), fetchFiat()]);
-    tickerData = [...fiat, ...crypto];
-    const track = document.getElementById('ticker-track');
-    if(tickerData.length > 0){
-      track.innerHTML = buildTickerHTML(tickerData);
-      // Adjust animation speed based on content
-      const itemCount = tickerData.length;
-      track.style.animationDuration = (itemCount * 5) + 's';
-    }
-  }catch(e){
-    console.warn('Ticker fetch error',e);
-  }
-}
-
-// Initial fetch + refresh every 60s
-refreshTicker();
-setInterval(refreshTicker, 60000);
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
 }, { threshold: 0.08 });
