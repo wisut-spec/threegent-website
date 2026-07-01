@@ -103,6 +103,17 @@
         "img": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Gypsum%20MainProduct.jpeg"
       },
       {
+        "sub_en": "Calcium Magnesium Carbonate",
+        "sub_th": "แคลเซียมแมกนีเซียมคาร์บอเนต",
+        "name_en": "Dolomite",
+        "name_th": "โดโลไมต์",
+        "desc_en": "A versatile industrial mineral used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction. High purity grades available — contact us for specifications.",
+        "desc_th": "แร่ธาตุอุตสาหกรรมอเนกประสงค์ ใช้ในการผลิตเหล็กกล้า เกษตรกรรม และการก่อสร้าง มีเกรดความบริสุทธิ์สูง — ติดต่อเราเพื่อขอข้อมูลจำเพาะ",
+        "tags_en": "Steel & Metallurgy,Agriculture,Construction",
+        "tags_th": "เหล็กและโลหะวิทยา,เกษตรกรรม,ก่อสร้าง",
+        "img": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Dolomite.jpg"
+      },
+      {
         "sub_en": "Manganese Oxide",
         "sub_th": "แมงกานีสออกไซด์",
         "name_en": "Manganese",
@@ -115,20 +126,7 @@
       }
     ]
   },
-  "coming": [
-    {
-      "name_en": "Dolomite",
-      "name_th": "โดโลไมต์",
-      "desc_en": "Premium dolomite powder for agriculture, construction, and industrial applications.",
-      "desc_th": "ดินขาวพรีเมียมสำหรับอุตสาหกรรมเกษตร ก่อสร้าง และอุตสาหกรรมทั่วไป"
-    },
-    {
-      "name_en": "Calcite",
-      "name_th": "แคลไซต์",
-      "desc_en": "Fine calcite powder for paint, plastics, paper, and pharmaceutical industries.",
-      "desc_th": "แคลไซต์ผงละเอียดสำหรับอุตสาหกรรมสี พลาสติก กระดาษ และเภสัชกรรม"
-    }
-  ],
+  "coming": [],
   "quality": {
     "label_en": "Quality Standards & Sustainability",
     "label_th": "มาตรฐานคุณภาพและความยั่งยืน",
@@ -235,7 +233,7 @@
     "copy": "© 2026 · Thailand"
   },
   "meta": {
-    "title": "Three Gent Intertrade — Gypsum · Manganese",
+    "title": "Three Gent Intertrade — Gypsum · Dolomite · Manganese",
     "desc": "Leading importer and distributor of high-quality industrial mineral powders for construction, ceramic, and multi-industry sectors in Thailand."
   }
 }

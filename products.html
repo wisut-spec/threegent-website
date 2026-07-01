@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gypsum & Manganese Suppliers | Three Gent Intertrade Products</title>
+<title>Gypsum, Dolomite & Manganese Suppliers | Three Gent Intertrade Products</title>
 <!-- Google tag (gtag.js) - deferred for performance -->
 <script defer src="https://www.googletagmanager.com/gtag/js?id=G-SZ2K6E1SH8"></script>
 <script>
@@ -12,19 +12,19 @@
   gtag('js', new Date());
   gtag('config', 'G-SZ2K6E1SH8');
 </script>
-<meta name="description" content="Explore our industrial mineral products — Gypsum and Manganese Oxide — plus upcoming Dolomite and Calcite. Request a quotation from our Bangkok-based supply team.">
+<meta name="description" content="Explore our industrial mineral products — Gypsum, Dolomite, and Manganese Oxide — for construction, agriculture, and manufacturing. Request a quotation from our Bangkok-based supply team.">
 <link rel="canonical" href="https://threegent.com/products.html">
 <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/apple-touch-icon.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Gypsum & Manganese Suppliers | Three Gent Intertrade Products">
-<meta property="og:description" content="Explore our industrial mineral products — Gypsum and Manganese Oxide — plus upcoming Dolomite and Calcite. Request a quotation from our Bangkok-based supply team.">
+<meta property="og:title" content="Gypsum, Dolomite & Manganese Suppliers | Three Gent Intertrade Products">
+<meta property="og:description" content="Explore our industrial mineral products — Gypsum, Dolomite, and Manganese Oxide — for construction, agriculture, and manufacturing. Request a quotation from our Bangkok-based supply team.">
 <meta property="og:url" content="https://threegent.com/products.html">
 <meta property="og:image" content="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/og-image.jpg">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Gypsum & Manganese Suppliers | Three Gent Intertrade Products">
-<meta name="twitter:description" content="Explore our industrial mineral products — Gypsum and Manganese Oxide — plus upcoming Dolomite and Calcite. Request a quotation from our Bangkok-based supply team.">
+<meta name="twitter:title" content="Gypsum, Dolomite & Manganese Suppliers | Three Gent Intertrade Products">
+<meta name="twitter:description" content="Explore our industrial mineral products — Gypsum, Dolomite, and Manganese Oxide — for construction, agriculture, and manufacturing. Request a quotation from our Bangkok-based supply team.">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/og-image.jpg">
 <script type="application/ld+json">
 {
@@ -87,6 +87,34 @@
         "priceSpecification": {
           "@type": "PriceSpecification",
           "description": "Contact for quote"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Dolomite",
+      "alternateName": "Calcium Magnesium Carbonate",
+      "description": "A versatile industrial mineral used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction materials. Available in various grades — contact us for specifications.",
+      "image": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Dolomite.jpg",
+      "category": ["Industrial Minerals", "Steel Production", "Agriculture"],
+      "brand": {
+        "@type": "Brand",
+        "name": "Three Gent Intertrade Co., Ltd."
+      },
+      "manufacturer": {
+        "@id": "https://threegent.com/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "seller": {
+          "@id": "https://threegent.com/#organization"
+        },
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "description": "Price on application — contact us for current pricing and availability."
         }
       }
     },
@@ -371,6 +399,48 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
 .footer-privacy-link:hover{color:var(--sky);text-decoration:underline}
 @media(max-width:768px){footer{justify-content:center}}
 
+/* ─── SPEC TRIGGER BUTTON ─── */
+.spec-trigger{background:transparent;border:1px solid rgba(30,136,229,0.35);color:var(--blue-vivid);padding:5px 13px;border-radius:4px;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;font-weight:600;font-family:'Montserrat',sans-serif;cursor:pointer;transition:all 0.2s}
+.spec-trigger:hover{background:rgba(30,136,229,0.08);border-color:var(--blue-vivid)}
+.product-card:hover .spec-trigger{border-color:rgba(66,165,245,0.5);color:var(--sky)}
+.product-card:hover .spec-trigger:hover{background:rgba(30,136,229,0.2)}
+
+/* ─── SPEC MODAL ─── */
+.spec-modal-overlay{display:none;position:fixed;inset:0;background:rgba(11,26,46,0.65);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);z-index:500;align-items:center;justify-content:center;padding:1.5rem}
+.spec-modal-overlay.open{display:flex}
+.spec-modal-box{background:white;border-radius:10px;max-width:680px;width:100%;max-height:90vh;overflow-y:auto;padding:2.5rem;position:relative;box-shadow:0 24px 80px rgba(11,26,46,0.3)}
+.spec-modal-close{position:absolute;top:1.2rem;right:1.2rem;background:none;border:none;font-size:18px;cursor:pointer;color:var(--muted);line-height:1;padding:4px 8px;border-radius:4px;transition:all 0.15s}
+.spec-modal-close:hover{background:var(--off-white);color:var(--navy)}
+.spec-modal-label{font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--blue-vivid);margin-bottom:6px;font-family:'Montserrat',sans-serif}
+.spec-modal-title{font-family:'Montserrat',sans-serif;font-size:clamp(1.2rem,3vw,1.6rem);font-weight:800;color:var(--navy);margin-bottom:1.5rem;line-height:1.2}
+
+/* ─── SPEC CONTENT (shared by modal) ─── */
+.spec-highlights{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:#D0D8E4;border-radius:6px;overflow:hidden;margin:0 0 2rem}
+.spec-highlight-card{background:white;padding:1.5rem 1rem;text-align:center;transition:background 0.2s}
+.spec-highlight-card:hover{background:var(--off-white)}
+.spec-hl-value{font-family:'Montserrat',sans-serif;font-size:2rem;font-weight:800;color:var(--blue-vivid);line-height:1;margin-bottom:7px}
+.spec-hl-label{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--navy);font-family:'Montserrat',sans-serif}
+.spec-hl-sub{font-size:11px;color:var(--muted);margin-top:4px;font-family:'Montserrat',sans-serif}
+.spec-method{font-size:12px;color:var(--muted);margin-bottom:0.75rem;font-style:italic}
+.spec-table-wrap{overflow-x:auto;margin-bottom:1.5rem;border:1px solid var(--border);border-radius:6px;overflow:hidden}
+.spec-table{width:100%;border-collapse:collapse;font-size:0.875rem}
+.spec-table thead th{background:var(--navy);color:white;padding:0.65rem 1rem;text-align:left;font-family:'Montserrat',sans-serif;font-size:11px;letter-spacing:1px;text-transform:uppercase;font-weight:600}
+.spec-table thead th:nth-child(3),.spec-table thead th:nth-child(4){text-align:center}
+.spec-table tbody tr:nth-child(even){background:var(--off-white)}
+.spec-table tbody tr:hover{background:rgba(30,136,229,0.05)}
+.spec-table tbody td{padding:0.6rem 1rem;color:#3A5070;border-bottom:1px solid rgba(30,136,229,0.07)}
+.spec-table tbody td:first-child{color:var(--muted);font-size:12px;text-align:center;width:44px}
+.spec-table tbody td:nth-child(3){font-family:'Montserrat',sans-serif;font-weight:700;color:var(--navy);text-align:center}
+.spec-table tbody td:nth-child(4){text-align:center;font-size:12px;color:var(--muted)}
+.spec-table tbody tr:last-child td{border-bottom:none}
+.spec-note{background:rgba(30,136,229,0.04);border:1px solid rgba(30,136,229,0.15);border-left:3px solid var(--blue-vivid);border-radius:0 6px 6px 0;padding:0.9rem 1.1rem;font-size:0.83rem;color:#4A6080;line-height:1.7;margin-bottom:1.5rem}
+.spec-note strong{color:var(--navy)}
+@media(max-width:640px){
+  .spec-highlights{grid-template-columns:1fr}
+  .spec-modal-box{padding:1.8rem 1.2rem}
+  .spec-table tbody td{padding:0.5rem 0.7rem}
+}
+
 /* PRIVACY PAGE CONTENT */
 .privacy-content{max-width:800px;margin:0 auto;padding:4rem 1.5rem}
 .privacy-content h1{font-family:'Montserrat',sans-serif;font-weight:800;font-size:clamp(1.6rem,4vw,2.2rem);color:var(--navy);margin-bottom:0.5rem}
@@ -432,6 +502,8 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
   <span class="s-label" id="prod-label" data-en="Products & Services" data-th="สินค้าและบริการ">Products & Services</span>
   <h1 class="section-title" id="prod-title" data-en="Quality Industrial Minerals for Multiple Sectors" data-th="แร่ธาตุอุตสาหกรรมคุณภาพสูงสำหรับหลากหลายภาคส่วน">Quality Industrial Minerals for Multiple Sectors</h1>
   <div class="products-grid" id="products-grid">
+
+    <!-- pr0: GYPSUM -->
     <div class="product-card" data-product-index="0">
       <div class="product-img-placeholder" id="pr0-img-wrap" style="width:100%;height:180px;background:var(--off-white);border-radius:6px;margin-bottom:20px;display:flex;align-items:center;justify-content:center;border:2px dashed rgba(30,136,229,0.2);color:var(--muted);font-size:12px;letter-spacing:1px;font-family:'Montserrat',sans-serif;">PRODUCT IMAGE</div>
       <div class="prod-sub" id="pr0-sub" data-en="Calcium Sulfate" data-th="แคลเซียมซัลเฟต">Calcium Sulfate</div>
@@ -442,30 +514,47 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
         <span class="ptag" data-en="Construction" data-th="ก่อสร้าง">Construction</span>
         <span class="ptag" data-en="Agriculture" data-th="เกษตรกรรม">Agriculture</span>
       </div>
+      <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:1.1rem">
+        <a href="#contact" class="product-cta" data-en="Request Quotation →" data-th="ขอใบเสนอราคา →">Request Quotation →</a>
+        <button class="spec-trigger" onclick="openSpecModal()" data-en="View Specification" data-th="ดูข้อมูลจำเพาะ">View Specification</button>
+      </div>
+    </div>
+
+    <!-- pr1: DOLOMITE -->
+    <div class="product-card" data-product-index="1">
+      <div id="pr1-img-wrap" style="width:100%;height:180px;background:url('https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Dolomite.jpg') center/cover no-repeat;border-radius:6px;margin-bottom:20px;border:none;"></div>
+      <div class="prod-sub" id="pr1-sub" data-en="Calcium Magnesium Carbonate" data-th="แคลเซียมแมกนีเซียมคาร์บอเนต">Calcium Magnesium Carbonate</div>
+      <div class="product-name" id="pr1-name" data-en="Dolomite" data-th="โดโลไมต์">Dolomite</div>
+      <p class="product-desc" id="pr1-desc" data-en="A versatile industrial mineral used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction. High purity grades available — contact us for specifications." data-th="แร่ธาตุอุตสาหกรรมอเนกประสงค์ ใช้ในการผลิตเหล็กกล้า เกษตรกรรม และการก่อสร้าง มีเกรดความบริสุทธิ์สูง — ติดต่อเราเพื่อขอข้อมูลจำเพาะ">A versatile industrial mineral used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction. High purity grades available — contact us for specifications.</p>
+      <div class="product-tags" id="pr1-tags">
+        <span class="ptag" data-en="Steel & Metallurgy" data-th="เหล็กและโลหะวิทยา">Steel & Metallurgy</span>
+        <span class="ptag" data-en="Agriculture" data-th="เกษตรกรรม">Agriculture</span>
+        <span class="ptag" data-en="Construction" data-th="ก่อสร้าง">Construction</span>
+      </div>
       <a href="#contact" class="product-cta" data-en="Request Quotation →" data-th="ขอใบเสนอราคา →">Request Quotation →</a>
     </div>
-    <div class="product-card" data-product-index="1">
-      <div class="product-img-placeholder" id="pr1-img-wrap" style="width:100%;height:180px;background:var(--off-white);border-radius:6px;margin-bottom:20px;display:flex;align-items:center;justify-content:center;border:2px dashed rgba(30,136,229,0.2);color:var(--muted);font-size:12px;letter-spacing:1px;font-family:'Montserrat',sans-serif;">PRODUCT IMAGE</div>
-      <div class="prod-sub" id="pr1-sub" data-en="Manganese Oxide" data-th="แมงกานีสออกไซด์">Manganese Oxide</div>
-      <div class="product-name" id="pr1-name" data-en="Manganese" data-th="แมงกานีส">Manganese</div>
-      <p class="product-desc" id="pr1-desc" data-en="A multi-industry mineral essential for steel production, battery manufacturing, ceramics, glass, and chemical applications. Widely used across both traditional and emerging industries. Available in various grades — contact us for specifications." data-th="แร่ธาตุที่จำเป็นสำหรับหลายอุตสาหกรรม ทั้งการผลิตเหล็กกล้า แบตเตอรี่ เซรามิก แก้ว และการใช้งานทางเคมี มีหลายเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะ">A multi-industry mineral essential for steel production, battery manufacturing, ceramics, glass, and chemical applications. Widely used across both traditional and emerging industries. Available in various grades — contact us for specifications.</p>
-      <div class="product-tags" id="pr1-tags">
+
+    <!-- pr2: MANGANESE -->
+    <div class="product-card" data-product-index="2">
+      <div class="product-img-placeholder" id="pr2-img-wrap" style="width:100%;height:180px;background:var(--off-white);border-radius:6px;margin-bottom:20px;display:flex;align-items:center;justify-content:center;border:2px dashed rgba(30,136,229,0.2);color:var(--muted);font-size:12px;letter-spacing:1px;font-family:'Montserrat',sans-serif;">PRODUCT IMAGE</div>
+      <div class="prod-sub" id="pr2-sub" data-en="Manganese Oxide" data-th="แมงกานีสออกไซด์">Manganese Oxide</div>
+      <div class="product-name" id="pr2-name" data-en="Manganese" data-th="แมงกานีส">Manganese</div>
+      <p class="product-desc" id="pr2-desc" data-en="A multi-industry mineral essential for steel production, battery manufacturing, ceramics, glass, and chemical applications. Widely used across both traditional and emerging industries. Available in various grades — contact us for specifications." data-th="แร่ธาตุที่จำเป็นสำหรับหลายอุตสาหกรรม ทั้งการผลิตเหล็กกล้า แบตเตอรี่ เซรามิก แก้ว และการใช้งานทางเคมี มีหลายเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะ">A multi-industry mineral essential for steel production, battery manufacturing, ceramics, glass, and chemical applications. Widely used across both traditional and emerging industries. Available in various grades — contact us for specifications.</p>
+      <div class="product-tags" id="pr2-tags">
         <span class="ptag" data-en="Steel Production" data-th="การผลิตเหล็ก">Steel Production</span>
         <span class="ptag" data-en="Battery Grade" data-th="เกรดแบตเตอรี่">Battery Grade</span>
         <span class="ptag" data-en="Ceramics & Glass" data-th="เซรามิก & แก้ว">Ceramics & Glass</span>
       </div>
       <a href="#contact" class="product-cta" data-en="Request Quotation →" data-th="ขอใบเสนอราคา →">Request Quotation →</a>
     </div>
-    <div class="product-card" style="opacity:0.75;">
+
+    <!-- COMING SOON: 1 empty slot -->
+    <div class="product-card" style="opacity:0.55;cursor:default;">
       <div class="prod-sub" data-en="Coming Soon" data-th="เร็วๆ นี้">Coming Soon</div>
-      <div class="product-name" id="cs0-name">Dolomite</div>
-      <p class="product-desc" id="cs0-desc" data-en="Premium dolomite powder for agriculture, construction, and industrial applications." data-th="ดินขาวพรีเมียมสำหรับอุตสาหกรรมเกษตร ก่อสร้าง และอุตสาหกรรมทั่วไป">Premium dolomite powder for agriculture, construction, and industrial applications.</p>
+      <div class="product-name" style="color:var(--muted);font-size:1rem;">—</div>
+      <p class="product-desc" data-en="New product announcement coming soon." data-th="จะประกาศสินค้าใหม่เร็วๆ นี้">New product announcement coming soon.</p>
     </div>
-    <div class="product-card" style="opacity:0.75;">
-      <div class="prod-sub" data-en="Coming Soon" data-th="เร็วๆ นี้">Coming Soon</div>
-      <div class="product-name" id="cs1-name">Calcite</div>
-      <p class="product-desc" id="cs1-desc" data-en="Fine calcite powder for paint, plastics, paper, and pharmaceutical industries." data-th="แคลไซต์ผงละเอียดสำหรับอุตสาหกรรมสี พลาสติก กระดาษ และเภสัชกรรม">Fine calcite powder for paint, plastics, paper, and pharmaceutical industries.</p>
-    </div>
+
   </div>
 </section>
 
@@ -545,8 +634,97 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
   <a href="privacy.html" class="footer-privacy-link" data-en="Privacy Policy" data-th="นโยบายความเป็นส่วนตัว">Privacy Policy</a>
 </footer>
 
+<!-- GYPSUM SPEC MODAL -->
+<div id="spec-modal" class="spec-modal-overlay" onclick="closeSpecModal(event)">
+  <div class="spec-modal-box">
+    <button class="spec-modal-close" onclick="closeSpecModal()" aria-label="Close">✕</button>
+    <p class="spec-modal-label" data-en="Product Specification" data-th="ข้อมูลจำเพาะสินค้า">Product Specification</p>
+    <h2 class="spec-modal-title" data-en="Gypsum — Chemical Analysis" data-th="ยิปซัม — ผลการวิเคราะห์ทางเคมี">Gypsum — Chemical Analysis</h2>
+
+    <!-- 3 Highlight Cards -->
+    <div class="spec-highlights">
+      <div class="spec-highlight-card">
+        <div class="spec-hl-value">95.89%</div>
+        <div class="spec-hl-label" data-en="Purity" data-th="ความบริสุทธิ์">Purity</div>
+        <div class="spec-hl-sub">CaSO₄·2H₂O</div>
+      </div>
+      <div class="spec-highlight-card">
+        <div class="spec-hl-value">87.80</div>
+        <div class="spec-hl-label" data-en="Whiteness" data-th="ความขาว">Whiteness</div>
+        <div class="spec-hl-sub">&nbsp;</div>
+      </div>
+      <div class="spec-highlight-card">
+        <div class="spec-hl-value">8.50</div>
+        <div class="spec-hl-label">pH</div>
+        <div class="spec-hl-sub">&nbsp;</div>
+      </div>
+    </div>
+
+    <!-- Full Spec Table -->
+    <p class="spec-method" data-en="Test Method: ICP &amp; ASTM C 471M-20Aᵉ¹" data-th="วิธีทดสอบ: ICP &amp; ASTM C 471M-20Aᵉ¹">Test Method: ICP &amp; ASTM C 471M-20Aᵉ¹</p>
+    <div class="spec-table-wrap">
+      <table class="spec-table">
+        <thead>
+          <tr>
+            <th data-en="No." data-th="ที่">No.</th>
+            <th data-en="Parameter" data-th="พารามิเตอร์">Parameter</th>
+            <th data-en="Result" data-th="ผล">Result</th>
+            <th data-en="Unit" data-th="หน่วย">Unit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>CaSO₄·2H₂O (Gypsum)</td><td>95.89</td><td>%</td></tr>
+          <tr><td>2</td><td>Combined Water</td><td>20.07</td><td>%</td></tr>
+          <tr><td>3</td><td>SO₃</td><td>45.20</td><td>%</td></tr>
+          <tr><td>4</td><td>Fe₂O₃</td><td>0.016</td><td>%</td></tr>
+          <tr><td>5</td><td>Al₂O₃</td><td>0.021</td><td>%</td></tr>
+          <tr><td>6</td><td>SiO₂</td><td>0.26</td><td>%</td></tr>
+          <tr><td>7</td><td>Na₂O</td><td>0.006</td><td>%</td></tr>
+          <tr><td>8</td><td>K₂O</td><td>0.011</td><td>%</td></tr>
+          <tr><td>9</td><td>MgO</td><td>0.043</td><td>%</td></tr>
+          <tr><td>10</td><td>pH</td><td>8.50</td><td>—</td></tr>
+          <tr><td>11</td><td>Cl</td><td>&lt;10</td><td>ppm</td></tr>
+          <tr><td>12</td><td>Insoluble Matter</td><td>0.62</td><td>%</td></tr>
+          <tr><td>13</td><td>Moisture</td><td>0.45</td><td>%</td></tr>
+          <tr><td>14</td><td>Whiteness</td><td>87.80</td><td>—</td></tr>
+          <tr><td>15</td><td>CaSO₄ (Anhydrite)</td><td>1.03</td><td>%</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Note -->
+    <div class="spec-note">
+      <span data-en="&lt;strong&gt;Note:&lt;/strong&gt; Specification values are based on representative sample analysis. Results may vary by production lot. Contact us for the latest Certificate of Analysis." data-th="&lt;strong&gt;หมายเหตุ:&lt;/strong&gt; ค่าที่ระบุอ้างอิงจากการวิเคราะห์ตัวอย่างตัวแทน ผลลัพธ์อาจแตกต่างตาม lot การผลิต ติดต่อเราเพื่อขอผล COA ล่าสุด"><strong>Note:</strong> Specification values are based on representative sample analysis. Results may vary by production lot. Contact us for the latest Certificate of Analysis.</span>
+    </div>
+
+    <!-- CTA -->
+    <a href="#contact" class="btn-primary" onclick="closeSpecModal()" data-en="Request Latest COA &amp; Pricing →" data-th="ขอ COA ล่าสุดและราคา →">Request Latest COA &amp; Pricing →</a>
+  </div>
+</div>
+
 <script>
 let currentLang = 'en';
+
+// ─── SPEC MODAL ───
+function openSpecModal() {
+  const modal = document.getElementById('spec-modal');
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  // Re-apply current language inside modal
+  modal.querySelectorAll('[data-en][data-th]').forEach(el => {
+    const val = el.getAttribute('data-' + currentLang);
+    if (!val) return;
+    if (val.includes('<')) { el.innerHTML = val; } else { el.textContent = val; }
+  });
+}
+function closeSpecModal(e) {
+  if (e && e.target !== document.getElementById('spec-modal')) return;
+  document.getElementById('spec-modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') { document.getElementById('spec-modal').classList.remove('open'); document.body.style.overflow = ''; }
+});
 
 function setLang(lang) {
   currentLang = lang;
