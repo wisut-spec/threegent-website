@@ -641,25 +641,60 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
       <a href="#contact" class="product-cta" data-en="Request Quotation →" data-th="ขอใบเสนอราคา →">Request Quotation →</a>
     </div>
 
-    <!-- MANGANESE OXIDE — Discontinued 5 Jul 2026 (see Knowledge doc Section 5).
-         Kept as a soft placeholder instead of deleting outright: preserves layout,
-         avoids a jarring gap, and product schema below has already been removed
-         so this item will no longer surface as Product/Merchant rich results. -->
-    <div class="product-card" style="opacity:0.55;cursor:default;">
-      <div class="prod-sub" data-en="Manganese Oxide" data-th="แมงกานีสออกไซด์">Manganese Oxide</div>
-      <div class="product-name" style="color:var(--muted);font-size:1rem;">—</div>
-      <p class="product-desc" data-en="This product is no longer available. Please contact us for alternative materials." data-th="สินค้านี้ไม่มีจำหน่ายแล้ว กรุณาติดต่อเราสำหรับวัสดุทดแทน">This product is no longer available. Please contact us for alternative materials.</p>
-    </div>
-
-    <!-- COMING SOON: 1 empty slot -->
-    <div class="product-card" style="opacity:0.55;cursor:default;">
-      <div class="prod-sub" data-en="Coming Soon" data-th="เร็วๆ นี้">Coming Soon</div>
-      <div class="product-name" style="color:var(--muted);font-size:1rem;">—</div>
-      <p class="product-desc" data-en="More industrial minerals available upon request — contact us for the full portfolio." data-th="แร่อุตสาหกรรมอื่นๆ พร้อมให้บริการ — ติดต่อสอบถามเพิ่มเติม">More industrial minerals available upon request — contact us for the full portfolio.</p>
+    <!-- MORE MINERALS SELECTOR — replaces old Manganese "no longer available" card
+         + separate "Coming Soon" card (5 Jul 2026). Manganese Oxide is NOT discontinued;
+         it's grouped here with future unnamed minerals as a dropdown selector until
+         each has enough data (chemical formula, industries, description) for its own
+         catalog card. Manganese detail copy below is a PLACEHOLDER — swap in real
+         copy once confirmed (see Knowledge doc Open Questions). -->
+    <div class="product-card more-minerals-card" style="grid-column:1/-1;">
+      <div class="prod-sub" data-en="More Minerals Available" data-th="แร่ธาตุเพิ่มเติม">More Minerals Available</div>
+      <p class="product-desc" data-en="We supply additional industrial minerals beyond our 5 featured products — select one below to see basic details." data-th="เรามีแร่ธาตุอุตสาหกรรมอื่นๆ ให้บริการ นอกเหนือจาก 5 ตัวหลักด้านบน — เลือกดูรายละเอียดเบื้องต้น">We supply additional industrial minerals beyond our 5 featured products — select one below to see basic details.</p>
+      <select id="more-minerals-select" style="width:100%;max-width:360px;background:var(--off-white);border:1px solid rgba(30,136,229,0.2);color:var(--navy);padding:0.65rem 1rem;font-family:'Inter',sans-serif;font-size:0.9rem;border-radius:4px;outline:none;margin:0.5rem 0 1rem;">
+        <option value="" data-en="— Select a mineral —" data-th="— เลือกแร่ธาตุ —">— Select a mineral —</option>
+        <option value="manganese" data-en="Manganese Oxide" data-th="แมงกานีสออกไซด์">Manganese Oxide</option>
+        <option value="more" data-en="Other minerals in our portfolio (13–15 items)" data-th="แร่ธาตุอื่นๆ ในพอร์ต (13-15 ตัว)">Other minerals in our portfolio (13–15 items)</option>
+      </select>
+      <div id="more-minerals-detail" style="display:none;background:var(--off-white);border-radius:6px;padding:1rem 1.25rem;max-width:520px;"></div>
     </div>
 
   </div>
 </section>
+
+<script>
+(function(){
+  var moreMineralsData = {
+    manganese: {
+      title_en: 'Manganese Oxide',
+      title_th: 'แมงกานีสออกไซด์',
+      body_en: 'Details (chemical formula, industries served) pending confirmation — contact us for the latest specification.',
+      body_th: 'รายละเอียด (สูตรเคมี, อุตสาหกรรมที่ใช้) รอข้อมูลยืนยัน — ติดต่อเราเพื่อขอข้อมูลล่าสุด',
+      cta_en: 'Request Information →',
+      cta_th: 'สอบถามข้อมูลเพิ่มเติม →'
+    },
+    more: {
+      title_en: 'Other minerals in our portfolio',
+      title_th: 'แร่ธาตุอื่นๆ ในพอร์ต',
+      body_en: 'We are compiling supplier data for additional minerals — contact our team for the full current list.',
+      body_th: 'อยู่ระหว่างรวบรวมข้อมูลจากซัพพลายเออร์ — ติดต่อทีมงานเพื่อดูรายการทั้งหมด',
+      cta_en: 'Contact Us →',
+      cta_th: 'ติดต่อทีมงาน →'
+    }
+  };
+  var sel = document.getElementById('more-minerals-select');
+  var box = document.getElementById('more-minerals-detail');
+  sel.addEventListener('change', function(){
+    var item = moreMineralsData[sel.value];
+    if(!item){ box.style.display = 'none'; box.innerHTML=''; return; }
+    var lang = (typeof currentLang !== 'undefined') ? currentLang : 'en';
+    box.style.display = 'block';
+    box.innerHTML =
+      '<div class="product-name" data-en="' + item.title_en + '" data-th="' + item.title_th + '" style="font-size:1.05rem;margin-bottom:6px;">' + (lang==='th'?item.title_th:item.title_en) + '</div>' +
+      '<p class="product-desc" data-en="' + item.body_en + '" data-th="' + item.body_th + '">' + (lang==='th'?item.body_th:item.body_en) + '</p>' +
+      '<a href="#contact" class="product-cta" data-en="' + item.cta_en + '" data-th="' + item.cta_th + '">' + (lang==='th'?item.cta_th:item.cta_en) + '</a>';
+  });
+})();
+</script>
 
 <!-- CTA BAND -->
 <section class="cta-band reveal">
