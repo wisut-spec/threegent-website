@@ -226,7 +226,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', syste
     <!-- ===== 3. PRODUCTS & SERVICES ===== -->
     <div id="tab-products" class="tab-content">
       <div class="section-title">Products &amp; Services</div>
-      <div class="section-desc">สินค้าหลัก — ตอนนี้มี Gypsum, Dolomite และ Manganese</div>
+      <div class="section-desc">สินค้าที่แก้ไขได้ในหน้านี้: Gypsum, Dolomite เท่านั้น (Limestone, Quicklime, Perlite เป็นการ์ด catalog แบบ static ในหน้าเว็บ ยังไม่เชื่อมกับระบบ Admin — Manganese Oxide ย้ายไปแสดงแบบ dropdown selector แทนการ์ดเดี่ยว รอข้อมูลก่อนเพิ่มกลับ)</div>
 
       <div class="card">
         <div class="card-title">📌 Section Label & Title</div>
@@ -363,7 +363,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', syste
 
       <div class="card">
         <div class="card-title">🌐 Website Meta (Title &amp; Description)</div>
-        <div class="field"><label>Page Title</label><input type="text" id="meta_title" placeholder="Three Gent Intertrade — Gypsum · Dolomite · Manganese" /></div>
+        <div class="field"><label>Page Title</label><input type="text" id="meta_title" placeholder="Three Gent Intertrade — Gypsum, Dolomite & Industrial Minerals" /></div>
         <div class="field"><label>Meta Description (SEO)</label><textarea id="meta_desc" rows="3">Leading importer and distributor of high-quality industrial mineral powders for construction, ceramic, and multi-industry sectors in Thailand.</textarea></div>
       </div>
 
@@ -488,9 +488,8 @@ function getDefault() {
       title_en:'Quality Industrial Minerals for Multiple Sectors',
       title_th:'แร่ธาตุอุตสาหกรรมคุณภาพสูงสำหรับหลากหลายภาคส่วน',
       items:[
-        {sub_en:'Calcium Sulfate',sub_th:'แคลเซียมซัลเฟต',name_en:'Gypsum',name_th:'ยิปซัม',desc_en:'A versatile mineral widely used in the production of tiles, ceramics, plasterboard, and cement. Also applied in agriculture as a soil conditioner. Available in various grades — contact us for specifications.',desc_th:'แร่อเนกประสงค์ที่ใช้กันอย่างแพร่หลายในการผลิตกระเบื้อง เซรามิก ยิปซัมบอร์ด และซีเมนต์ ใช้ในการเกษตรเป็นตัวปรับสภาพดิน มีหลายเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะ',tags_en:'Tiles & Ceramics,Construction,Agriculture',tags_th:'กระเบื้อง & เซรามิก,ก่อสร้าง,เกษตรกรรม',img:'https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Gypsum%20MainProduct.jpeg'},
-        {sub_en:'Calcium Magnesium Carbonate',sub_th:'แคลเซียมแมกนีเซียมคาร์บอเนต',name_en:'Dolomite',name_th:'โดโลไมต์',desc_en:'A versatile industrial mineral used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction. High purity grades available — contact us for specifications.',desc_th:'แร่ธาตุอุตสาหกรรมอเนกประสงค์ ใช้ในการผลิตเหล็กกล้า เกษตรกรรม และการก่อสร้าง มีเกรดความบริสุทธิ์สูง — ติดต่อเราเพื่อขอข้อมูลจำเพาะ',tags_en:'Steel & Metallurgy,Agriculture,Construction',tags_th:'เหล็กและโลหะวิทยา,เกษตรกรรม,ก่อสร้าง',img:'https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Dolomite.jpg'},
-        {sub_en:'Manganese Oxide',sub_th:'แมงกานีสออกไซด์',name_en:'Manganese',name_th:'แมงกานีส',desc_en:'A multi-industry mineral essential for steel production, battery manufacturing, ceramics, glass, and chemical applications. Available in various grades — contact us for specifications.',desc_th:'แร่ธาตุที่จำเป็นสำหรับหลายอุตสาหกรรม ทั้งการผลิตเหล็กกล้า แบตเตอรี่ เซรามิก แก้ว และการใช้งานทางเคมี มีหลายเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะ',tags_en:'Steel Production,Battery Grade,Ceramics & Glass',tags_th:'การผลิตเหล็ก,เกรดแบตเตอรี่,เซรามิก & แก้ว',img:'https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Manganese3.jpg'}
+        {sub_en:'Calcium Sulfate',sub_th:'แคลเซียมซัลเฟต',name_en:'Gypsum',name_th:'ยิปซัม',desc_en:'A versatile mineral widely used in the production of tiles, ceramics, plasterboard, and cement. Also applied in agriculture as a soil conditioner. Available in various grades — contact us for specifications.',desc_th:'แร่อเนกประสงค์ที่ใช้กันอย่างแพร่หลายในการผลิตกระเบื้อง เซรามิก ยิปซัมบอร์ด และซีเมนต์ ใช้ในการเกษตรเป็นตัวปรับสภาพดิน มีหลายเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะ',tags_en:'Tiles & Ceramics,Construction,Agriculture',tags_th:'กระเบื้อง & เซรามิก,ก่อสร้าง,เกษตรกรรม',img:'https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Gypsum.jpg'},
+        {sub_en:'Calcium Magnesium Carbonate',sub_th:'แคลเซียมแมกนีเซียมคาร์บอเนต',name_en:'Dolomite',name_th:'โดโลไมต์',desc_en:'A versatile industrial mineral used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction. High purity grades available — contact us for specifications.',desc_th:'แร่ธาตุอุตสาหกรรมอเนกประสงค์ ใช้ในการผลิตเหล็กกล้า เกษตรกรรม และการก่อสร้าง มีเกรดความบริสุทธิ์สูง — ติดต่อเราเพื่อขอข้อมูลจำเพาะ',tags_en:'Steel & Metallurgy,Agriculture,Construction',tags_th:'เหล็กและโลหะวิทยา,เกษตรกรรม,ก่อสร้าง',img:'https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Dolomite.jpg'}
       ]
     },
     coming:[],
@@ -527,7 +526,7 @@ function getDefault() {
       cta_btn_en:'Send Inquiry', cta_btn_th:'ส่งข้อความ'
     },
     footer:{ brand:'THREE GENT INTERTRADE', copy:'© 2026 · Thailand' },
-    meta:{ title:'Three Gent Intertrade — Gypsum · Dolomite · Manganese', desc:'Leading importer and distributor of high-quality industrial mineral powders for construction, ceramic, and multi-industry sectors in Thailand.' }
+    meta:{ title:'Three Gent Intertrade — Gypsum, Dolomite & Industrial Minerals', desc:'Leading importer and distributor of high-quality industrial mineral powders for construction, ceramic, and multi-industry sectors in Thailand.' }
   };
 }
 
