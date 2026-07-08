@@ -251,6 +251,7 @@ nav{background:#ffffff;padding:0 3rem;display:flex;justify-content:space-between
 .product-img{height:160px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border-radius:6px 6px 0 0;margin:-32px -26px 20px}
 .product-img.gypsum{background:linear-gradient(135deg,#1a2a3e,#243550)}
 .product-img.mn{background:linear-gradient(135deg,#1a2a1a,#1e3a1e)}
+.product-photo{width:100%;height:180px;object-fit:cover;border-radius:6px;margin-bottom:20px;display:block;background:var(--off-white)}
 .product-badge{font-size:11px;letter-spacing:1px;text-transform:uppercase;padding:4px 10px;border-radius:3px;font-weight:600;font-family:'Montserrat',sans-serif}
 .badge-gy{background:rgba(200,200,220,0.15);color:#c0c0d8;border:1px solid rgba(200,200,220,0.25)}
 .badge-mn{background:rgba(74,180,100,0.18);color:#4ab464;border:1px solid rgba(74,180,100,0.28)}
@@ -491,7 +492,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
 
     <!-- pr0: GYPSUM -->
     <div class="product-card" data-product-index="0">
-      <div class="product-img-placeholder" id="pr0-img-wrap" style="width:100%;height:180px;background:var(--off-white);border-radius:6px;margin-bottom:20px;display:flex;align-items:center;justify-content:center;border:2px dashed rgba(30,136,229,0.2);color:var(--muted);font-size:12px;letter-spacing:1px;font-family:'Montserrat',sans-serif;">PRODUCT IMAGE</div>
+      <img id="pr0-img-wrap" class="product-photo" src="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Gypsum.jpg" alt="Gypsum industrial mineral powder — Three Gent Intertrade" data-alt-en="Gypsum industrial mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่ยิปซัมอุตสาหกรรม — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="eager" fetchpriority="high" decoding="async">
       <div class="prod-sub" id="pr0-sub" data-en="Calcium Sulfate" data-th="แคลเซียมซัลเฟต">Calcium Sulfate</div>
       <div class="product-name" id="pr0-name" data-en="Gypsum" data-th="ยิปซัม">Gypsum</div>
       <p class="product-desc" id="pr0-desc" data-en="A versatile mineral widely used in the production of tiles, ceramics, plasterboard and cement. Also applied in agriculture as a soil conditioner. Backed by third-party lab analysis (95%+ CaSO₄·2H₂O purity) — full COA available on request. Processed and graded to order. Export-permit-controlled mineral — lead time applies." data-th="แร่อเนกประสงค์ที่ใช้กันอย่างแพร่หลายในการผลิตกระเบื้อง เซรามิก ยิปซัมบอร์ด และซีเมนต์ ใช้ในการเกษตรเป็นตัวปรับสภาพดิน ผ่านการตรวจสอบจากห้องปฏิบัติการอิสระ (ความบริสุทธิ์ CaSO₄·2H₂O 95%+) — มี COA ฉบับเต็มให้ตามคำขอ ผลิตและคัดเกรดตามสั่ง เป็นแร่ธาตุที่ควบคุมการส่งออก — มีระยะเวลาดำเนินการ">A versatile mineral widely used in the production of tiles, ceramics, plasterboard and cement. Also applied in agriculture as a soil conditioner. Backed by third-party lab analysis (95%+ CaSO₄·2H₂O purity) — full COA available on request. Processed and graded to order. Export-permit-controlled mineral — lead time applies.</p>
@@ -508,7 +509,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
 
     <!-- pr1: DOLOMITE -->
     <div class="product-card" data-product-index="1">
-      <div id="pr1-img-wrap" style="width:100%;height:180px;background:url('https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Dolomite.jpg') center/cover no-repeat;border-radius:6px;margin-bottom:20px;border:none;"></div>
+      <img id="pr1-img-wrap" class="product-photo" src="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Dolomite.jpg" alt="Dolomite industrial mineral powder — Three Gent Intertrade" data-alt-en="Dolomite industrial mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่โดโลไมต์อุตสาหกรรม — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="lazy" decoding="async">
       <div class="prod-sub" id="pr1-sub" data-en="Calcium Magnesium Carbonate" data-th="แคลเซียมแมกนีเซียมคาร์บอเนต">Calcium Magnesium Carbonate</div>
       <div class="product-name" id="pr1-name" data-en="Dolomite" data-th="โดโลไมต์">Dolomite</div>
       <p class="product-desc" id="pr1-desc" data-en="A versatile industrial mineral available in multiple grades — from high-purity dolomite (ideal for steel flux and metallurgical applications) to standard construction-grade material. Used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction. Backed by third-party lab analysis. Processed to graded sizes — contact us for specifications and grade selection." data-th="แร่ธาตุอุตสาหกรรมอเนกประสงค์ มีหลายเกรดให้เลือก ตั้งแต่โดโลไมต์ความบริสุทธิ์สูง (เหมาะสำหรับฟลักซ์เหล็กกล้าและงานโลหะวิทยา) ไปจนถึงเกรดมาตรฐานสำหรับงานก่อสร้าง ใช้ในการผลิตเหล็กกล้าเป็นฟลักซ์ เกษตรกรรมเป็นตัวปรับสภาพดิน และงานก่อสร้าง ผ่านการตรวจสอบจากห้องปฏิบัติการอิสระ ผลิตและคัดขนาดตามเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะและเลือกเกรด">A versatile industrial mineral available in multiple grades — from high-purity dolomite (ideal for steel flux and metallurgical applications) to standard construction-grade material. Used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction. Backed by third-party lab analysis. Processed to graded sizes — contact us for specifications and grade selection.</p>
@@ -525,7 +526,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
          impurities, not sellable grade) — description intentionally kept
          general per internal note. Add Schema once COA confirms grade. -->
     <div class="product-card" data-product-index="2">
-      <div style="width:100%;height:180px;background:url('https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Kaolin.jpg') center/cover no-repeat;border-radius:6px;margin-bottom:20px;border:none;"></div>
+      <img id="pr2-img-wrap" class="product-photo" src="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Kaolin.jpg" alt="Kaolin clay mineral powder — Three Gent Intertrade" data-alt-en="Kaolin clay mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่ดินขาว — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="lazy" decoding="async">
       <div class="prod-sub" data-en="Hydrous Aluminum Silicate" data-th="อะลูมิเนียมซิลิเกตไฮเดรต">Hydrous Aluminum Silicate</div>
       <div class="product-name" data-en="Kaolin" data-th="ดินขาว">Kaolin</div>
       <p class="product-desc" data-en="A fine, naturally occurring clay mineral used across ceramics, paper, and industrial applications worldwide. Sourced from licensed Thai deposits — contact us to discuss your required grade and specifications." data-th="แร่ดินเหนียวธรรมชาติเนื้อละเอียด ใช้กันอย่างแพร่หลายในอุตสาหกรรมเซรามิก กระดาษ และงานอุตสาหกรรมอื่นๆ ทั่วโลก จัดหาจากแหล่งแร่ที่มีใบอนุญาตถูกต้องในประเทศไทย — ติดต่อเราเพื่อหารือเกรดและข้อกำหนดที่ต้องการ">A fine, naturally occurring clay mineral used across ceramics, paper, and industrial applications worldwide. Sourced from licensed Thai deposits — contact us to discuss your required grade and specifications.</p>
@@ -876,6 +877,10 @@ function setLang(lang) {
     if (!val) return;
     if (val.includes('<')) { el.innerHTML = val; } else { el.textContent = val; }
   });
+  document.querySelectorAll('[data-alt-en][data-alt-th]').forEach(el => {
+    const val = el.getAttribute('data-alt-' + lang);
+    if (val) el.alt = val;
+  });
   const msgPlaceholders = {
     en: 'Quantity, grade, specifications, or any enquiries...',
     th: 'ปริมาณ เกรด ข้อมูลจำเพาะ หรือคำถามอื่นๆ...'
@@ -959,9 +964,14 @@ function setImgSrc(id, url) {
 function setProductImage(wrapId, url) {
   const wrap = document.getElementById(wrapId);
   if (!wrap || !url) return;
-  wrap.style.background = `url('${url}') center/cover no-repeat`;
-  wrap.style.border = 'none';
-  wrap.textContent = '';
+  if (wrap.tagName === 'IMG') {
+    wrap.src = url;
+  } else {
+    // Fallback for any legacy non-img wrapper element
+    wrap.style.background = `url('${url}') center/cover no-repeat`;
+    wrap.style.border = 'none';
+    wrap.textContent = '';
+  }
 }
 
 function applyContent(d) {
