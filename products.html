@@ -22,18 +22,18 @@
 </script>
 <meta name="description" content="Explore our industrial mineral products — Gypsum, Dolomite, and more — for construction, agriculture, and manufacturing. Request a quotation from our Bangkok-based supply team.">
 <link rel="canonical" href="https://threegent.com/products.html">
-<link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/favicon-32.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Gypsum, Dolomite & Industrial Mineral Suppliers | Three Gent Intertrade Products">
 <meta property="og:description" content="Explore our industrial mineral products — Gypsum, Dolomite, and more — for construction, agriculture, and manufacturing. Request a quotation from our Bangkok-based supply team.">
 <meta property="og:url" content="https://threegent.com/products.html">
-<meta property="og:image" content="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/og-image.jpg">
+<meta property="og:image" content="https://threegent.com/images/og-image.jpg">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Gypsum, Dolomite & Industrial Mineral Suppliers | Three Gent Intertrade Products">
 <meta name="twitter:description" content="Explore our industrial mineral products — Gypsum, Dolomite, and more — for construction, agriculture, and manufacturing. Request a quotation from our Bangkok-based supply team.">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/og-image.jpg">
+<meta name="twitter:image" content="https://threegent.com/images/og-image.jpg">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -45,7 +45,7 @@
   "url": "https://threegent.com",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/logo.jpg"
+    "url": "https://threegent.com/images/logo.jpg"
   },
   "description": "Importer and distributor of industrial mineral powders — including Gypsum and Dolomite — for construction, ceramics, agriculture, and manufacturing industries in Thailand and beyond.",
   "address": {
@@ -78,7 +78,7 @@
       "name": "Gypsum (Calcium Sulfate)",
       "alternateName": "Calcium Sulfate",
       "description": "A versatile mineral widely used in the production of tiles, ceramics, plasterboard, and cement. Also applied in agriculture as a soil conditioner. Available in various grades — contact us for specifications.",
-      "image": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Gypsum.jpg",
+      "image": "https://threegent.com/images/Gypsum.jpg",
       "category": ["Industrial Minerals", "Construction Materials"],
       "brand": {
         "@type": "Brand",
@@ -106,7 +106,7 @@
       "name": "Dolomite",
       "alternateName": "Calcium Magnesium Carbonate",
       "description": "A versatile industrial mineral used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction materials. Available in various grades — contact us for specifications.",
-      "image": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Dolomite.jpg",
+      "image": "https://threegent.com/images/Dolomite.jpg",
       "category": ["Industrial Minerals", "Steel Production", "Agriculture"],
       "brand": {
         "@type": "Brand",
@@ -232,7 +232,7 @@ nav{background:#ffffff;padding:0 3rem;display:flex;justify-content:space-between
 .point-desc{font-size:0.85rem;color:var(--muted)}
 
 /* ─── PRODUCTS ─── */
-.products-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px;background:#D0D8E4;border-radius:6px;overflow:hidden;margin-top:2rem}
+.products-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:#D0D8E4;border-radius:6px;overflow:hidden;margin-top:2rem}
 .product-card{background:white;padding:32px 26px;position:relative;transition:all 0.25s;cursor:pointer;border:none}
 .product-card:hover{background:var(--navy)}
 .product-card:hover .prod-name,.product-card:hover .product-name{color:white}
@@ -285,9 +285,11 @@ nav{background:#ffffff;padding:0 3rem;display:flex;justify-content:space-between
 .team-phone,.team-email{color:var(--navy-mid)}
 
 /* ─── CTA BAND ─── */
-.cta-band{position:relative;overflow:hidden;padding:4.5rem 1.5rem;border-top:3px solid var(--blue-vivid)}
-.cta-band::before{content:'';position:absolute;inset:0;background:url('https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/worldmap-banner-sm.jpg') center/cover no-repeat}
-@media(min-width:768px){.cta-band::before{background-image:url('https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/worldmap-banner.jpg')}}
+.cta-band{position:relative;overflow:hidden;padding:4.5rem 1.5rem;border-top:3px solid var(--blue-vivid);background:var(--navy)}
+.cta-band::before{content:'';position:absolute;inset:0;background:url('images/worldmap-banner-sm.jpg') center/cover no-repeat}
+@media(min-width:768px){.cta-band::before{background-image:url('images/worldmap-banner.jpg')}}
+.cta-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+@media(max-width:768px){.cta-video{display:none}}
 .cta-glass{position:relative;z-index:1;max-width:860px;margin:0 auto;text-align:center;background:rgba(11,26,46,0.22);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid rgba(30,136,229,0.28);border-radius:18px;padding:2.6rem 3rem;box-shadow:0 8px 40px rgba(11,26,46,0.25)}
 .cta-band h2{font-family:'Montserrat',sans-serif;font-size:2rem;font-weight:800;color:white;line-height:1.2}
 .cta-band h2 em{font-style:normal;color:var(--sky)}
@@ -448,7 +450,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
 <!-- NAV -->
 <nav>
   <a href="index.html" class="logo">
-    <img src="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/logo.jpg" alt="Three Gent Intertrade" class="logo-img"/>
+    <img src="images/logo.jpg" alt="Three Gent Intertrade" class="logo-img"/>
   </a>
   <div class="nav-right">
     <ul class="nav-links">
@@ -492,7 +494,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
 
     <!-- pr0: GYPSUM -->
     <div class="product-card" data-product-index="0">
-      <img id="pr0-img-wrap" class="product-photo" src="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Gypsum.jpg" alt="Gypsum industrial mineral powder — Three Gent Intertrade" data-alt-en="Gypsum industrial mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่ยิปซัมอุตสาหกรรม — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="eager" fetchpriority="high" decoding="async">
+      <img id="pr0-img-wrap" class="product-photo" src="images/Gypsum.jpg" alt="Gypsum industrial mineral powder — Three Gent Intertrade" data-alt-en="Gypsum industrial mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่ยิปซัมอุตสาหกรรม — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="eager" fetchpriority="high" decoding="async">
       <div class="prod-sub" id="pr0-sub" data-en="Calcium Sulfate" data-th="แคลเซียมซัลเฟต">Calcium Sulfate</div>
       <div class="product-name" id="pr0-name" data-en="Gypsum" data-th="ยิปซัม">Gypsum</div>
       <p class="product-desc" id="pr0-desc" data-en="A versatile mineral widely used in the production of tiles, ceramics, plasterboard and cement. Also applied in agriculture as a soil conditioner. Backed by third-party lab analysis (95%+ CaSO₄·2H₂O purity) — full COA available on request. Processed and graded to order. Export-permit-controlled mineral — lead time applies." data-th="แร่อเนกประสงค์ที่ใช้กันอย่างแพร่หลายในการผลิตกระเบื้อง เซรามิก ยิปซัมบอร์ด และซีเมนต์ ใช้ในการเกษตรเป็นตัวปรับสภาพดิน ผ่านการตรวจสอบจากห้องปฏิบัติการอิสระ (ความบริสุทธิ์ CaSO₄·2H₂O 95%+) — มี COA ฉบับเต็มให้ตามคำขอ ผลิตและคัดเกรดตามสั่ง เป็นแร่ธาตุที่ควบคุมการส่งออก — มีระยะเวลาดำเนินการ">A versatile mineral widely used in the production of tiles, ceramics, plasterboard and cement. Also applied in agriculture as a soil conditioner. Backed by third-party lab analysis (95%+ CaSO₄·2H₂O purity) — full COA available on request. Processed and graded to order. Export-permit-controlled mineral — lead time applies.</p>
@@ -509,7 +511,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
 
     <!-- pr1: DOLOMITE -->
     <div class="product-card" data-product-index="1">
-      <img id="pr1-img-wrap" class="product-photo" src="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Dolomite.jpg" alt="Dolomite industrial mineral powder — Three Gent Intertrade" data-alt-en="Dolomite industrial mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่โดโลไมต์อุตสาหกรรม — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="lazy" decoding="async">
+      <img id="pr1-img-wrap" class="product-photo" src="images/Dolomite.jpg" alt="Dolomite industrial mineral powder — Three Gent Intertrade" data-alt-en="Dolomite industrial mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่โดโลไมต์อุตสาหกรรม — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="lazy" decoding="async">
       <div class="prod-sub" id="pr1-sub" data-en="Calcium Magnesium Carbonate" data-th="แคลเซียมแมกนีเซียมคาร์บอเนต">Calcium Magnesium Carbonate</div>
       <div class="product-name" id="pr1-name" data-en="Dolomite" data-th="โดโลไมต์">Dolomite</div>
       <p class="product-desc" id="pr1-desc" data-en="A versatile industrial mineral available in multiple grades — from high-purity dolomite (ideal for steel flux and metallurgical applications) to standard construction-grade material. Used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction. Backed by third-party lab analysis. Processed to graded sizes — contact us for specifications and grade selection." data-th="แร่ธาตุอุตสาหกรรมอเนกประสงค์ มีหลายเกรดให้เลือก ตั้งแต่โดโลไมต์ความบริสุทธิ์สูง (เหมาะสำหรับฟลักซ์เหล็กกล้าและงานโลหะวิทยา) ไปจนถึงเกรดมาตรฐานสำหรับงานก่อสร้าง ใช้ในการผลิตเหล็กกล้าเป็นฟลักซ์ เกษตรกรรมเป็นตัวปรับสภาพดิน และงานก่อสร้าง ผ่านการตรวจสอบจากห้องปฏิบัติการอิสระ ผลิตและคัดขนาดตามเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะและเลือกเกรด">A versatile industrial mineral available in multiple grades — from high-purity dolomite (ideal for steel flux and metallurgical applications) to standard construction-grade material. Used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction. Backed by third-party lab analysis. Processed to graded sizes — contact us for specifications and grade selection.</p>
@@ -526,7 +528,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
          impurities, not sellable grade) — description intentionally kept
          general per internal note. Add Schema once COA confirms grade. -->
     <div class="product-card" data-product-index="2">
-      <img id="pr2-img-wrap" class="product-photo" src="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Kaolin.jpg" alt="Kaolin clay mineral powder — Three Gent Intertrade" data-alt-en="Kaolin clay mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่ดินขาว — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="lazy" decoding="async">
+      <img id="pr2-img-wrap" class="product-photo" src="images/Kaolin.jpg" alt="Kaolin clay mineral powder — Three Gent Intertrade" data-alt-en="Kaolin clay mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่ดินขาว — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="lazy" decoding="async">
       <div class="prod-sub" data-en="Hydrous Aluminum Silicate" data-th="อะลูมิเนียมซิลิเกตไฮเดรต">Hydrous Aluminum Silicate</div>
       <div class="product-name" data-en="Kaolin" data-th="ดินขาว">Kaolin</div>
       <p class="product-desc" data-en="A fine, naturally occurring clay mineral used across ceramics, paper, and industrial applications worldwide. Sourced from licensed Thai deposits — contact us to discuss your required grade and specifications." data-th="แร่ดินเหนียวธรรมชาติเนื้อละเอียด ใช้กันอย่างแพร่หลายในอุตสาหกรรมเซรามิก กระดาษ และงานอุตสาหกรรมอื่นๆ ทั่วโลก จัดหาจากแหล่งแร่ที่มีใบอนุญาตถูกต้องในประเทศไทย — ติดต่อเราเพื่อหารือเกรดและข้อกำหนดที่ต้องการ">A fine, naturally occurring clay mineral used across ceramics, paper, and industrial applications worldwide. Sourced from licensed Thai deposits — contact us to discuss your required grade and specifications.</p>
@@ -703,6 +705,9 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
 
 <!-- CTA BAND -->
 <section class="cta-band reveal">
+  <video class="cta-video" id="cta-video" muted loop playsinline preload="none" poster="images/minerals-wave-poster.jpg">
+    <source data-src="videos/minerals-wave.mp4" type="video/mp4">
+  </video>
   <div class="cta-glass">
   <div>
     <h2 id="cta-headline" data-en="Ready to Source<br><em>Premium Minerals?</em>" data-th="พร้อมจัดหา<br><em>แร่ธาตุคุณภาพสูง?</em>">Ready to Source<br><em>Premium Minerals?</em></h2>
@@ -939,8 +944,27 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.08 });
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
+// ─── CTA BACKGROUND VIDEO — โหลดเฉพาะตอนเลื่อนใกล้ถึง (ประหยัดดาต้าให้คนที่ไม่เลื่อนถึงจุดนี้) ───
+const ctaVideo = document.getElementById('cta-video');
+if (ctaVideo) {
+  const ctaVideoObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const source = ctaVideo.querySelector('source');
+      if (source && source.dataset.src) {
+        source.src = source.dataset.src;
+        delete source.dataset.src;
+        ctaVideo.load();
+        ctaVideo.play().catch(() => {}); // เผื่อเบราว์เซอร์บล็อก autoplay ก็ไม่ error ให้เห็น
+      }
+      ctaVideoObserver.unobserve(ctaVideo);
+    });
+  }, { rootMargin: '200px' });
+  ctaVideoObserver.observe(ctaVideo);
+}
+
 // ─── LOAD CONTENT FROM content.json (Admin Panel data) ───
-const CONTENT_JSON_URL = 'https://raw.githubusercontent.com/wisut-spec/threegent-website/main/content.json';
+const CONTENT_JSON_URL = 'content.json';
 
 function setText(id, en, th) {
   const el = document.getElementById(id);
