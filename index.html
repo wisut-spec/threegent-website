@@ -174,6 +174,8 @@ nav{background:#ffffff;padding:0 3rem;display:flex;justify-content:space-between
 .section-alt{padding:5rem 3rem;background:var(--off-white)}
 .s-label{font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--blue-vivid);margin-bottom:8px;display:block;font-family:'Montserrat',sans-serif}
 .section-title{font-family:'Montserrat',sans-serif;font-size:clamp(1.5rem,2.8vw,2.1rem);font-weight:800;margin-bottom:2rem;line-height:1.2;color:var(--navy)}
+.about-teaser-text{max-width:760px}
+.about-teaser-text p{color:var(--muted);line-height:1.8;margin-bottom:2rem;font-size:1.02rem}
 
 /* ─── ABOUT ─── */
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
@@ -321,6 +323,8 @@ footer{background:var(--navy);padding:2rem 3rem;display:flex;justify-content:spa
 /* TRUST BANNER (Home) -- glass card over a bright photo */
 .trust-banner{position:relative;overflow:hidden}
 .trust-banner img{width:100%;height:380px;object-fit:cover;display:block;filter:brightness(0.96)}
+.trust-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(0.96);z-index:0}
+@media(max-width:768px){.trust-video{display:none}}
 .trust-glass-wrap{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:1.5rem}
 .trust-glass{max-width:680px;background:rgba(11,26,46,0.28);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(30,136,229,0.30);border-radius:18px;padding:2.2rem 2.6rem;text-align:center;box-shadow:0 8px 40px rgba(11,26,46,0.25)}
 .trust-glass h3{color:#fff;font-family:'Montserrat',sans-serif;font-weight:800;font-size:clamp(1.25rem,3vw,1.7rem);line-height:1.3;text-shadow:0 2px 12px rgba(0,0,0,0.35)}
@@ -426,9 +430,22 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
   </div>
 </section>
 
+<!-- ABOUT TEASER -->
+<section class="section reveal" id="about-teaser">
+  <span class="s-label" data-en="About Us" data-th="เกี่ยวกับเรา">About Us</span>
+  <h2 class="section-title" id="about-teaser-title" data-en="Your Trusted Partner in Industrial Mineral Trading" data-th="พันธมิตรที่เชื่อถือได้ในการค้าแร่ธาตุอุตสาหกรรม">Your Trusted Partner in Industrial Mineral Trading</h2>
+  <div class="about-teaser-text">
+    <p id="about-teaser-p" data-en="Three Gent Intertrade is a new-generation mineral trading company built on drive, transparency, and a genuine passion for connecting quality raw materials with the industries that need them most. Whether you're a growing SME or an established manufacturer, we find the right mineral, in the right grade, at a price that works for you." data-th="ทรี เจนท์ อินเตอร์เทรด คือบริษัทการค้าแร่ธาตุรุ่นใหม่ ที่ก่อตั้งขึ้นด้วยความมุ่งมั่น โปร่งใส และความตั้งใจในการเชื่อมต่อวัตถุดิบคุณภาพดีกับอุตสาหกรรมที่ต้องการ ไม่ว่าคุณจะเป็น SME ที่กำลังเติบโต หรือผู้ผลิตรายใหญ่ เราพร้อมหาแร่ธาตุที่เหมาะสมในเกรดและราคาที่ใช่สำหรับคุณ">Three Gent Intertrade is a new-generation mineral trading company built on drive, transparency, and a genuine passion for connecting quality raw materials with the industries that need them most. Whether you're a growing SME or an established manufacturer, we find the right mineral, in the right grade, at a price that works for you.</p>
+    <a href="about.html#about" class="btn-primary" id="about-teaser-cta" data-en="Learn More About Us →" data-th="เรียนรู้เพิ่มเติมเกี่ยวกับเรา →">Learn More About Us →</a>
+  </div>
+</section>
+
 <!-- TRUST BANNER -->
 <section class="trust-banner reveal">
-  <img src="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/worldmap-banner.jpg" alt="World map illustrated with samples of mineral powders, representing global sourcing" loading="lazy"/>
+  <img src="images/hero-particles-poster.jpg" alt="Abstract flowing mineral particle animation" loading="lazy"/>
+  <video class="trust-video" id="trust-video" muted loop playsinline preload="none" poster="images/hero-particles-poster.jpg">
+    <source data-src="videos/hero-particles.mp4" type="video/mp4">
+  </video>
   <div class="trust-glass-wrap">
     <div class="trust-glass">
       <h2 id="trust-headline" data-en="Sourcing Minerals From Trusted Origins Worldwide" data-th="จัดหาแร่ธาตุจากแหล่งที่เชื่อถือได้ทั่วโลก">Sourcing Minerals From Trusted Origins Worldwide</h2>
@@ -589,6 +606,25 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
 }, { threshold: 0.08 });
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// ─── TRUST BANNER VIDEO — โหลดเฉพาะตอนเลื่อนใกล้ถึง (ตัวอย่างทดลอง: Particles แทนภาพแผนที่โลก) ───
+const trustVideo = document.getElementById('trust-video');
+if (trustVideo) {
+  const trustVideoObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const source = trustVideo.querySelector('source');
+      if (source && source.dataset.src) {
+        source.src = source.dataset.src;
+        delete source.dataset.src;
+        trustVideo.load();
+        trustVideo.play().catch(() => {});
+      }
+      trustVideoObserver.unobserve(trustVideo);
+    });
+  }, { rootMargin: '200px' });
+  trustVideoObserver.observe(trustVideo);
+}
 
 // ─── LOAD CONTENT FROM content.json (Admin Panel data) ───
 const CONTENT_JSON_URL = 'https://raw.githubusercontent.com/wisut-spec/threegent-website/main/content.json';
