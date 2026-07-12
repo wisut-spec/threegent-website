@@ -22,18 +22,18 @@
 </script>
 <meta id="meta-desc" name="description" content="Leading importer and distributor of industrial mineral powders — Gypsum, Dolomite, and more — for construction, ceramics, and manufacturing industries in Thailand and beyond.">
 <link rel="canonical" href="https://threegent.com/">
-<link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/favicon-32.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Three Gent Intertrade | Industrial Mineral Trading Specialists in Thailand">
 <meta property="og:description" content="Leading importer and distributor of industrial mineral powders — Gypsum, Dolomite, and more — for construction, ceramics, and manufacturing industries in Thailand and beyond.">
 <meta property="og:url" content="https://threegent.com/">
-<meta property="og:image" content="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/og-image.jpg">
+<meta property="og:image" content="https://threegent.com/images/og-image.jpg">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Three Gent Intertrade | Industrial Mineral Trading Specialists in Thailand">
 <meta name="twitter:description" content="Leading importer and distributor of industrial mineral powders — Gypsum, Dolomite, and more — for construction, ceramics, and manufacturing industries in Thailand and beyond.">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/og-image.jpg">
+<meta name="twitter:image" content="https://threegent.com/images/og-image.jpg">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -45,7 +45,7 @@
   "url": "https://threegent.com",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/logo.jpg"
+    "url": "https://threegent.com/images/logo.jpg"
   },
   "description": "Importer and distributor of industrial mineral powders — including Gypsum and Dolomite — for construction, ceramics, agriculture, and manufacturing industries in Thailand and beyond.",
   "address": {
@@ -242,8 +242,8 @@ nav{background:#ffffff;padding:0 3rem;display:flex;justify-content:space-between
 
 /* ─── CTA BAND ─── */
 .cta-band{position:relative;overflow:hidden;padding:4.5rem 1.5rem;border-top:3px solid var(--blue-vivid)}
-.cta-band::before{content:'';position:absolute;inset:0;background:url('https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/worldmap-banner-sm.jpg') center/cover no-repeat}
-@media(min-width:768px){.cta-band::before{background-image:url('https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/worldmap-banner.jpg')}}
+.cta-band::before{content:'';position:absolute;inset:0;background:url('images/worldmap-banner-sm.jpg') center/cover no-repeat}
+@media(min-width:768px){.cta-band::before{background-image:url('images/worldmap-banner.jpg')}}
 .cta-glass{position:relative;z-index:1;max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:3rem;background:rgba(255,255,255,0.12);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,0.32);border-radius:18px;padding:2.6rem 3rem;box-shadow:0 8px 40px rgba(11,26,46,0.35)}
 .cta-band h2{font-family:'Montserrat',sans-serif;font-size:2rem;font-weight:800;color:white;line-height:1.2}
 .cta-band h2 em{font-style:normal;color:var(--sky)}
@@ -321,8 +321,9 @@ footer{background:var(--navy);padding:2rem 3rem;display:flex;justify-content:spa
 }
 
 /* TRUST BANNER (Home) -- glass card over a bright photo */
-.trust-banner{position:relative;overflow:hidden}
-.trust-banner img{width:100%;height:380px;object-fit:cover;display:block;filter:brightness(0.96)}
+.trust-banner{position:relative;overflow:hidden;height:380px}
+.trust-banner::before{content:'';position:absolute;inset:0;background:url('images/worldmap-banner-sm.jpg') center/cover no-repeat;filter:brightness(0.96)}
+@media(min-width:768px){.trust-banner::before{background-image:url('images/worldmap-banner.jpg')}}
 .trust-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(0.96);z-index:0}
 @media(max-width:768px){.trust-video{display:none}}
 .trust-glass-wrap{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:1.5rem}
@@ -330,7 +331,7 @@ footer{background:var(--navy);padding:2rem 3rem;display:flex;justify-content:spa
 .trust-glass h3{color:#fff;font-family:'Montserrat',sans-serif;font-weight:800;font-size:clamp(1.25rem,3vw,1.7rem);line-height:1.3;text-shadow:0 2px 12px rgba(0,0,0,0.35)}
 .trust-glass p{color:rgba(255,255,255,0.92);margin-top:10px;font-size:14px;text-shadow:0 1px 8px rgba(0,0,0,0.35)}
 html[lang="th"] .trust-glass h3{font-family:'IBM Plex Sans Thai',sans-serif;letter-spacing:0}
-@media(max-width:768px){.trust-banner img{height:280px}.trust-glass{padding:1.5rem 1.6rem}}
+@media(max-width:768px){.trust-banner{height:280px}.trust-glass{padding:1.5rem 1.6rem}}
 
 /* WHATSAPP */
 .wa-icon svg{stroke:none;fill:#25D366;width:20px;height:20px}
@@ -375,7 +376,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
 <!-- NAV -->
 <nav>
   <a href="index.html" class="logo">
-    <img src="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/logo.jpg" alt="Three Gent Intertrade" class="logo-img"/>
+    <img src="images/logo.jpg" alt="Three Gent Intertrade" class="logo-img"/>
   </a>
   <div class="nav-right">
     <ul class="nav-links">
@@ -442,7 +443,6 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
 
 <!-- TRUST BANNER -->
 <section class="trust-banner reveal">
-  <img src="images/hero-particles-poster.jpg" alt="Abstract flowing mineral particle animation" loading="lazy"/>
   <video class="trust-video" id="trust-video" muted loop playsinline preload="none" poster="images/hero-particles-poster.jpg">
     <source data-src="videos/hero-particles.mp4" type="video/mp4">
   </video>
@@ -627,7 +627,7 @@ if (trustVideo) {
 }
 
 // ─── LOAD CONTENT FROM content.json (Admin Panel data) ───
-const CONTENT_JSON_URL = 'https://raw.githubusercontent.com/wisut-spec/threegent-website/main/content.json';
+const CONTENT_JSON_URL = 'content.json';
 
 function setText(id, en, th) {
   const el = document.getElementById(id);
