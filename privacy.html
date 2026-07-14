@@ -14,9 +14,9 @@
 </script>
 <meta name="description" content="How Three Gent Intertrade collects, uses, and protects personal data submitted through our website, in line with Thailand's Personal Data Protection Act (PDPA).">
 <link rel="canonical" href="https://threegent.com/privacy.html">
-<link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/favicon-32.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/apple-touch-icon.png">
-<meta name="robots" content="noindex, follow">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<meta name="robots" content="index, follow">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -27,7 +27,7 @@
   "url": "https://threegent.com",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/logo.jpg"
+    "url": "https://threegent.com/images/logo.jpg"
   }
 }
 </script>
@@ -202,8 +202,8 @@ nav{background:#ffffff;padding:0 3rem;display:flex;justify-content:space-between
 
 /* ─── CTA BAND ─── */
 .cta-band{position:relative;overflow:hidden;padding:4.5rem 1.5rem;border-top:3px solid var(--blue-vivid)}
-.cta-band::before{content:'';position:absolute;inset:0;background:url('https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/worldmap-banner-sm.jpg') center/cover no-repeat}
-@media(min-width:768px){.cta-band::before{background-image:url('https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/worldmap-banner.jpg')}}
+.cta-band::before{content:'';position:absolute;inset:0;background:url('images/worldmap-banner-sm.jpg') center/cover no-repeat}
+@media(min-width:768px){.cta-band::before{background-image:url('images/worldmap-banner.jpg')}}
 .cta-glass{position:relative;z-index:1;max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:3rem;background:rgba(255,255,255,0.12);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,0.32);border-radius:18px;padding:2.6rem 3rem;box-shadow:0 8px 40px rgba(11,26,46,0.35)}
 .cta-band h2{font-family:'Montserrat',sans-serif;font-size:2rem;font-weight:800;color:white;line-height:1.2}
 .cta-band h2 em{font-style:normal;color:var(--sky)}
@@ -331,7 +331,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;fl
 <!-- NAV -->
 <nav>
   <a href="index.html" class="logo">
-    <img src="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/logo.jpg" alt="Three Gent Intertrade" class="logo-img"/>
+    <img src="images/logo.jpg" alt="Three Gent Intertrade" class="logo-img"/>
   </a>
   <div class="nav-right">
     <ul class="nav-links">
@@ -608,7 +608,7 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
 // ─── LOAD CONTENT FROM content.json (Admin Panel data) ───
-const CONTENT_JSON_URL = 'https://raw.githubusercontent.com/wisut-spec/threegent-website/main/content.json';
+const CONTENT_JSON_URL = 'content.json';
 
 function setText(id, en, th) {
   const el = document.getElementById(id);
