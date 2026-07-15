@@ -100,7 +100,7 @@
         "desc_th": "แร่อเนกประสงค์ที่ใช้กันอย่างแพร่หลายในการผลิตกระเบื้อง เซรามิก ยิปซัมบอร์ด และซีเมนต์ ใช้ในการเกษตรเป็นตัวปรับสภาพดิน มีหลายเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะ",
         "tags_en": "Tiles & Ceramics,Construction,Agriculture",
         "tags_th": "กระเบื้อง & เซรามิก,ก่อสร้าง,เกษตรกรรม",
-        "img": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Gypsum.jpg"
+        "img": "images/Gypsum.jpg"
       },
       {
         "sub_en": "Calcium Magnesium Carbonate",
@@ -111,7 +111,7 @@
         "desc_th": "แร่ธาตุอุตสาหกรรมอเนกประสงค์ ใช้ในการผลิตเหล็กกล้า เกษตรกรรม และการก่อสร้าง มีเกรดความบริสุทธิ์สูง — ติดต่อเราเพื่อขอข้อมูลจำเพาะ",
         "tags_en": "Steel & Metallurgy,Agriculture,Construction",
         "tags_th": "เหล็กและโลหะวิทยา,เกษตรกรรม,ก่อสร้าง",
-        "img": "https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Dolomite.jpg"
+        "img": "images/Dolomite.jpg"
       }
     ]
   },
@@ -206,10 +206,9 @@
     "label_th": "ติดต่อเรา",
     "title_en": "Let's Work Together",
     "title_th": "มาร่วมงานกัน",
-    "email": "witchapon@threegent.com",
+    "email": "wisut@threegent.com",
     "line": "@3gent",
     "line_url": "https://page.line.me/3gent",
-    "map_url": "",
     "location": "Bangkok, Thailand",
     "cta_headline_en": "Ready to Source<br><em>Premium Minerals?</em>",
     "cta_headline_th": "พร้อมจัดหา<br><em>แร่ธาตุคุณภาพสูง?</em>",
