@@ -169,12 +169,6 @@ body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', syste
       </div>
 
       <div class="card">
-        <div class="card-title">📊 Stats (4 ตัวเลขสถิติใต้ Hero)</div>
-        <div id="statList"></div>
-        <p class="hint">💡 ตัวเลขหรือข้อความสั้น เช่น "+50" หรือ "Global" / คำอธิบายใต้ตัวเลข</p>
-      </div>
-
-      <div class="card">
         <div class="card-title">🔗 Nav Menu (ลิงก์เมนู)</div>
         <div class="row-2">
           <div class="field"><label>Nav CTA Button EN</label><input type="text" id="nav_cta_en" placeholder="Get Quote" /></div>
@@ -324,7 +318,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', syste
       <div class="card">
         <div class="card-title">📞 ช่องทางติดต่อ</div>
         <div class="row-2">
-          <div class="field"><label>Email</label><input type="text" id="contact_email" placeholder="wisut@threegent.com" /></div>
+          <div class="field"><label>Email (แสดงในหน้า Contact และ Footer ทุกหน้า)</label><input type="text" id="contact_email" placeholder="witchapon@threegent.com" /></div>
           <div class="field"><label>LINE ID</label><input type="text" id="contact_line" placeholder="@3gent" /></div>
           <div class="field"><label>LINE URL</label><input type="text" id="contact_line_url" placeholder="https://page.line.me/3gent" /></div>
           <div class="field"><label>ที่ตั้ง (ข้อความ)</label><input type="text" id="contact_location" placeholder="Bangkok, Thailand" /></div>
@@ -457,13 +451,7 @@ function getDefault() {
       sub_th:'ไม่ว่าจะเป็นโรงงานขนาดเล็กหรือขนาดใหญ่ ในประเทศหรือต่างประเทศ เราจัดหาและจำหน่ายแร่ธาตุอุตสาหกรรมด้วยความสม่ำเสมอ รับผิดชอบ และใส่ใจสิ่งแวดล้อม',
       btn1_en:'Explore Products', btn1_th:'ดูสินค้าทั้งหมด',
       btn2_en:'Contact Us', btn2_th:'ติดต่อเรา',
-      nav_cta_en:'Get Quote', nav_cta_th:'ขอใบเสนอราคา',
-      stats:[
-        {num:'+',en:'Growing Portfolio',th:'พอร์ตสินค้าที่เติบโต'},
-        {num:'100%',en:'Quality Tested',th:'ผ่านการทดสอบ'},
-        {num:'Global',en:'Supply Chain',th:'ห่วงโซ่อุปทาน'},
-        {num:'Multi',en:'Industry Sectors',th:'หลากหลายอุตสาหกรรม'}
-      ]
+      nav_cta_en:'Get Quote', nav_cta_th:'ขอใบเสนอราคา'
     },
     about: {
       label_en:'About Us', label_th:'เกี่ยวกับเรา',
@@ -489,8 +477,8 @@ function getDefault() {
       title_en:'Quality Industrial Minerals for Multiple Sectors',
       title_th:'แร่ธาตุอุตสาหกรรมคุณภาพสูงสำหรับหลากหลายภาคส่วน',
       items:[
-        {sub_en:'Calcium Sulfate',sub_th:'แคลเซียมซัลเฟต',name_en:'Gypsum',name_th:'ยิปซัม',desc_en:'A versatile mineral widely used in the production of tiles, ceramics, plasterboard, and cement. Also applied in agriculture as a soil conditioner. Available in various grades — contact us for specifications.',desc_th:'แร่อเนกประสงค์ที่ใช้กันอย่างแพร่หลายในการผลิตกระเบื้อง เซรามิก ยิปซัมบอร์ด และซีเมนต์ ใช้ในการเกษตรเป็นตัวปรับสภาพดิน มีหลายเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะ',tags_en:'Tiles & Ceramics,Construction,Agriculture',tags_th:'กระเบื้อง & เซรามิก,ก่อสร้าง,เกษตรกรรม',img:'https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Gypsum.jpg'},
-        {sub_en:'Calcium Magnesium Carbonate',sub_th:'แคลเซียมแมกนีเซียมคาร์บอเนต',name_en:'Dolomite',name_th:'โดโลไมต์',desc_en:'A versatile industrial mineral used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction. High purity grades available — contact us for specifications.',desc_th:'แร่ธาตุอุตสาหกรรมอเนกประสงค์ ใช้ในการผลิตเหล็กกล้า เกษตรกรรม และการก่อสร้าง มีเกรดความบริสุทธิ์สูง — ติดต่อเราเพื่อขอข้อมูลจำเพาะ',tags_en:'Steel & Metallurgy,Agriculture,Construction',tags_th:'เหล็กและโลหะวิทยา,เกษตรกรรม,ก่อสร้าง',img:'https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/Dolomite.jpg'}
+        {sub_en:'Calcium Sulfate',sub_th:'แคลเซียมซัลเฟต',name_en:'Gypsum',name_th:'ยิปซัม',desc_en:'A versatile mineral widely used in the production of tiles, ceramics, plasterboard, and cement. Also applied in agriculture as a soil conditioner. Available in various grades — contact us for specifications.',desc_th:'แร่อเนกประสงค์ที่ใช้กันอย่างแพร่หลายในการผลิตกระเบื้อง เซรามิก ยิปซัมบอร์ด และซีเมนต์ ใช้ในการเกษตรเป็นตัวปรับสภาพดิน มีหลายเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะ',tags_en:'Tiles & Ceramics,Construction,Agriculture',tags_th:'กระเบื้อง & เซรามิก,ก่อสร้าง,เกษตรกรรม',img:'images/Gypsum.jpg'},
+        {sub_en:'Calcium Magnesium Carbonate',sub_th:'แคลเซียมแมกนีเซียมคาร์บอเนต',name_en:'Dolomite',name_th:'โดโลไมต์',desc_en:'A versatile industrial mineral used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction. High purity grades available — contact us for specifications.',desc_th:'แร่ธาตุอุตสาหกรรมอเนกประสงค์ ใช้ในการผลิตเหล็กกล้า เกษตรกรรม และการก่อสร้าง มีเกรดความบริสุทธิ์สูง — ติดต่อเราเพื่อขอข้อมูลจำเพาะ',tags_en:'Steel & Metallurgy,Agriculture,Construction',tags_th:'เหล็กและโลหะวิทยา,เกษตรกรรม,ก่อสร้าง',img:'images/Dolomite.jpg'}
       ]
     },
     coming:[],
@@ -510,15 +498,15 @@ function getDefault() {
       label_en:'Our Team', label_th:'ทีมงานของเรา',
       title_en:'The People Behind Three Gent Intertrade', title_th:'ทีมงานเบื้องหลัง ทรี เจนท์ อินเตอร์เทรด',
       members:[
-        {name:'Wisut Phakdee',nick:'Boy',role_en:'President',role_th:'ประธานบริษัท',phone:'',email:'wisut@threegent.com',img:''},
-        {name:'Sakon Raiwon',nick:'Top',role_en:'Vice President · Sourcing & Raw Material Consultant',role_th:'รองประธาน · ที่ปรึกษาการจัดหาและวัตถุดิบ',phone:'',email:'',img:''},
-        {name:'Witchapon Raiwon',nick:'Two',role_en:'Vice President · Business Growth Consultant',role_th:'รองประธาน · ที่ปรึกษาการเติบโตทางธุรกิจ',phone:'',email:'',img:''}
+        {name:'Wisut Phakdee',nick:'Boy',role_en:'President',role_th:'ประธานบริษัท',img:''},
+        {name:'Sakon Raiwon',nick:'Top',role_en:'Vice President · Sourcing & Raw Material Consultant',role_th:'รองประธาน · ที่ปรึกษาการจัดหาและวัตถุดิบ',img:''},
+        {name:'Witchapon Raiwon',nick:'Two',role_en:'Vice President · Business Growth Consultant',role_th:'รองประธาน · ที่ปรึกษาการเติบโตทางธุรกิจ',img:''}
       ]
     },
     contact:{
       label_en:'Contact Us', label_th:'ติดต่อเรา',
       title_en:"Let's Work Together", title_th:'มาร่วมงานกัน',
-      email:'wisut@threegent.com', line:'@3gent',
+      email:'witchapon@threegent.com', line:'@3gent',
       line_url:'https://page.line.me/3gent', location:'Bangkok, Thailand',
       cta_headline_en:'Ready to Source<br><em>Premium Minerals?</em>',
       cta_headline_th:'พร้อมจัดหา<br><em>แร่ธาตุคุณภาพสูง?</em>',
@@ -557,7 +545,6 @@ function fillForms() {
   sv('hero_btn1_en',h.btn1_en); sv('hero_btn1_th',h.btn1_th);
   sv('hero_btn2_en',h.btn2_en); sv('hero_btn2_th',h.btn2_th);
   sv('nav_cta_en',h.nav_cta_en); sv('nav_cta_th',h.nav_cta_th);
-  renderStats(h.stats||[]);
   // About
   const a = d.about || {};
   sv('about_label_en',a.label_en); sv('about_label_th',a.label_th);
@@ -602,19 +589,6 @@ function sv(id, val) { const el = document.getElementById(id); if(el && val !== 
 function gv(id) { const el = document.getElementById(id); return el ? el.value.trim() : ''; }
 
 // ===== RENDER LISTS =====
-function renderStats(stats) {
-  const el = document.getElementById('statList');
-  el.innerHTML = stats.map((s,i) => `
-    <div class="item-box">
-      <div class="item-header"><span class="item-label">Stat #${i+1}</span></div>
-      <div class="row-3">
-        <div class="field"><label>ตัวเลข</label><input type="text" id="stat${i}_num" value="${s.num||''}" /></div>
-        <div class="field"><label>คำอธิบาย EN</label><input type="text" id="stat${i}_en" value="${s.en||''}" /></div>
-        <div class="field"><label>คำอธิบาย TH</label><input type="text" id="stat${i}_th" value="${s.th||''}" /></div>
-      </div>
-    </div>`).join('');
-}
-
 function renderAboutPoints(points) {
   const el = document.getElementById('aboutPointList');
   el.innerHTML = points.map((p,i) => `
@@ -648,7 +622,7 @@ function renderProducts(items) {
       </div>
       <div class="field">
         <label>🖼 URL รูปภาพสินค้า</label>
-        <input type="text" id="pr${i}_img" value="${p.img||''}" placeholder="https://raw.githubusercontent.com/wisut-spec/threegent-website/main/images/ชื่อรูป.jpg" />
+        <input type="text" id="pr${i}_img" value="${p.img||''}" placeholder="images/ชื่อรูป.jpg" />
         <p class="hint">💡 อัปโหลดรูปขึ้น GitHub ใน folder images/ แล้วนำ URL มาวางที่นี่</p>
       </div>
       ${p.img ? `<div style="margin-top:8px;"><img src="${p.img}" style="max-height:120px;border-radius:8px;border:1px solid var(--border);" onerror="this.style.display='none'" /></div>` : ''}
@@ -708,8 +682,6 @@ function renderTeam(members) {
         <div class="field"><label>ชื่อเล่น</label><input type="text" id="tm${i}_nick" value="${m.nick||''}" /></div>
         <div class="field"><label>ตำแหน่ง EN</label><input type="text" id="tm${i}_role_en" value="${m.role_en||''}" /></div>
         <div class="field"><label>ตำแหน่ง TH</label><input type="text" id="tm${i}_role_th" value="${m.role_th||''}" /></div>
-        <div class="field"><label>โทรศัพท์</label><input type="text" id="tm${i}_phone" value="${m.phone||''}" /></div>
-        <div class="field"><label>Email</label><input type="text" id="tm${i}_email" value="${m.email||''}" /></div>
       </div>
       <div class="field"><label>URL รูปภาพ (ถ้าต้องการเปลี่ยน)</label><input type="text" id="tm${i}_img" value="${m.img||''}" placeholder="https://..." /></div>
     </div>`).join('');
@@ -719,8 +691,7 @@ function renderTeam(members) {
 function saveSection(section) {
   const d = contentData;
   if (section === 'hero') {
-    const stats = (d.hero&&d.hero.stats||[]).map((_,i)=>({num:gv(`stat${i}_num`),en:gv(`stat${i}_en`),th:gv(`stat${i}_th`)}));
-    d.hero = {eyebrow_en:gv('hero_eyebrow_en'),eyebrow_th:gv('hero_eyebrow_th'),headline_en:gv('hero_headline_en'),headline_th:gv('hero_headline_th'),sub_en:gv('hero_sub_en'),sub_th:gv('hero_sub_th'),btn1_en:gv('hero_btn1_en'),btn1_th:gv('hero_btn1_th'),btn2_en:gv('hero_btn2_en'),btn2_th:gv('hero_btn2_th'),nav_cta_en:gv('nav_cta_en'),nav_cta_th:gv('nav_cta_th'),stats};
+    d.hero = {eyebrow_en:gv('hero_eyebrow_en'),eyebrow_th:gv('hero_eyebrow_th'),headline_en:gv('hero_headline_en'),headline_th:gv('hero_headline_th'),sub_en:gv('hero_sub_en'),sub_th:gv('hero_sub_th'),btn1_en:gv('hero_btn1_en'),btn1_th:gv('hero_btn1_th'),btn2_en:gv('hero_btn2_en'),btn2_th:gv('hero_btn2_th'),nav_cta_en:gv('nav_cta_en'),nav_cta_th:gv('nav_cta_th')};
   } else if (section === 'about') {
     const pts = (d.about&&d.about.points||[]).map((_,i)=>({title_en:gv(`ap${i}_title_en`),title_th:gv(`ap${i}_title_th`),desc_en:gv(`ap${i}_desc_en`),desc_th:gv(`ap${i}_desc_th`)}));
     d.about = {label_en:gv('about_label_en'),label_th:gv('about_label_th'),title_en:gv('about_title_en'),title_th:gv('about_title_th'),p1_en:gv('about_p1_en'),p1_th:gv('about_p1_th'),p2_en:gv('about_p2_en'),p2_th:gv('about_p2_th'),p3_en:gv('about_p3_en'),p3_th:gv('about_p3_th'),points:pts};
@@ -733,7 +704,7 @@ function saveSection(section) {
     const cards = (d.quality&&d.quality.cards||[]).map((c,i)=>({num:c.num,title_en:gv(`qc${i}_title_en`),title_th:gv(`qc${i}_title_th`),desc_en:gv(`qc${i}_desc_en`),desc_th:gv(`qc${i}_desc_th`)}));
     d.quality = {label_en:gv('qual_label_en'),label_th:gv('qual_label_th'),title_en:gv('qual_title_en'),title_th:gv('qual_title_th'),cards};
   } else if (section === 'team') {
-    const members = (d.team&&d.team.members||[]).map((_,i)=>({name:gv(`tm${i}_name`),nick:gv(`tm${i}_nick`),role_en:gv(`tm${i}_role_en`),role_th:gv(`tm${i}_role_th`),phone:gv(`tm${i}_phone`),email:gv(`tm${i}_email`),img:gv(`tm${i}_img`)}));
+    const members = (d.team&&d.team.members||[]).map((_,i)=>({name:gv(`tm${i}_name`),nick:gv(`tm${i}_nick`),role_en:gv(`tm${i}_role_en`),role_th:gv(`tm${i}_role_th`),img:gv(`tm${i}_img`)}));
     d.team = {label_en:gv('team_label_en'),label_th:gv('team_label_th'),title_en:gv('team_title_en'),title_th:gv('team_title_th'),members};
   } else if (section === 'contact') {
     d.contact = {label_en:gv('contact_label_en'),label_th:gv('contact_label_th'),title_en:gv('contact_title_en'),title_th:gv('contact_title_th'),email:gv('contact_email'),line:gv('contact_line'),line_url:gv('contact_line_url'),map_url:gv('contact_map_url'),location:gv('contact_location'),cta_headline_en:gv('cta_headline_en'),cta_headline_th:gv('cta_headline_th'),cta_sub_en:gv('cta_sub_en'),cta_sub_th:gv('cta_sub_th'),cta_btn_en:gv('cta_btn_en'),cta_btn_th:gv('cta_btn_th')};

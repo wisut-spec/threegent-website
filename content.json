@@ -11,29 +11,7 @@
     "btn2_en": "Contact Us",
     "btn2_th": "ติดต่อเรา",
     "nav_cta_en": "Get Quote",
-    "nav_cta_th": "ขอใบเสนอราคา",
-    "stats": [
-      {
-        "num": "+",
-        "en": "Growing Portfolio",
-        "th": "พอร์ตสินค้าที่เติบโต"
-      },
-      {
-        "num": "100%",
-        "en": "Quality Tested",
-        "th": "ผ่านการทดสอบ"
-      },
-      {
-        "num": "Global",
-        "en": "Supply Chain",
-        "th": "ห่วงโซ่อุปทาน"
-      },
-      {
-        "num": "Multi",
-        "en": "Industry Sectors",
-        "th": "หลากหลายอุตสาหกรรม"
-      }
-    ]
+    "nav_cta_th": "ขอใบเสนอราคา"
   },
   "about": {
     "label_en": "About Us",
@@ -177,8 +155,6 @@
         "nick": "Boy",
         "role_en": "President",
         "role_th": "ประธานบริษัท",
-        "phone": "+66 61 225 9987",
-        "email": "wisut@threegent.com",
         "img": ""
       },
       {
@@ -186,8 +162,6 @@
         "nick": "Top",
         "role_en": "Vice President · Sourcing & Raw Material Consultant",
         "role_th": "รองประธาน · ที่ปรึกษาการจัดหาและวัตถุดิบ",
-        "phone": "+66  96 198 9554",
-        "email": "sakon@threegent.com",
         "img": ""
       },
       {
@@ -195,8 +169,6 @@
         "nick": "Two",
         "role_en": "Vice President · Business Growth Consultant",
         "role_th": "รองประธาน · ที่ปรึกษาการเติบโตทางธุรกิจ",
-        "phone": "+66  99 302 2004 (whatsapp)",
-        "email": "witchapon@threegent.com",
         "img": ""
       }
     ]
@@ -206,7 +178,7 @@
     "label_th": "ติดต่อเรา",
     "title_en": "Let's Work Together",
     "title_th": "มาร่วมงานกัน",
-    "email": "wisut@threegent.com",
+    "email": "witchapon@threegent.com",
     "line": "@3gent",
     "line_url": "https://page.line.me/3gent",
     "location": "Bangkok, Thailand",
