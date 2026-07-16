@@ -4,20 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title id="meta-title">Three Gent Intertrade | Industrial Mineral Trading Specialists in Thailand</title>
-<!-- Google tag (gtag.js) - deferred for performance -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id=G-SZ2K6E1SH8"></script>
+<!-- Google tag (gtag.js) — โหลดครั้งเดียว ครอบทั้ง GA4 + Google Ads -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SZ2K6E1SH8"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-SZ2K6E1SH8');
-</script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18253901080"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
   gtag('config', 'AW-18253901080');
 </script>
 <meta id="meta-desc" name="description" content="Leading importer and distributor of industrial mineral powders — Gypsum, Dolomite, and more — for construction, ceramics, and manufacturing industries in Thailand and beyond.">
@@ -70,9 +63,14 @@
   ]
 }
 </script>
+<!-- Preload รูป Hero (LCP) — มือถือโหลดเฉพาะรูปเล็ก เดสก์ท็อปโหลดเฉพาะรูปใหญ่ ตรงกับ CSS .hero::before -->
+<link rel="preload" as="image" href="images/worldmap-banner-sm.jpg" media="(max-width: 767px)">
+<link rel="preload" as="image" href="images/worldmap-banner.jpg" media="(min-width: 768px)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<!-- Google Fonts แบบไม่บล็อกการแสดงผล: โหลดเป็น print ก่อนแล้วสลับเป็น all เมื่อโหลดเสร็จ -->
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"></noscript>
 <style>
 :root {
   --navy:      #0B1A2E;
