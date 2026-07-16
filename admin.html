@@ -221,7 +221,7 @@ body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', syste
     <!-- ===== 3. PRODUCTS & SERVICES ===== -->
     <div id="tab-products" class="tab-content">
       <div class="section-title">Products &amp; Services</div>
-      <div class="section-desc">สินค้าที่แก้ไขได้ในหน้านี้: Gypsum, Dolomite เท่านั้น (Limestone, Quicklime, Perlite เป็นการ์ด catalog แบบ static ในหน้าเว็บ ยังไม่เชื่อมกับระบบ Admin — Manganese Oxide ย้ายไปแสดงแบบ dropdown selector แทนการ์ดเดี่ยว รอข้อมูลก่อนเพิ่มกลับ)</div>
+      <div class="section-desc">สินค้าที่แก้ไขได้ในหน้านี้: Gypsum, Dolomite (สินค้า #1 และ #2) เท่านั้น — การ์ด Kaolin และรายชื่อแร่ใน dropdown เป็นแบบ static ในหน้าเว็บ แก้ผ่านหน้านี้ไม่ได้ ⚠️ การเพิ่มสินค้าใหม่ต้องแก้ไฟล์เว็บหลายไฟล์พร้อมกัน จึงทำผ่านหน้า Admin ไม่ได้ — แจ้งทีมดูแลเว็บทุกครั้ง</div>
 
       <div class="card">
         <div class="card-title">📌 Section Label & Title</div>
@@ -234,8 +234,6 @@ body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', syste
       </div>
 
       <div id="productList"></div>
-
-      <button class="btn btn-ghost" onclick="addProduct()" style="width:100%;justify-content:center;margin-bottom:20px;">+ เพิ่มสินค้าใหม่</button>
 
       <div class="save-bar">
         <button class="btn btn-save" onclick="saveSection('products')">💾 บันทึก Products</button>
@@ -627,13 +625,6 @@ function renderProducts(items) {
       </div>
       ${p.img ? `<div style="margin-top:8px;"><img src="${p.img}" style="max-height:120px;border-radius:8px;border:1px solid var(--border);" onerror="this.style.display='none'" /></div>` : ''}
     </div>`).join('');
-}
-
-function addProduct() {
-  if (!contentData.products) contentData.products = {items:[]};
-  if (!contentData.products.items) contentData.products.items = [];
-  contentData.products.items.push({sub_en:'',sub_th:'',name_en:'',name_th:'',desc_en:'',desc_th:'',tags_en:'',tags_th:''});
-  renderProducts(contentData.products.items);
 }
 
 function renderComingSoon(items) {
