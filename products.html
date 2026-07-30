@@ -71,8 +71,9 @@
       "@type": "Product",
       "name": "Gypsum (Calcium Sulfate)",
       "alternateName": "Calcium Sulfate",
-      "description": "A versatile mineral widely used in the production of tiles, ceramics, plasterboard, and cement. Also applied in agriculture as a soil conditioner. Available in various grades — contact us for specifications.",
+      "description": "Three Gent Intertrade exports high-purity gypsum (calcium sulfate) sourced from verified Thai deposits. Our gypsum is laboratory-tested with purity 95.89% and whiteness 87.80 — suitable for cement, ceramics, and agricultural applications across Asia. Available in bulk Bigbag packaging for FCL export. Minimum order: 1 FCL. Full Certificate of Analysis (COA) available upon request.",
       "image": "https://threegent.com/images/Gypsum.jpg",
+      "material": "Gypsum",
       "category": ["Industrial Minerals", "Construction Materials"],
       "brand": {
         "@type": "Brand",
@@ -95,10 +96,11 @@
     },
     {
       "@type": "Product",
-      "name": "Dolomite (White)",
+      "name": "White Dolomite (Calcium Magnesium Carbonate)",
       "alternateName": "Calcium Magnesium Carbonate",
-      "description": "A versatile industrial mineral used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction materials. Available in various grades — contact us for specifications.",
+      "description": "Three Gent Intertrade supplies high-purity white dolomite sourced from licensed Thai deposits. Our dolomite is verified by WDXRF analysis, with low iron content (Fe₂O₃ 0.126%) suitable for demanding industrial applications including steel flux and agricultural soil correction. Available in bulk Bigbag packaging for FCL export. Minimum order: 1 FCL. Full Certificate of Analysis (COA) available upon request.",
       "image": "https://threegent.com/images/Dolomite.jpg",
+      "material": "Dolomite",
       "category": ["Industrial Minerals", "Steel Production", "Agriculture"],
       "brand": {
         "@type": "Brand",
@@ -437,6 +439,30 @@ footer{background:var(--navy);padding:2rem 3rem;font-size:12px;color:var(--muted
   .spec-table tbody td{padding:0.5rem 0.7rem}
 }
 
+/* ─── DOLOMITE DETAIL MODAL ─── */
+.detail-section-title{font-family:'Montserrat',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--blue-vivid);margin:2rem 0 1rem;padding-bottom:0.5rem;border-bottom:2px solid rgba(30,136,229,0.15)}
+.detail-section-title:first-of-type{margin-top:0}
+.detail-app-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:0.5rem}
+.detail-app-card{background:var(--off-white);border-radius:8px;padding:1.2rem 1rem;border:1px solid var(--border)}
+.detail-app-icon{font-size:1.8rem;margin-bottom:0.6rem;line-height:1}
+.detail-app-name{font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:1px;margin-bottom:0.5rem}
+.detail-app-desc{font-size:12px;color:#4A6080;line-height:1.6}
+.detail-checklist{list-style:none;padding:0;margin:0 0 0.5rem}
+.detail-checklist li{display:flex;gap:10px;align-items:flex-start;padding:0.55rem 0;border-bottom:1px solid rgba(30,136,229,0.07);font-size:0.875rem;color:#3A5070;line-height:1.5}
+.detail-checklist li:last-child{border-bottom:none}
+.detail-checklist li::before{content:"✓";color:var(--blue-vivid);font-weight:700;font-size:14px;flex-shrink:0;margin-top:1px}
+.detail-faq-item{border-bottom:1px solid var(--border)}
+.detail-faq-item:last-child{border-bottom:none}
+.detail-faq-q{width:100%;background:none;border:none;text-align:left;padding:0.9rem 0;font-size:0.875rem;font-weight:600;color:var(--navy);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;font-family:inherit}
+.detail-faq-q:hover{color:var(--blue-vivid)}
+.detail-faq-icon{font-size:18px;color:var(--blue-vivid);flex-shrink:0;transition:transform 0.2s;font-weight:300}
+.detail-faq-a{display:none;padding:0 0 1rem;font-size:0.875rem;color:#4A6080;line-height:1.7}
+.detail-faq-item.open .detail-faq-a{display:block}
+.detail-faq-item.open .detail-faq-icon{transform:rotate(45deg)}
+@media(max-width:640px){
+  .detail-app-grid{grid-template-columns:1fr}
+}
+
 /* PRIVACY PAGE CONTENT */
 .privacy-content{max-width:800px;margin:0 auto;padding:4rem 1.5rem}
 .privacy-content h1{font-family:'Montserrat',sans-serif;font-weight:800;font-size:clamp(1.6rem,4vw,2.2rem);color:var(--navy);margin-bottom:0.5rem}
@@ -503,8 +529,8 @@ footer{background:var(--navy);padding:2rem 3rem;font-size:12px;color:var(--muted
     <div class="product-card" data-product-index="0">
       <img id="pr0-img-wrap" class="product-photo" src="images/Gypsum.jpg" alt="Gypsum industrial mineral powder — Three Gent Intertrade" data-alt-en="Gypsum industrial mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่ยิปซัมอุตสาหกรรม — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="eager" fetchpriority="high" decoding="async">
       <div class="prod-sub" id="pr0-sub" data-en="Calcium Sulfate" data-th="แคลเซียมซัลเฟต">Calcium Sulfate</div>
-      <div class="product-name" id="pr0-name" data-en="Gypsum" data-th="ยิปซัม">Gypsum</div>
-      <p class="product-desc" id="pr0-desc" data-en="A versatile mineral widely used in the production of tiles, ceramics, plasterboard and cement. Also applied in agriculture as a soil conditioner. Backed by third-party lab analysis (95%+ CaSO₄·2H₂O purity) — full COA available on request. Processed and graded to order. Export-permit-controlled mineral — lead time applies." data-th="แร่อเนกประสงค์ที่ใช้กันอย่างแพร่หลายในการผลิตกระเบื้อง เซรามิก ยิปซัมบอร์ด และซีเมนต์ ใช้ในการเกษตรเป็นตัวปรับสภาพดิน ผ่านการตรวจสอบจากห้องปฏิบัติการอิสระ (ความบริสุทธิ์ CaSO₄·2H₂O 95%+) — มี COA ฉบับเต็มให้ตามคำขอ ผลิตและคัดเกรดตามสั่ง เป็นแร่ธาตุที่ควบคุมการส่งออก — มีระยะเวลาดำเนินการ">A versatile mineral widely used in the production of tiles, ceramics, plasterboard and cement. Also applied in agriculture as a soil conditioner. Backed by third-party lab analysis (95%+ CaSO₄·2H₂O purity) — full COA available on request. Processed and graded to order. Export-permit-controlled mineral — lead time applies.</p>
+      <div class="product-name" id="pr0-name" data-en="Gypsum (Calcium Sulfate) — High-Purity Export Supplier, Thailand" data-th="ยิปซัม (แคลเซียมซัลเฟต) — ผู้ส่งออกความบริสุทธิ์สูง ประเทศไทย">Gypsum (Calcium Sulfate) — High-Purity Export Supplier, Thailand</div>
+      <p class="product-desc" id="pr0-desc" data-en="Three Gent Intertrade exports high-purity gypsum (calcium sulfate) sourced from verified Thai deposits. Our gypsum is laboratory-tested with purity 95.89% and whiteness 87.80 — suitable for cement, ceramics, and agricultural applications across Asia. Available in bulk Bigbag packaging for FCL export. Minimum order: 1 FCL. Full Certificate of Analysis (COA) available upon request." data-th="บริษัท ทรีเจ้นท์ อินเตอร์เทรด ส่งออกยิปซัม (แคลเซียมซัลเฟต) ความบริสุทธิ์สูงจากแหล่งแร่ที่ผ่านการตรวจสอบในประเทศไทย ยิปซัมของเราผ่านการทดสอบในห้องปฏิบัติการ ความบริสุทธิ์ 95.89% และค่าความขาว 87.80 — เหมาะสำหรับซีเมนต์ เซรามิก และงานเกษตรกรรมทั่วเอเชีย บรรจุในถุง Bigbag เป็นกลุ่ม FCL สำหรับการส่งออก ปริมาณสั่งซื้อขั้นต่ำ: 1 FCL มี Certificate of Analysis (COA) ฉบับเต็มให้ตามคำขอ">Three Gent Intertrade exports high-purity gypsum (calcium sulfate) sourced from verified Thai deposits. Our gypsum is laboratory-tested with purity 95.89% and whiteness 87.80 — suitable for cement, ceramics, and agricultural applications across Asia. Available in bulk Bigbag packaging for FCL export. Minimum order: 1 FCL. Full Certificate of Analysis (COA) available upon request.</p>
       <div class="product-tags" id="pr0-tags">
         <span class="ptag" data-en="Tiles & Ceramics" data-th="กระเบื้อง & เซรามิก">Tiles & Ceramics</span>
         <span class="ptag" data-en="Construction" data-th="ก่อสร้าง">Construction</span>
@@ -513,6 +539,7 @@ footer{background:var(--navy);padding:2rem 3rem;font-size:12px;color:var(--muted
       <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:1.1rem">
         <a href="#contact" class="product-cta" data-en="Request Quotation →" data-th="ขอใบเสนอราคา →">Request Quotation →</a>
         <button class="spec-trigger" onclick="openSpecModal()" data-en="View Specification" data-th="ดูข้อมูลจำเพาะ">View Specification</button>
+        <button class="spec-trigger" onclick="openGypsumDetailModal()" data-en="Applications &amp; FAQ" data-th="การใช้งานและคำถาม">Applications &amp; FAQ</button>
       </div>
     </div>
 
@@ -520,8 +547,8 @@ footer{background:var(--navy);padding:2rem 3rem;font-size:12px;color:var(--muted
     <div class="product-card" data-product-index="1">
       <img id="pr1-img-wrap" class="product-photo" src="images/Dolomite.jpg" alt="Dolomite industrial mineral powder — Three Gent Intertrade" data-alt-en="Dolomite industrial mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่โดโลไมต์อุตสาหกรรม — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="lazy" decoding="async">
       <div class="prod-sub" id="pr1-sub" data-en="Calcium Magnesium Carbonate" data-th="แคลเซียมแมกนีเซียมคาร์บอเนต">Calcium Magnesium Carbonate</div>
-      <div class="product-name" id="pr1-name" data-en="Dolomite" data-th="โดโลไมต์">Dolomite</div>
-      <p class="product-desc" id="pr1-desc" data-en="A versatile industrial mineral available in multiple grades — from high-purity dolomite (ideal for steel flux and metallurgical applications) to standard construction-grade material. Used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction. Backed by third-party lab analysis. Processed to graded sizes — contact us for specifications and grade selection." data-th="แร่ธาตุอุตสาหกรรมอเนกประสงค์ มีหลายเกรดให้เลือก ตั้งแต่โดโลไมต์ความบริสุทธิ์สูง (เหมาะสำหรับฟลักซ์เหล็กกล้าและงานโลหะวิทยา) ไปจนถึงเกรดมาตรฐานสำหรับงานก่อสร้าง ใช้ในการผลิตเหล็กกล้าเป็นฟลักซ์ เกษตรกรรมเป็นตัวปรับสภาพดิน และงานก่อสร้าง ผ่านการตรวจสอบจากห้องปฏิบัติการอิสระ ผลิตและคัดขนาดตามเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะและเลือกเกรด">A versatile industrial mineral available in multiple grades — from high-purity dolomite (ideal for steel flux and metallurgical applications) to standard construction-grade material. Used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction. Backed by third-party lab analysis. Processed to graded sizes — contact us for specifications and grade selection.</p>
+      <div class="product-name" id="pr1-name" data-en="White Dolomite (Calcium Magnesium Carbonate)" data-th="โดโลไมต์ขาว (แคลเซียมแมกนีเซียมคาร์บอเนต)">White Dolomite (Calcium Magnesium Carbonate)</div>
+      <p class="product-desc" id="pr1-desc" data-en="Three Gent Intertrade supplies high-purity white dolomite sourced from licensed Thai deposits. Our dolomite is verified by WDXRF analysis, with low iron content (Fe₂O₃ 0.126%) suitable for demanding industrial applications including steel flux and agricultural soil correction. Available in bulk Bigbag packaging for FCL export. Minimum order: 1 FCL. Full Certificate of Analysis (COA) available upon request." data-th="บริษัท ทรีเจ้นท์ อินเตอร์เทรด จัดหาโดโลไมต์ขาวความบริสุทธิ์สูงจากแหล่งแร่ที่มีใบอนุญาตถูกต้องในประเทศไทย โดโลไมต์ของเราผ่านการวิเคราะห์ด้วย WDXRF มีปริมาณเหล็กต่ำ (Fe₂O₃ 0.126%) เหมาะสำหรับงานอุตสาหกรรมที่ต้องการความแม่นยำสูง ได้แก่ ฟลักซ์เหล็กกล้าและการปรับสภาพดินทางการเกษตร บรรจุในถุง Bigbag เป็นกลุ่ม FCL สำหรับการส่งออก ปริมาณสั่งซื้อขั้นต่ำ: 1 FCL มี Certificate of Analysis (COA) ฉบับเต็มให้ตามคำขอ">Three Gent Intertrade supplies high-purity white dolomite sourced from licensed Thai deposits. Our dolomite is verified by WDXRF analysis, with low iron content (Fe₂O₃ 0.126%) suitable for demanding industrial applications including steel flux and agricultural soil correction. Available in bulk Bigbag packaging for FCL export. Minimum order: 1 FCL. Full Certificate of Analysis (COA) available upon request.</p>
       <div class="product-tags" id="pr1-tags">
         <span class="ptag" data-en="Steel & Metallurgy" data-th="เหล็กและโลหะวิทยา">Steel & Metallurgy</span>
         <span class="ptag" data-en="Agriculture" data-th="เกษตรกรรม">Agriculture</span>
@@ -530,6 +557,7 @@ footer{background:var(--navy);padding:2rem 3rem;font-size:12px;color:var(--muted
       <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:1.1rem">
         <a href="#contact" class="product-cta" data-en="Request Quotation →" data-th="ขอใบเสนอราคา →">Request Quotation →</a>
         <button class="spec-trigger" onclick="openDolomiteModal()" data-en="View Specification" data-th="ดูข้อมูลจำเพาะ">View Specification</button>
+        <button class="spec-trigger" onclick="openDolomiteDetailModal()" data-en="Applications &amp; FAQ" data-th="การใช้งานและคำถาม">Applications &amp; FAQ</button>
       </div>
     </div>
 
@@ -817,6 +845,106 @@ footer{background:var(--navy);padding:2rem 3rem;font-size:12px;color:var(--muted
 </footer>
 
 <!-- GYPSUM SPEC MODAL -->
+<!-- GYPSUM DETAIL MODAL — Applications / Why Source / FAQ -->
+<div id="gypsum-detail-modal" class="spec-modal-overlay" onclick="closeGypsumDetailModal(event)">
+  <div class="spec-modal-box">
+    <button class="spec-modal-close" onclick="closeModalById('gypsum-detail-modal')" aria-label="Close">✕</button>
+    <p class="spec-modal-label" data-en="Product Details" data-th="รายละเอียดสินค้า">Product Details</p>
+    <h2 class="spec-modal-title" data-en="Gypsum — Applications &amp; FAQ" data-th="ยิปซัม — การใช้งานและคำถาม">Gypsum — Applications &amp; FAQ</h2>
+
+    <!-- Applications -->
+    <p class="detail-section-title" data-en="Applications" data-th="การใช้งาน">Applications</p>
+    <div class="detail-app-grid">
+      <div class="detail-app-card">
+        <div class="detail-app-icon">🏗️</div>
+        <div class="detail-app-name" data-en="Cement &amp; Construction" data-th="ซีเมนต์และก่อสร้าง">Cement &amp; Construction</div>
+        <div class="detail-app-desc" data-en="Used as a retarder in Portland cement production, controlling setting time. Also applied in plasterboard, plaster, and wall finishing products. Purity 95.89% meets standard cement industry requirements." data-th="ใช้เป็นสารหน่วงการแข็งตัวในการผลิตปูนซีเมนต์ปอร์ตแลนด์ ควบคุมเวลาการแข็งตัว ใช้ในยิปซัมบอร์ด ปูนปลาสเตอร์ และผลิตภัณฑ์ฉาบผนัง ความบริสุทธิ์ 95.89% ตรงตามมาตรฐานอุตสาหกรรมซีเมนต์">Used as a retarder in Portland cement production, controlling setting time. Also applied in plasterboard, plaster, and wall finishing products. Purity 95.89% meets standard cement industry requirements.</div>
+      </div>
+      <div class="detail-app-card">
+        <div class="detail-app-icon">🏺</div>
+        <div class="detail-app-name" data-en="Tiles &amp; Ceramics" data-th="กระเบื้องและเซรามิก">Tiles &amp; Ceramics</div>
+        <div class="detail-app-desc" data-en="Used as a mold-making material in ceramic and tile production due to its controlled expansion and fine particle properties. Consistent whiteness (87.80) ensures colour uniformity in finished products." data-th="ใช้เป็นวัสดุทำแม่พิมพ์ในการผลิตเซรามิกและกระเบื้อง เนื่องจากการขยายตัวที่ควบคุมได้และคุณสมบัติอนุภาคละเอียด ค่าความขาวสม่ำเสมอ (87.80) รับประกันความสม่ำเสมอของสีในผลิตภัณฑ์สำเร็จรูป">Used as a mold-making material in ceramic and tile production due to its controlled expansion and fine particle properties. Consistent whiteness (87.80) ensures colour uniformity in finished products.</div>
+      </div>
+      <div class="detail-app-card">
+        <div class="detail-app-icon">🌾</div>
+        <div class="detail-app-name" data-en="Agriculture" data-th="เกษตรกรรม">Agriculture</div>
+        <div class="detail-app-desc" data-en="Applied as a soil amendment to improve structure in clay-heavy soils and supply calcium and sulfur to crops without significantly altering soil pH. Widely used in rice and sugarcane cultivation across Southeast Asia." data-th="ใช้เป็นสารปรับปรุงดินเพื่อปรับโครงสร้างดินเหนียวและเพิ่มแคลเซียมและกำมะถันให้พืชโดยไม่เปลี่ยน pH ดินมากนัก ใช้กันแพร่หลายในการปลูกข้าวและอ้อยทั่วเอเชียตะวันออกเฉียงใต้">Applied as a soil amendment to improve structure in clay-heavy soils and supply calcium and sulfur to crops without significantly altering soil pH. Widely used in rice and sugarcane cultivation across Southeast Asia.</div>
+      </div>
+    </div>
+
+    <!-- Why Source -->
+    <p class="detail-section-title" data-en="Why Source from Three Gent?" data-th="ทำไมต้องสั่งจากทรีเจ้นท์?">Why Source from Three Gent?</p>
+    <ul class="detail-checklist">
+      <li data-en="&lt;strong&gt;Verified purity:&lt;/strong&gt; 95.89% calcium sulfate — laboratory tested" data-th="&lt;strong&gt;ความบริสุทธิ์ผ่านการตรวจสอบ:&lt;/strong&gt; แคลเซียมซัลเฟต 95.89% — ทดสอบในห้องปฏิบัติการ"><strong>Verified purity:</strong> 95.89% calcium sulfate — laboratory tested</li>
+      <li data-en="&lt;strong&gt;High whiteness:&lt;/strong&gt; 87.80 whiteness index for colour-sensitive applications" data-th="&lt;strong&gt;ความขาวสูง:&lt;/strong&gt; ดัชนีความขาว 87.80 สำหรับงานที่ต้องการสีที่แม่นยำ"><strong>High whiteness:</strong> 87.80 whiteness index for colour-sensitive applications</li>
+      <li data-en="&lt;strong&gt;15-parameter COA:&lt;/strong&gt; Full chemical analysis available before order" data-th="&lt;strong&gt;COA 15 พารามิเตอร์:&lt;/strong&gt; ผลการวิเคราะห์ทางเคมีครบถ้วนก่อนสั่งซื้อ"><strong>15-parameter COA:</strong> Full chemical analysis available before order</li>
+      <li data-en="&lt;strong&gt;Export-ready:&lt;/strong&gt; Bigbag packaging, FCL shipment, full documentation" data-th="&lt;strong&gt;พร้อมส่งออก:&lt;/strong&gt; บรรจุถุง Bigbag, ส่ง FCL, เอกสารครบ"><strong>Export-ready:</strong> Bigbag packaging, FCL shipment, full documentation</li>
+      <li data-en="&lt;strong&gt;Competitive pricing:&lt;/strong&gt; Thailand-based supplier with direct access to regional deposits" data-th="&lt;strong&gt;ราคาแข่งขันได้:&lt;/strong&gt; ผู้จัดหาในไทยเข้าถึงแหล่งแร่ในภูมิภาคโดยตรง"><strong>Competitive pricing:</strong> Thailand-based supplier with direct access to regional deposits</li>
+      <li data-en="&lt;strong&gt;Asia-focused:&lt;/strong&gt; Supply experience to Southeast and East Asian markets" data-th="&lt;strong&gt;เน้นเอเชีย:&lt;/strong&gt; ประสบการณ์จัดส่งสู่ตลาดเอเชียตะวันออกเฉียงใต้และเอเชียตะวันออก"><strong>Asia-focused:</strong> Supply experience to Southeast and East Asian markets</li>
+    </ul>
+
+    <!-- FAQ -->
+    <p class="detail-section-title" data-en="Frequently Asked Questions" data-th="คำถามที่พบบ่อย">Frequently Asked Questions</p>
+    <div class="detail-faq-item">
+      <button class="detail-faq-q" onclick="toggleDetailFaq(this)">
+        <span data-en="What purity of gypsum does Three Gent supply?" data-th="ทรีเจ้นท์จัดหายิปซัมความบริสุทธิ์เท่าไร?">What purity of gypsum does Three Gent supply?</span>
+        <span class="detail-faq-icon">+</span>
+      </button>
+      <div class="detail-faq-a">
+        <span data-en="Our gypsum has a purity of 95.89% calcium sulfate, with whiteness 87.80 and pH 8.50. Full 15-parameter Certificate of Analysis is available upon request." data-th="ยิปซัมของเรามีความบริสุทธิ์ 95.89% แคลเซียมซัลเฟต ค่าความขาว 87.80 และ pH 8.50 มี Certificate of Analysis 15 พารามิเตอร์ฉบับเต็มให้ตามคำขอ">Our gypsum has a purity of 95.89% calcium sulfate, with whiteness 87.80 and pH 8.50. Full 15-parameter Certificate of Analysis is available upon request.</span>
+      </div>
+    </div>
+    <div class="detail-faq-item">
+      <button class="detail-faq-q" onclick="toggleDetailFaq(this)">
+        <span data-en="What is gypsum used for in cement production?" data-th="ยิปซัมใช้ทำอะไรในการผลิตซีเมนต์?">What is gypsum used for in cement production?</span>
+        <span class="detail-faq-icon">+</span>
+      </button>
+      <div class="detail-faq-a">
+        <span data-en="Gypsum acts as a set retarder in Portland cement, controlling how quickly cement hardens after mixing with water. Typically 3–5% gypsum is added during cement grinding." data-th="ยิปซัมทำหน้าที่เป็นสารหน่วงการแข็งตัวในปูนซีเมนต์ปอร์ตแลนด์ ควบคุมความเร็วในการแข็งตัวหลังผสมน้ำ โดยทั่วไปเติมยิปซัม 3–5% ในขั้นตอนการบดซีเมนต์">Gypsum acts as a set retarder in Portland cement, controlling how quickly cement hardens after mixing with water. Typically 3–5% gypsum is added during cement grinding.</span>
+      </div>
+    </div>
+    <div class="detail-faq-item">
+      <button class="detail-faq-q" onclick="toggleDetailFaq(this)">
+        <span data-en="What is the minimum order quantity for gypsum?" data-th="ปริมาณสั่งซื้อยิปซัมขั้นต่ำคือเท่าไร?">What is the minimum order quantity for gypsum?</span>
+        <span class="detail-faq-icon">+</span>
+      </button>
+      <div class="detail-faq-a">
+        <span data-en="Minimum order is 1 full container load (FCL). Contact us to discuss volume, packaging, and shipping terms." data-th="ปริมาณสั่งซื้อขั้นต่ำคือ 1 ตู้คอนเทนเนอร์เต็ม (FCL) ติดต่อเราเพื่อหารือปริมาณ บรรจุภัณฑ์ และเงื่อนไขการขนส่ง">Minimum order is 1 full container load (FCL). Contact us to discuss volume, packaging, and shipping terms.</span>
+      </div>
+    </div>
+    <div class="detail-faq-item">
+      <button class="detail-faq-q" onclick="toggleDetailFaq(this)">
+        <span data-en="How is the gypsum packaged?" data-th="ยิปซัมบรรจุภัณฑ์อย่างไร?">How is the gypsum packaged?</span>
+        <span class="detail-faq-icon">+</span>
+      </button>
+      <div class="detail-faq-a">
+        <span data-en="Standard export packaging is Bigbag (FIBC). Contact us for other packaging options." data-th="บรรจุภัณฑ์ส่งออกมาตรฐานคือถุง Bigbag (FIBC) ติดต่อเราสำหรับตัวเลือกบรรจุภัณฑ์อื่น">Standard export packaging is Bigbag (FIBC). Contact us for other packaging options.</span>
+      </div>
+    </div>
+    <div class="detail-faq-item">
+      <button class="detail-faq-q" onclick="toggleDetailFaq(this)">
+        <span data-en="Which countries does Three Gent export gypsum to?" data-th="ทรีเจ้นท์ส่งออกยิปซัมไปประเทศใดบ้าง?">Which countries does Three Gent export gypsum to?</span>
+        <span class="detail-faq-icon">+</span>
+      </button>
+      <div class="detail-faq-a">
+        <span data-en="We supply gypsum to industrial buyers across Southeast and East Asia, including Japan, Indonesia, Malaysia, and the Philippines. Contact us to discuss your country's import requirements." data-th="เราจัดหายิปซัมให้ผู้ซื้ออุตสาหกรรมทั่วเอเชียตะวันออกเฉียงใต้และเอเชียตะวันออก ได้แก่ ญี่ปุ่น อินโดนีเซีย มาเลเซีย และฟิลิปปินส์ ติดต่อเราเพื่อหารือข้อกำหนดการนำเข้าของประเทศคุณ">We supply gypsum to industrial buyers across Southeast and East Asia, including Japan, Indonesia, Malaysia, and the Philippines. Contact us to discuss your country's import requirements.</span>
+      </div>
+    </div>
+    <div class="detail-faq-item">
+      <button class="detail-faq-q" onclick="toggleDetailFaq(this)">
+        <span data-en="Can I get a Certificate of Analysis before ordering?" data-th="ขอ Certificate of Analysis ก่อนสั่งซื้อได้ไหม?">Can I get a Certificate of Analysis before ordering?</span>
+        <span class="detail-faq-icon">+</span>
+      </button>
+      <div class="detail-faq-a">
+        <span data-en="Yes. Our full 15-parameter COA is available upon request before placing any order." data-th="ได้ COA 15 พารามิเตอร์ฉบับเต็มของเราให้ตามคำขอก่อนสั่งซื้อ">Yes. Our full 15-parameter COA is available upon request before placing any order.</span>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <a href="#contact" class="btn-primary" onclick="closeModalById('gypsum-detail-modal')" style="margin-top:1.5rem;display:inline-block" data-en="Request Quotation →" data-th="ขอใบเสนอราคา →">Request Quotation →</a>
+  </div>
+</div>
+
 <div id="spec-modal" class="spec-modal-overlay" onclick="closeSpecModal(event)">
   <div class="spec-modal-box">
     <button class="spec-modal-close" onclick="closeSpecModal()" aria-label="Close">✕</button>
@@ -941,6 +1069,96 @@ footer{background:var(--navy);padding:2rem 3rem;font-size:12px;color:var(--muted
   </div>
 </div>
 
+<!-- DOLOMITE DETAIL MODAL — Applications / Why Source / FAQ -->
+<div id="dolomite-detail-modal" class="spec-modal-overlay" onclick="closeDolomiteDetailModal(event)">
+  <div class="spec-modal-box">
+    <button class="spec-modal-close" onclick="closeModalById('dolomite-detail-modal')" aria-label="Close">✕</button>
+    <p class="spec-modal-label" data-en="Product Details" data-th="รายละเอียดสินค้า">Product Details</p>
+    <h2 class="spec-modal-title" data-en="White Dolomite — Applications &amp; FAQ" data-th="โดโลไมต์ขาว — การใช้งานและคำถาม">White Dolomite — Applications &amp; FAQ</h2>
+
+    <!-- Applications -->
+    <p class="detail-section-title" data-en="Applications" data-th="การใช้งาน">Applications</p>
+    <div class="detail-app-grid">
+      <div class="detail-app-card">
+        <div class="detail-app-icon">🏭</div>
+        <div class="detail-app-name" data-en="Steel &amp; Metallurgy" data-th="เหล็กและโลหะวิทยา">Steel &amp; Metallurgy</div>
+        <div class="detail-app-desc" data-en="Used as a basic flux in blast furnaces and electric arc furnaces to remove silica impurities from molten iron. Low Fe₂O₃ (0.126%) minimises iron contamination — critical for steel quality." data-th="ใช้เป็นฟลักซ์เบสิกในเตาถลุงเหล็กและเตาอาร์คไฟฟ้าเพื่อกำจัดซิลิกาออกจากเหล็กหลอมเหลว Fe₂O₃ ต่ำ (0.126%) ลดการปนเปื้อนเหล็ก — สำคัญสำหรับคุณภาพเหล็กกล้า">Used as a basic flux in blast furnaces and electric arc furnaces to remove silica impurities from molten iron. Low Fe₂O₃ (0.126%) minimises iron contamination — critical for steel quality.</div>
+      </div>
+      <div class="detail-app-card">
+        <div class="detail-app-icon">🌾</div>
+        <div class="detail-app-name" data-en="Agriculture" data-th="เกษตรกรรม">Agriculture</div>
+        <div class="detail-app-desc" data-en="Applied to correct soil pH and supplement calcium and magnesium deficiency. Suitable for acidic soils common in tropical Southeast Asian agriculture. MgO (21.6%) supports crop nutrition." data-th="ใช้ปรับค่า pH ดินและเสริมแคลเซียมและแมกนีเซียม เหมาะสำหรับดินกรดที่พบบ่อยในเกษตรเขตร้อนของเอเชียตะวันออกเฉียงใต้ MgO (21.6%) เสริมโภชนาการพืช">Applied to correct soil pH and supplement calcium and magnesium deficiency. Suitable for acidic soils common in tropical Southeast Asian agriculture. MgO (21.6%) supports crop nutrition.</div>
+      </div>
+      <div class="detail-app-card">
+        <div class="detail-app-icon">🏗️</div>
+        <div class="detail-app-name" data-en="Construction &amp; Filler" data-th="ก่อสร้างและสารตัวเติม">Construction &amp; Filler</div>
+        <div class="detail-app-desc" data-en="Used as a filler and extender in construction materials, paints, and plastics where a white, low-iron calcium-magnesium carbonate is required." data-th="ใช้เป็นสารตัวเติมในวัสดุก่อสร้าง สี และพลาสติกที่ต้องการแคลเซียมแมกนีเซียมคาร์บอเนตสีขาวที่มีเหล็กต่ำ">Used as a filler and extender in construction materials, paints, and plastics where a white, low-iron calcium-magnesium carbonate is required.</div>
+      </div>
+    </div>
+
+    <!-- Why Source -->
+    <p class="detail-section-title" data-en="Why Source from Three Gent?" data-th="ทำไมต้องสั่งจากทรีเจ้นท์?">Why Source from Three Gent?</p>
+    <ul class="detail-checklist">
+      <li data-en="&lt;strong&gt;Verified purity:&lt;/strong&gt; WDXRF-tested — CaO 34.196% / MgO 21.638%" data-th="&lt;strong&gt;ความบริสุทธิ์ผ่านการตรวจสอบ:&lt;/strong&gt; ทดสอบด้วย WDXRF — CaO 34.196% / MgO 21.638%"><strong>Verified purity:</strong> WDXRF-tested — CaO 34.196% / MgO 21.638%</li>
+      <li data-en="&lt;strong&gt;Low iron:&lt;/strong&gt; Fe₂O₃ 0.126% — suitable for metallurgical applications" data-th="&lt;strong&gt;เหล็กต่ำ:&lt;/strong&gt; Fe₂O₃ 0.126% — เหมาะสำหรับงานโลหะวิทยา"><strong>Low iron:</strong> Fe₂O₃ 0.126% — suitable for metallurgical applications</li>
+      <li data-en="&lt;strong&gt;White grade:&lt;/strong&gt; Consistent whiteness for industrial and agricultural use" data-th="&lt;strong&gt;เกรดขาว:&lt;/strong&gt; ความขาวสม่ำเสมอสำหรับงานอุตสาหกรรมและเกษตรกรรม"><strong>White grade:</strong> Consistent whiteness for industrial and agricultural use</li>
+      <li data-en="&lt;strong&gt;Export-ready:&lt;/strong&gt; Bigbag packaging, FCL shipment, full documentation" data-th="&lt;strong&gt;พร้อมส่งออก:&lt;/strong&gt; บรรจุถุง Bigbag, ส่ง FCL, เอกสารครบ"><strong>Export-ready:</strong> Bigbag packaging, FCL shipment, full documentation</li>
+      <li data-en="&lt;strong&gt;COA on request:&lt;/strong&gt; Full Certificate of Analysis available before order" data-th="&lt;strong&gt;COA ตามคำขอ:&lt;/strong&gt; มี Certificate of Analysis ฉบับเต็มก่อนสั่งซื้อ"><strong>COA on request:</strong> Full Certificate of Analysis available before order</li>
+    </ul>
+
+    <!-- FAQ -->
+    <p class="detail-section-title" data-en="Frequently Asked Questions" data-th="คำถามที่พบบ่อย">Frequently Asked Questions</p>
+    <div class="detail-faq-item">
+      <button class="detail-faq-q" onclick="toggleDetailFaq(this)">
+        <span data-en="What purity of dolomite does Three Gent supply?" data-th="ทรีเจ้นท์จัดหาโดโลไมต์ความบริสุทธิ์เท่าไร?">What purity of dolomite does Three Gent supply?</span>
+        <span class="detail-faq-icon">+</span>
+      </button>
+      <div class="detail-faq-a">
+        <span data-en="Our white dolomite contains CaO 34.196% and MgO 21.638%, verified by Wavelength Dispersive X-Ray Fluorescence (WDXRF) analysis. Iron oxide (Fe₂O₃) content is 0.126%." data-th="โดโลไมต์ขาวของเราประกอบด้วย CaO 34.196% และ MgO 21.638% ผ่านการตรวจสอบด้วยการวิเคราะห์ Wavelength Dispersive X-Ray Fluorescence (WDXRF) ปริมาณออกไซด์เหล็ก (Fe₂O₃) คือ 0.126%">Our white dolomite contains CaO 34.196% and MgO 21.638%, verified by Wavelength Dispersive X-Ray Fluorescence (WDXRF) analysis. Iron oxide (Fe₂O₃) content is 0.126%.</span>
+      </div>
+    </div>
+    <div class="detail-faq-item">
+      <button class="detail-faq-q" onclick="toggleDetailFaq(this)">
+        <span data-en="What is the minimum order quantity?" data-th="ปริมาณสั่งซื้อขั้นต่ำคือเท่าไร?">What is the minimum order quantity?</span>
+        <span class="detail-faq-icon">+</span>
+      </button>
+      <div class="detail-faq-a">
+        <span data-en="Minimum order is 1 full container load (FCL). Contact us to discuss volume, packaging, and shipping terms." data-th="ปริมาณสั่งซื้อขั้นต่ำคือ 1 ตู้คอนเทนเนอร์เต็ม (FCL) ติดต่อเราเพื่อหารือปริมาณ บรรจุภัณฑ์ และเงื่อนไขการขนส่ง">Minimum order is 1 full container load (FCL). Contact us to discuss volume, packaging, and shipping terms.</span>
+      </div>
+    </div>
+    <div class="detail-faq-item">
+      <button class="detail-faq-q" onclick="toggleDetailFaq(this)">
+        <span data-en="How is the dolomite packaged?" data-th="โดโลไมต์บรรจุภัณฑ์อย่างไร?">How is the dolomite packaged?</span>
+        <span class="detail-faq-icon">+</span>
+      </button>
+      <div class="detail-faq-a">
+        <span data-en="Standard export packaging is Bigbag (FIBC). Other packaging available upon request — contact us for details." data-th="บรรจุภัณฑ์ส่งออกมาตรฐานคือถุง Bigbag (FIBC) บรรจุภัณฑ์อื่นมีให้ตามคำขอ — ติดต่อเราเพื่อรายละเอียด">Standard export packaging is Bigbag (FIBC). Other packaging available upon request — contact us for details.</span>
+      </div>
+    </div>
+    <div class="detail-faq-item">
+      <button class="detail-faq-q" onclick="toggleDetailFaq(this)">
+        <span data-en="Can I get a Certificate of Analysis before ordering?" data-th="ขอ Certificate of Analysis ก่อนสั่งซื้อได้ไหม?">Can I get a Certificate of Analysis before ordering?</span>
+        <span class="detail-faq-icon">+</span>
+      </button>
+      <div class="detail-faq-a">
+        <span data-en="Yes. Full COA is available upon request before placing an order." data-th="ได้ มี COA ฉบับเต็มให้ตามคำขอก่อนสั่งซื้อ">Yes. Full COA is available upon request before placing an order.</span>
+      </div>
+    </div>
+    <div class="detail-faq-item">
+      <button class="detail-faq-q" onclick="toggleDetailFaq(this)">
+        <span data-en="What countries do you export dolomite to?" data-th="ส่งออกโดโลไมต์ไปประเทศใดบ้าง?">What countries do you export dolomite to?</span>
+        <span class="detail-faq-icon">+</span>
+      </button>
+      <div class="detail-faq-a">
+        <span data-en="We export to industrial buyers across Asia. Primary markets include Japan, Vietnam, and Indonesia. Contact us to discuss your country's import requirements." data-th="เราส่งออกให้ผู้ซื้ออุตสาหกรรมทั่วเอเชีย ตลาดหลักได้แก่ญี่ปุ่น เวียดนาม และอินโดนีเซีย ติดต่อเราเพื่อหารือข้อกำหนดการนำเข้าของประเทศคุณ">We export to industrial buyers across Asia. Primary markets include Japan, Vietnam, and Indonesia. Contact us to discuss your country's import requirements.</span>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <a href="#contact" class="btn-primary" onclick="closeModalById('dolomite-detail-modal')" style="margin-top:1.5rem;display:inline-block" data-en="Request Quotation →" data-th="ขอใบเสนอราคา →">Request Quotation →</a>
+  </div>
+</div>
+
 <!-- KAOLIN SPEC MODAL -->
 <div id="kaolin-spec-modal" class="spec-modal-overlay" onclick="closeKaolinModal(event)">
   <div class="spec-modal-box">
@@ -1026,18 +1244,31 @@ function closeModalById(id) {
   document.getElementById(id).classList.remove('open');
   document.body.style.overflow = '';
 }
+// Gypsum Detail (Applications / Why Source / FAQ)
+function openGypsumDetailModal() { openModal('gypsum-detail-modal'); }
+function closeGypsumDetailModal(e) { closeModal(e, 'gypsum-detail-modal'); }
 // Legacy aliases for Gypsum modal
 function openSpecModal() { openModal('spec-modal'); }
 function closeSpecModal(e) { closeModal(e, 'spec-modal'); }
-// Dolomite
+// Dolomite Spec
 function openDolomiteModal() { openModal('dolomite-spec-modal'); }
 function closeDolomiteModal(e) { closeModal(e, 'dolomite-spec-modal'); }
+// Dolomite Detail (Applications / Why Source / FAQ)
+function openDolomiteDetailModal() { openModal('dolomite-detail-modal'); }
+function closeDolomiteDetailModal(e) { closeModal(e, 'dolomite-detail-modal'); }
+// Detail FAQ accordion
+function toggleDetailFaq(btn) {
+  const item = btn.closest('.detail-faq-item');
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.detail-faq-item.open').forEach(el => el.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
 // Kaolin
 function openKaolinModal() { openModal('kaolin-spec-modal'); }
 function closeKaolinModal(e) { closeModal(e, 'kaolin-spec-modal'); }
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') {
-    ['spec-modal','dolomite-spec-modal','kaolin-spec-modal'].forEach(id => {
+    ['spec-modal','gypsum-detail-modal','dolomite-spec-modal','dolomite-detail-modal','kaolin-spec-modal'].forEach(id => {
       const m = document.getElementById(id);
       if (m && m.classList.contains('open')) { m.classList.remove('open'); document.body.style.overflow = ''; }
     });
