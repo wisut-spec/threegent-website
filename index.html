@@ -498,6 +498,8 @@ const TICKER_SYMBOLS = [
 const FIAT_PAIRS = [
   {from:'USD', to:'THB', symbol:'USD/THB'},
   {from:'CNY', to:'THB', symbol:'CNY/THB'},
+  {from:'JPY', to:'THB', symbol:'JPY/THB'},
+  {from:'EUR', to:'THB', symbol:'EUR/THB'},
 ];
 
 let tickerData = [];
@@ -550,7 +552,7 @@ async function fetchFiat(){
       const prev = tickerPrev[pair.symbol] ?? rate;
       const change = prev ? ((rate - prev)/prev)*100 : null;
       tickerPrev[pair.symbol] = rate;
-      results.push({symbol: pair.symbol, price: formatPrice(rate,4), change});
+      results.push({symbol: pair.symbol, price: formatPrice(rate,2), change});
     }catch(e){/* skip */}
   }
   return results;
