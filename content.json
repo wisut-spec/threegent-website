@@ -95,52 +95,31 @@
   },
   "coming": [],
   "quality": {
-    "label_en": "Quality Standards & Sustainability",
-    "label_th": "มาตรฐานคุณภาพและความยั่งยืน",
-    "title_en": "Quality at the Core of Every Operation",
-    "title_th": "คุณภาพคือหัวใจของทุกการดำเนินงาน",
+    "label_en": "Specification Standards",
+    "label_th": "มาตรฐานข้อกำหนด",
+    "title_en": "We Supply to Grade — Not Guesswork",
+    "title_th": "เราส่งตามเกรด — ไม่ใช่การคาดเดา",
     "cards": [
       {
         "num": "01",
-        "title_en": "Rigorous Supplier Selection",
-        "title_th": "คัดสรรซัพพลายเออร์อย่างเข้มงวด",
-        "desc_en": "Only trusted global suppliers who pass our stringent evaluation criteria.",
-        "desc_th": "มีเพียงซัพพลายเออร์ที่ผ่านเกณฑ์ประเมินที่เข้มงวดเท่านั้น"
+        "title_en": "Accredited Lab Analysis",
+        "title_th": "การวิเคราะห์ห้องปฏิบัติการที่ได้รับการรับรอง",
+        "desc_en": "Every shipment is tested at an accredited third-party laboratory. Results are documented and available before goods leave origin.",
+        "desc_th": "ทุกการจัดส่งผ่านการทดสอบที่ห้องปฏิบัติการบุคคลที่สามที่ได้รับการรับรอง ผลการทดสอบมีเอกสารและพร้อมให้ก่อนสินค้าออกจากต้นทาง"
       },
       {
         "num": "02",
-        "title_en": "Batch Quality Inspection",
-        "title_th": "ตรวจสอบคุณภาพทุกล็อต",
-        "desc_en": "Every single batch is individually tested and certified before reaching clients.",
-        "desc_th": "ทุกล็อตผ่านการทดสอบและรับรองเฉพาะบุคคลก่อนส่งถึงลูกค้า"
+        "title_en": "COA on Every Order",
+        "title_th": "ใบรับรองการวิเคราะห์ทุกคำสั่งซื้อ",
+        "desc_en": "A full Certificate of Analysis accompanies every order, available on request. Buyers receive verified composition data, not just a grade label.",
+        "desc_th": "ใบรับรองการวิเคราะห์ฉบับสมบูรณ์แนบมากับทุกคำสั่งซื้อ พร้อมให้ตามคำขอ ผู้ซื้อได้รับข้อมูลองค์ประกอบที่ผ่านการตรวจสอบ ไม่ใช่แค่ป้ายเกรด"
       },
       {
         "num": "03",
-        "title_en": "Mine Site Visits",
-        "title_th": "ตรวจเยี่ยมแหล่งเหมือง",
-        "desc_en": "Regular on-site visits ensure material integrity and responsible extraction.",
-        "desc_th": "การเยี่ยมชมสถานที่จริงอย่างสม่ำเสมอรับประกันความสมบูรณ์ของวัสดุ"
-      },
-      {
-        "num": "04",
-        "title_en": "Eco-Responsible Chain",
-        "title_th": "ห่วงโซ่รับผิดชอบต่อสิ่งแวดล้อม",
-        "desc_en": "Committed to supporting environmentally responsible supply chains globally.",
-        "desc_th": "มุ่งมั่นสนับสนุนห่วงโซ่อุปทานที่รับผิดชอบต่อสิ่งแวดล้อมทั่วโลก"
-      },
-      {
-        "num": "05",
         "title_en": "Transparent Pricing",
         "title_th": "ราคาโปร่งใส",
-        "desc_en": "No hidden fees, no surprises — clear pricing and honest communication.",
-        "desc_th": "ไม่มีค่าใช้จ่ายซ่อนเร้น ราคาชัดเจนและสื่อสารตรงไปตรงมา"
-      },
-      {
-        "num": "06",
-        "title_en": "Responsive Service",
-        "title_th": "บริการตอบสนองเร็ว",
-        "desc_en": "Fast replies, proactive updates, and a team that treats your timeline as priority.",
-        "desc_th": "ตอบกลับเร็ว อัปเดตเชิงรุก และทีมที่ถือว่าตารางเวลาของคุณคือความสำคัญ"
+        "desc_en": "No hidden markups or vague \"market rate\" quotes. We provide itemised pricing so buyers can plan procurement costs with confidence.",
+        "desc_th": "ไม่มีการบวกราคาซ่อนเร้นหรือใบเสนอราคาที่คลุมเครือ เราให้ราคาแบบแยกรายการเพื่อให้ผู้ซื้อวางแผนต้นทุนจัดซื้อได้อย่างมั่นใจ"
       }
     ]
   },
@@ -152,21 +131,18 @@
     "members": [
       {
         "name": "Wisut Phakdee",
-        "nick": "Boy",
         "role_en": "President",
         "role_th": "ประธานบริษัท",
         "img": ""
       },
       {
         "name": "Sakon Raiwon",
-        "nick": "Top",
         "role_en": "Vice President · Sourcing & Raw Material Consultant",
         "role_th": "รองประธาน · ที่ปรึกษาการจัดหาและวัตถุดิบ",
         "img": ""
       },
       {
         "name": "Witchapon Raiwon",
-        "nick": "Two",
         "role_en": "Vice President · Business Growth Consultant",
         "role_th": "รองประธาน · ที่ปรึกษาการเติบโตทางธุรกิจ",
         "img": ""
