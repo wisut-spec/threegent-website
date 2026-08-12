@@ -2,10 +2,10 @@
   "hero": {
     "eyebrow_en": "Industrial Mineral Trading Specialists",
     "eyebrow_th": "ผู้เชี่ยวชาญการค้าแร่ธาตุอุตสาหกรรม",
-    "headline_en": "The Right Materials,<br><em>Delivered Right</em><br>For Your Business",
-    "headline_th": "วัตถุดิบที่ใช่<br><em>ส่งถึงมือคุณ</em><br>เพื่อธุรกิจที่สำเร็จ",
-    "sub_en": "From small workshops to large-scale manufacturers — local or international — we source and supply industrial minerals with consistency, accountability, and environmental responsibility.",
-    "sub_th": "ไม่ว่าจะเป็นโรงงานขนาดเล็กหรือขนาดใหญ่ ในประเทศหรือต่างประเทศ เราจัดหาและจำหน่ายแร่ธาตุอุตสาหกรรมด้วยความสม่ำเสมอ รับผิดชอบ และใส่ใจสิ่งแวดล้อม",
+    "headline_en": "Industrial Mineral Exporter from Thailand —<br><em>Gypsum, Dolomite &amp; Kaolin</em>",
+    "headline_th": "ผู้ส่งออกแร่อุตสาหกรรมจากประเทศไทย —<br><em>ยิปซัม โดโลไมต์ และเคโอลิน</em>",
+    "sub_en": "We source and export high-purity industrial minerals from Thailand to manufacturers across Asia. Gypsum, dolomite, and kaolin — lab-verified, COA on every shipment, competitive export pricing.",
+    "sub_th": "เราจัดหาและส่งออกแร่ธาตุอุตสาหกรรมความบริสุทธิ์สูงจากประเทศไทยไปยังผู้ผลิตทั่วเอเชีย ยิปซัม โดโลไมต์ และเคโอลิน — ผ่านการรับรองจากห้องปฏิบัติการ มี COA ทุกการจัดส่ง ราคาส่งออกที่แข่งขันได้",
     "btn1_en": "Explore Products",
     "btn1_th": "ดูสินค้าทั้งหมด",
     "btn2_en": "Contact Us",
@@ -16,10 +16,10 @@
   "about": {
     "label_en": "About Us",
     "label_th": "เกี่ยวกับเรา",
-    "title_en": "Your Trusted Partner in Industrial Mineral Trading",
-    "title_th": "พันธมิตรที่เชื่อถือได้ในการค้าแร่ธาตุอุตสาหกรรม",
-    "p1_en": "Three Gent Intertrade is a new-generation mineral trading company built on drive, transparency, and a genuine passion for connecting quality raw materials with the industries that need them most.",
-    "p1_th": "ทรี เจนท์ อินเตอร์เทรด คือบริษัทการค้าแร่ธาตุรุ่นใหม่ ที่ก่อตั้งขึ้นด้วยความมุ่งมั่น โปร่งใส และความตั้งใจในการเชื่อมต่อวัตถุดิบคุณภาพดีกับอุตสาหกรรมที่ต้องการ",
+    "title_en": "Thailand's Trusted Source for Industrial Minerals",
+    "title_th": "แหล่งแร่ธาตุอุตสาหกรรมที่เชื่อถือได้จากประเทศไทย",
+    "p1_en": "Three Gent Intertrade is a Bangkok-based mineral trading company with direct access to verified Thai mining sources. We handle sourcing, quality verification, and export logistics — so your procurement team deals with one reliable point of contact, not a chain of intermediaries.",
+    "p1_th": "ทรี เจนท์ อินเตอร์เทรด คือบริษัทการค้าแร่ธาตุในกรุงเทพฯ ที่มีช่องทางโดยตรงไปยังแหล่งเหมืองแร่ไทยที่ผ่านการรับรอง เราดูแลการจัดหา การตรวจสอบคุณภาพ และโลจิสติกส์การส่งออก — ทีมจัดซื้อของคุณจึงติดต่อกับจุดเดียวที่เชื่อถือได้ ไม่ใช่ห่วงโซ่ตัวกลางหลายชั้น",
     "p2_en": "We are not limited by geography, industry, or scale. Whether you are a growing SME or an established manufacturer, we are here to find the right mineral, in the right grade, at a price that works for you.",
     "p2_th": "เราไม่จำกัดตัวเองด้วยภูมิภาค อุตสาหกรรม หรือขนาดของธุรกิจ ไม่ว่าคุณจะเป็น SME ที่กำลังเติบโต หรือผู้ผลิตรายใหญ่ เราพร้อมหาแร่ธาตุที่เหมาะสมในเกรดและราคาที่ใช่สำหรับคุณ",
     "p3_en": "Young, agile, and always open to new opportunities — we adapt fast, communicate directly, and treat every client relationship as a long-term partnership worth building from day one.",
@@ -194,7 +194,7 @@
     "copy": "© 2026 · Thailand"
   },
   "meta": {
-    "title": "Three Gent Intertrade — Gypsum, Dolomite & Industrial Minerals",
-    "desc": "Leading importer and distributor of high-quality industrial mineral powders for construction, ceramic, and multi-industry sectors in Thailand."
+    "title": "Gypsum, Dolomite & Kaolin Exporter | Three Gent Intertrade",
+    "desc": "Thailand-based mineral exporter — gypsum, dolomite, and kaolin. Lab-verified, full COA on every order. Supplying manufacturers across Asia."
   }
 }
