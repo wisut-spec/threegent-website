@@ -186,9 +186,7 @@ nav{background:#ffffff;padding:0 3rem;display:flex;justify-content:space-between
 .section-title{font-family:'Montserrat',sans-serif;font-size:clamp(1.5rem,2.8vw,2.1rem);font-weight:800;margin-bottom:2rem;line-height:1.2;color:var(--navy)}
 
 /* ─── ABOUT ─── */
-.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
 .about-text p{font-size:1rem;color:#4A6080;line-height:1.9;margin-bottom:1rem}
-.about-points{display:flex;flex-direction:column;gap:1rem}
 .point{display:flex;align-items:flex-start;gap:1rem;padding:1.2rem 1.4rem;background:rgba(30,136,229,0.05);border:1px solid var(--border);border-radius:8px;transition:all 0.2s}
 .point:hover{background:rgba(30,136,229,0.09);border-color:rgba(30,136,229,0.4)}
 .point-icon{width:36px;height:36px;border-radius:6px;background:rgba(30,136,229,0.12);display:flex;align-items:center;justify-content:center;flex-shrink:0}
@@ -234,7 +232,7 @@ nav{background:#ffffff;padding:0 3rem;display:flex;justify-content:space-between
 .quality-cta{display:inline-flex;align-items:center;gap:6px;margin-top:2rem;font-size:13px;font-weight:600;color:var(--blue-vivid);text-decoration:none;font-family:'Montserrat',sans-serif;letter-spacing:0.04em;border-bottom:1px solid rgba(30,136,229,0.3);padding-bottom:2px;transition:all 0.2s}
 .quality-cta:hover{border-bottom-color:var(--blue-vivid);color:var(--navy)}
 /* ─── ABOUT POINTS GRID ─── */
-.about-points{display:grid;grid-template-columns:1fr 1fr;gap:0.85rem}
+.about-points{display:grid;grid-template-columns:repeat(3,1fr);gap:0.85rem}
 /* ─── TEAM BIO ─── */
 .team-bio{font-size:0.82rem;color:#4A6080;line-height:1.6;margin-top:6px}
 
@@ -308,7 +306,8 @@ footer{background:var(--navy);padding:2rem 3rem;font-size:12px;color:var(--muted
   .nav-links{display:none}
   .hamburger{display:flex}
   .hero,.section,.section-alt,.contact-section{padding:3rem 1.2rem}
-  .about-grid,.contact-inner{grid-template-columns:1fr;gap:2rem}
+  .contact-inner{grid-template-columns:1fr;gap:2rem}
+  .about-points{grid-template-columns:1fr}
   .cta-glass{flex-direction:column;gap:1.5rem;padding:1.8rem 1.6rem}
   .cta-actions{flex-direction:column;gap:10px;width:100%}
   .cta-actions a{text-align:center}
@@ -391,13 +390,10 @@ footer{background:var(--navy);padding:2rem 3rem;font-size:12px;color:var(--muted
 <!-- ABOUT -->
 <section class="section reveal" id="about">
   <span class="s-label" id="about-label" data-en="About Us" data-th="เกี่ยวกับเรา">About Us</span>
-  <div class="about-grid">
-    <div class="about-text">
-      <h1 class="section-title" id="about-title" data-en="Thailand-Based Industrial Mineral Exporter — Gypsum, Dolomite &amp; Kaolin" data-th="ผู้ส่งออกแร่อุตสาหกรรมจากประเทศไทย — ยิปซัม โดโลไมต์ และเคโอลิน">Thailand-Based Industrial Mineral Exporter — Gypsum, Dolomite &amp; Kaolin</h1>
-      <p id="about-p1" data-en="Three Gent Intertrade sources and exports industrial minerals — including high-purity gypsum, white dolomite, and kaolin — from verified Thai suppliers to manufacturers across Asia and beyond." data-th="ทรี เจนท์ อินเตอร์เทรด จัดหาและส่งออกแร่ธาตุอุตสาหกรรม — รวมถึงยิปซัมบริสุทธิ์สูง โดโลไมต์สีขาว และเคโอลิน — จากซัพพลายเออร์ไทยที่ผ่านการรับรองไปยังผู้ผลิตทั่วเอเชียและไกลกว่านั้น">Three Gent Intertrade sources and exports industrial minerals — including high-purity gypsum, white dolomite, and kaolin — from verified Thai suppliers to manufacturers across Asia and beyond.</p>
-      <p id="about-p2" data-en="We work directly with procurement teams and trading companies to match the right grade to the right application, with lab-verified specifications and transparent pricing from the first inquiry." data-th="เราทำงานโดยตรงกับทีมจัดซื้อและบริษัทการค้าเพื่อจับคู่เกรดที่เหมาะสมกับการใช้งานที่ถูกต้อง พร้อมข้อกำหนดที่ผ่านการรับรองจากห้องปฏิบัติการและราคาโปร่งใสตั้งแต่การสอบถามครั้งแรก">We work directly with procurement teams and trading companies to match the right grade to the right application, with lab-verified specifications and transparent pricing from the first inquiry.</p>
-    </div>
-    <div class="about-points" id="about-points">
+  <h1 class="section-title" id="about-title" data-en="Thailand-Based Industrial Mineral Exporter — Gypsum, Dolomite &amp; Kaolin" data-th="ผู้ส่งออกแร่อุตสาหกรรมจากประเทศไทย — ยิปซัม โดโลไมต์ และเคโอลิน">Thailand-Based Industrial Mineral Exporter — Gypsum, Dolomite &amp; Kaolin</h1>
+  <p id="about-p1" style="font-size:1rem;color:#4A6080;line-height:1.9;margin-bottom:1rem;max-width:760px;" data-en="Three Gent Intertrade sources and exports industrial minerals — including high-purity gypsum, white dolomite, and kaolin — from verified Thai suppliers to manufacturers across Asia and beyond." data-th="ทรี เจนท์ อินเตอร์เทรด จัดหาและส่งออกแร่ธาตุอุตสาหกรรม — รวมถึงยิปซัมบริสุทธิ์สูง โดโลไมต์สีขาว และเคโอลิน — จากซัพพลายเออร์ไทยที่ผ่านการรับรองไปยังผู้ผลิตทั่วเอเชียและไกลกว่านั้น">Three Gent Intertrade sources and exports industrial minerals — including high-purity gypsum, white dolomite, and kaolin — from verified Thai suppliers to manufacturers across Asia and beyond.</p>
+  <p id="about-p2" style="font-size:1rem;color:#4A6080;line-height:1.9;margin-bottom:2rem;max-width:760px;" data-en="We work directly with procurement teams and trading companies to match the right grade to the right application, with lab-verified specifications and transparent pricing from the first inquiry." data-th="เราทำงานโดยตรงกับทีมจัดซื้อและบริษัทการค้าเพื่อจับคู่เกรดที่เหมาะสมกับการใช้งานที่ถูกต้อง พร้อมข้อกำหนดที่ผ่านการรับรองจากห้องปฏิบัติการและราคาโปร่งใสตั้งแต่การสอบถามครั้งแรก">We work directly with procurement teams and trading companies to match the right grade to the right application, with lab-verified specifications and transparent pricing from the first inquiry.</p>
+  <div class="about-points" id="about-points">
       <div class="point">
         <div class="point-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
         <div><div class="point-title" id="ap0-title" data-en="Verified Supplier Network" data-th="เครือข่ายซัพพลายเออร์ที่ได้รับการตรวจสอบ">Verified Supplier Network</div><div class="point-desc" id="ap0-desc" data-en="Only trusted, audited global suppliers pass our evaluation process." data-th="มีเพียงซัพพลายเออร์ระดับโลกที่ผ่านการตรวจสอบเท่านั้น">Only trusted, audited global suppliers pass our evaluation process.</div></div>
@@ -422,7 +418,6 @@ footer{background:var(--navy);padding:2rem 3rem;font-size:12px;color:var(--muted
         <div class="point-icon"><svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
         <div><div class="point-title" id="ap5-title" data-en="Serving Cement, Ceramics &amp; Construction" data-th="บริการซีเมนต์ เซรามิก และก่อสร้าง">Serving Cement, Ceramics &amp; Construction</div><div class="point-desc" id="ap5-desc" data-en="Our primary clients are manufacturers in building materials, industrial processing, and construction." data-th="ลูกค้าหลักของเราคือผู้ผลิตในวัสดุก่อสร้าง การแปรรูปอุตสาหกรรม และการก่อสร้าง">Our primary clients are manufacturers in building materials, industrial processing, and construction.</div></div>
       </div>
-    </div>
   </div>
 </section>
 
