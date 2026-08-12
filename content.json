@@ -64,29 +64,29 @@
     ]
   },
   "products": {
-    "label_en": "Products & Services",
+    "label_en": "Industrial Mineral Products — Export from Thailand",
     "label_th": "สินค้าและบริการ",
-    "title_en": "Quality Industrial Minerals for Multiple Sectors",
+    "title_en": "Gypsum, Dolomite & Kaolin — Industrial Mineral Supplier from Thailand",
     "title_th": "แร่ธาตุอุตสาหกรรมคุณภาพสูงสำหรับหลากหลายภาคส่วน",
     "items": [
       {
         "sub_en": "Calcium Sulfate",
         "sub_th": "แคลเซียมซัลเฟต",
-        "name_en": "Gypsum",
+        "name_en": "Gypsum (Calcium Sulfate) — High-Purity Export Supplier, Thailand",
         "name_th": "ยิปซัม",
-        "desc_en": "A versatile mineral widely used in the production of tiles, ceramics, plasterboard, and cement. Also applied in agriculture as a soil conditioner. Available in various grades — contact us for specifications.",
-        "desc_th": "แร่อเนกประสงค์ที่ใช้กันอย่างแพร่หลายในการผลิตกระเบื้อง เซรามิก ยิปซัมบอร์ด และซีเมนต์ ใช้ในการเกษตรเป็นตัวปรับสภาพดิน มีหลายเกรด — ติดต่อเราเพื่อขอข้อมูลจำเพาะ",
-        "tags_en": "Tiles & Ceramics,Construction,Agriculture",
+        "desc_en": "Three Gent Intertrade exports high-purity gypsum (calcium sulfate) sourced from verified Thai deposits. Laboratory-tested — purity 95.89%, whiteness 87.80. Suitable for cement, ceramics, and agricultural applications across Asia. Available in bulk Bigbag packaging for FCL export. Minimum order: 1 FCL. Full COA available upon request. Typical specification. Exact composition may vary by lot. Full COA available upon request.",
+        "desc_th": "บริษัท ทรีเจ้นท์ อินเตอร์เทรด ส่งออกยิปซัม (แคลเซียมซัลเฟต) ความบริสุทธิ์สูงจากแหล่งแร่ที่ผ่านการตรวจสอบในประเทศไทย ผ่านการทดสอบในห้องปฏิบัติการ ความบริสุทธิ์ 95.89% ค่าความขาว 87.80 เหมาะสำหรับซีเมนต์ เซรามิก และเกษตรกรรมทั่วเอเชีย บรรจุในถุง Bigbag FCL ปริมาณขั้นต่ำ 1 FCL มี COA ฉบับเต็มตามคำขอ",
+        "tags_en": "Cement & Construction,Ceramics,Agriculture",
         "tags_th": "กระเบื้อง & เซรามิก,ก่อสร้าง,เกษตรกรรม",
         "img": "images/Gypsum.jpg"
       },
       {
         "sub_en": "Calcium Magnesium Carbonate",
         "sub_th": "แคลเซียมแมกนีเซียมคาร์บอเนต",
-        "name_en": "Dolomite",
+        "name_en": "White Dolomite (Calcium Magnesium Carbonate) — Thailand Exporter",
         "name_th": "โดโลไมต์",
-        "desc_en": "A versatile industrial mineral used in steel manufacturing as a flux, agriculture as a soil conditioner, and construction. High purity grades available — contact us for specifications.",
-        "desc_th": "แร่ธาตุอุตสาหกรรมอเนกประสงค์ ใช้ในการผลิตเหล็กกล้า เกษตรกรรม และการก่อสร้าง มีเกรดความบริสุทธิ์สูง — ติดต่อเราเพื่อขอข้อมูลจำเพาะ",
+        "desc_en": "Three Gent Intertrade supplies high-purity white dolomite sourced from licensed Thai deposits. Verified by WDXRF analysis — CaO 34.20%, MgO 21.64%, low iron (Fe₂O₃ 0.126%) — suitable for steel flux, agricultural soil correction, and construction applications. Available in bulk Bigbag packaging for FCL export. Minimum order: 1 FCL. Full COA available upon request. Typical specification. Exact composition may vary by lot. Full COA available upon request.",
+        "desc_th": "บริษัท ทรีเจ้นท์ อินเตอร์เทรด จัดหาโดโลไมต์ขาวความบริสุทธิ์สูงจากแหล่งแร่ที่มีใบอนุญาตในประเทศไทย ผ่านการวิเคราะห์ด้วย WDXRF — CaO 34.20%, MgO 21.64%, เหล็กต่ำ (Fe₂O₃ 0.126%) เหมาะสำหรับฟลักซ์เหล็กกล้า เกษตรกรรม และก่อสร้าง บรรจุในถุง Bigbag FCL ปริมาณขั้นต่ำ 1 FCL มี COA ฉบับเต็มตามคำขอ",
         "tags_en": "Steel & Metallurgy,Agriculture,Construction",
         "tags_th": "เหล็กและโลหะวิทยา,เกษตรกรรม,ก่อสร้าง",
         "img": "images/Dolomite.jpg"
@@ -171,6 +171,6 @@
   },
   "meta": {
     "title": "Gypsum, Dolomite & Kaolin Exporter | Three Gent Intertrade",
-    "desc": "Thailand-based mineral exporter — gypsum, dolomite, and kaolin. Lab-verified, full COA on every order. Supplying manufacturers across Asia."
+    "desc": "Source gypsum, dolomite, and kaolin direct from Thailand — lab-verified grades, COA on every shipment, FCL bulk export. Contact Three Gent Intertrade for specifications and pricing."
   }
 }
