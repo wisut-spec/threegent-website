@@ -16,50 +16,48 @@
   "about": {
     "label_en": "About Us",
     "label_th": "เกี่ยวกับเรา",
-    "title_en": "Thailand's Trusted Source for Industrial Minerals",
-    "title_th": "แหล่งแร่ธาตุอุตสาหกรรมที่เชื่อถือได้จากประเทศไทย",
-    "p1_en": "Three Gent Intertrade is a Bangkok-based mineral trading company with direct access to verified Thai mining sources. We handle sourcing, quality verification, and export logistics — so your procurement team deals with one reliable point of contact, not a chain of intermediaries.",
-    "p1_th": "ทรี เจนท์ อินเตอร์เทรด คือบริษัทการค้าแร่ธาตุในกรุงเทพฯ ที่มีช่องทางโดยตรงไปยังแหล่งเหมืองแร่ไทยที่ผ่านการรับรอง เราดูแลการจัดหา การตรวจสอบคุณภาพ และโลจิสติกส์การส่งออก — ทีมจัดซื้อของคุณจึงติดต่อกับจุดเดียวที่เชื่อถือได้ ไม่ใช่ห่วงโซ่ตัวกลางหลายชั้น",
-    "p2_en": "We are not limited by geography, industry, or scale. Whether you are a growing SME or an established manufacturer, we are here to find the right mineral, in the right grade, at a price that works for you.",
-    "p2_th": "เราไม่จำกัดตัวเองด้วยภูมิภาค อุตสาหกรรม หรือขนาดของธุรกิจ ไม่ว่าคุณจะเป็น SME ที่กำลังเติบโต หรือผู้ผลิตรายใหญ่ เราพร้อมหาแร่ธาตุที่เหมาะสมในเกรดและราคาที่ใช่สำหรับคุณ",
-    "p3_en": "Young, agile, and always open to new opportunities — we adapt fast, communicate directly, and treat every client relationship as a long-term partnership worth building from day one.",
-    "p3_th": "เราเป็นทีมหนุ่มสาวที่คล่องตัว เปิดรับโอกาสใหม่เสมอ ปรับตัวได้เร็ว สื่อสารตรงไปตรงมา และมองทุกความสัมพันธ์กับลูกค้าเป็นหุ้นส่วนระยะยาว",
+    "title_en": "Thailand-Based Industrial Mineral Exporter — Gypsum, Dolomite & Kaolin",
+    "title_th": "ผู้ส่งออกแร่อุตสาหกรรมจากประเทศไทย — ยิปซัม โดโลไมต์ และเคโอลิน",
+    "p1_en": "Three Gent Intertrade sources and exports industrial minerals — including high-purity gypsum, white dolomite, and kaolin — from verified Thai suppliers to manufacturers across Asia and beyond.",
+    "p1_th": "ทรี เจนท์ อินเตอร์เทรด จัดหาและส่งออกแร่ธาตุอุตสาหกรรม — รวมถึงยิปซัมบริสุทธิ์สูง โดโลไมต์สีขาว และเคโอลิน — จากซัพพลายเออร์ไทยที่ผ่านการรับรองไปยังผู้ผลิตทั่วเอเชียและไกลกว่านั้น",
+    "p2_en": "We work directly with procurement teams and trading companies to match the right grade to the right application, with lab-verified specifications and transparent pricing from the first inquiry.",
+    "p2_th": "เราทำงานโดยตรงกับทีมจัดซื้อและบริษัทการค้าเพื่อจับคู่เกรดที่เหมาะสมกับการใช้งานที่ถูกต้อง พร้อมข้อกำหนดที่ผ่านการรับรองจากห้องปฏิบัติการและราคาโปร่งใสตั้งแต่การสอบถามครั้งแรก",
     "points": [
       {
-        "title_en": "Rigorous Supplier Selection",
-        "title_th": "คัดสรรซัพพลายเออร์อย่างเข้มงวด",
-        "desc_en": "Only trusted, vetted global suppliers pass our evaluation process.",
+        "title_en": "Verified Supplier Network",
+        "title_th": "เครือข่ายซัพพลายเออร์ที่ได้รับการตรวจสอบ",
+        "desc_en": "Only trusted, audited global suppliers pass our evaluation process.",
         "desc_th": "มีเพียงซัพพลายเออร์ระดับโลกที่ผ่านการตรวจสอบเท่านั้น"
       },
       {
-        "title_en": "Batch-by-Batch Quality Inspection",
-        "title_th": "ตรวจสอบคุณภาพทุกล็อต",
-        "desc_en": "Every shipment is individually tested before delivery.",
-        "desc_th": "ทุกการส่งมอบผ่านการทดสอบรายบุคคลก่อนจัดส่ง"
+        "title_en": "Lab-Verified Every Shipment",
+        "title_th": "ตรวจสอบห้องปฏิบัติการทุกการจัดส่ง",
+        "desc_en": "Each batch is tested against specification before dispatch. Full COA available upon request.",
+        "desc_th": "แต่ละล็อตผ่านการทดสอบตามข้อกำหนดก่อนจัดส่ง มี COA ครบถ้วนตามคำขอ"
       },
       {
-        "title_en": "Regular Mine Site Visits",
-        "title_th": "ตรวจเยี่ยมเหมืองสม่ำเสมอ",
-        "desc_en": "On-the-ground verification ensures source integrity.",
-        "desc_th": "การตรวจสอบโดยตรงรับประกันความสมบูรณ์ของแหล่งที่มา"
+        "title_en": "On-Site Source Verification",
+        "title_th": "ตรวจสอบแหล่งที่มาในสถานที่จริง",
+        "desc_en": "Regular mine site visits ensure material integrity and responsible extraction.",
+        "desc_th": "การเยี่ยมชมเหมืองอย่างสม่ำเสมอรับประกันความสมบูรณ์ของวัสดุและการขุดอย่างรับผิดชอบ"
       },
       {
-        "title_en": "Environmentally Responsible",
-        "title_th": "รับผิดชอบต่อสิ่งแวดล้อม",
-        "desc_en": "Supporting sustainable and eco-conscious supply chains.",
-        "desc_th": "สนับสนุนห่วงโซ่อุปทานที่ยั่งยืนและเป็นมิตรต่อสิ่งแวดล้อม"
+        "title_en": "Responsible Sourcing",
+        "title_th": "การจัดหาอย่างรับผิดชอบ",
+        "desc_en": "We prioritize suppliers with documented environmental and extraction standards.",
+        "desc_th": "เราให้ความสำคัญกับซัพพลายเออร์ที่มีมาตรฐานสิ่งแวดล้อมและการขุดที่มีเอกสารรับรอง"
       },
       {
-        "title_en": "Young & Agile Team",
-        "title_th": "ทีมหนุ่มสาวคล่องตัว",
-        "desc_en": "Fresh perspective, fast response, and drive to grow with clients.",
-        "desc_th": "มุมมองใหม่ ตอบสนองเร็ว มุ่งมั่นที่จะเติบโตไปพร้อมกับลูกค้า"
+        "title_en": "Fast-Response Operations",
+        "title_th": "การดำเนินงานตอบสนองเร็ว",
+        "desc_en": "Quotes, samples, and documentation turned around without the delays of large trading houses.",
+        "desc_th": "ใบเสนอราคา ตัวอย่าง และเอกสารดำเนินการเร็วโดยไม่มีความล่าช้าของบริษัทการค้าขนาดใหญ่"
       },
       {
-        "title_en": "Open to All Industries",
-        "title_th": "เปิดรับทุกอุตสาหกรรม",
-        "desc_en": "No industry is off the table — we will find a way to supply.",
-        "desc_th": "ไม่มีอุตสาหกรรมไหนที่เราปฏิเสธ หากคุณต้องการแร่ธาตุ เราพร้อมจัดหาให้"
+        "title_en": "Serving Cement, Ceramics & Construction",
+        "title_th": "บริการซีเมนต์ เซรามิก และก่อสร้าง",
+        "desc_en": "Our primary clients are manufacturers in building materials, industrial processing, and construction.",
+        "desc_th": "ลูกค้าหลักของเราคือผู้ผลิตในวัสดุก่อสร้าง การแปรรูปอุตสาหกรรม และการก่อสร้าง"
       }
     ]
   },
@@ -109,15 +107,15 @@
       },
       {
         "num": "02",
-        "title_en": "COA on Every Order",
+        "title_en": "Certificate of Analysis on Every Order",
         "title_th": "ใบรับรองการวิเคราะห์ทุกคำสั่งซื้อ",
         "desc_en": "A full Certificate of Analysis accompanies every order, available on request. Buyers receive verified composition data, not just a grade label.",
         "desc_th": "ใบรับรองการวิเคราะห์ฉบับสมบูรณ์แนบมากับทุกคำสั่งซื้อ พร้อมให้ตามคำขอ ผู้ซื้อได้รับข้อมูลองค์ประกอบที่ผ่านการตรวจสอบ ไม่ใช่แค่ป้ายเกรด"
       },
       {
         "num": "03",
-        "title_en": "Transparent Pricing",
-        "title_th": "ราคาโปร่งใส",
+        "title_en": "Transparent Pricing from First Inquiry",
+        "title_th": "ราคาโปร่งใสตั้งแต่การสอบถามครั้งแรก",
         "desc_en": "No hidden markups or vague \"market rate\" quotes. We provide itemised pricing so buyers can plan procurement costs with confidence.",
         "desc_th": "ไม่มีการบวกราคาซ่อนเร้นหรือใบเสนอราคาที่คลุมเครือ เราให้ราคาแบบแยกรายการเพื่อให้ผู้ซื้อวางแผนต้นทุนจัดซื้อได้อย่างมั่นใจ"
       }
