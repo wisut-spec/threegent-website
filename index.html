@@ -64,8 +64,8 @@
 }
 </script>
 <!-- Preload รูป Hero (LCP) — มือถือโหลดเฉพาะรูปเล็ก เดสก์ท็อปโหลดเฉพาะรูปใหญ่ ตรงกับ CSS .hero::before -->
-<link rel="preload" as="image" href="images/worldmap-banner-sm.jpg" media="(max-width: 767px)" fetchpriority="high">
-<link rel="preload" as="image" href="images/worldmap-banner.jpg" media="(min-width: 768px)" fetchpriority="high">
+<link rel="preload" as="image" href="images/worldmap-banner-sm.webp" media="(max-width: 767px)" fetchpriority="high">
+<link rel="preload" as="image" href="images/worldmap-banner.webp" media="(min-width: 768px)" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <!-- Google Fonts แบบไม่บล็อกการแสดงผล: โหลดเป็น print ก่อนแล้วสลับเป็น all เมื่อโหลดเสร็จ -->
@@ -154,8 +154,8 @@ nav{background:#ffffff;padding:0 3rem;display:flex;justify-content:space-between
 
 /* ─── HERO ─── */
 .hero{min-height:88vh;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:7rem 3rem 7rem;position:relative;overflow:hidden;background:var(--navy)}
-.hero::before{content:'';position:absolute;inset:0;background:url('images/worldmap-banner-sm.jpg') center/cover no-repeat}
-@media(min-width:768px){.hero::before{background-image:url('images/worldmap-banner.jpg')}}
+.hero::before{content:'';position:absolute;inset:0;background:url('images/worldmap-banner-sm.webp') center/cover no-repeat}
+@media(min-width:768px){.hero::before{background-image:url('images/worldmap-banner.webp')}}
 .hero-bg{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(11,26,46,0.88) 0%,rgba(11,26,46,0.74) 45%,rgba(11,26,46,0.9) 100%)}
 .hero-eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--sky);border:1px solid rgba(66,165,245,0.35);padding:6px 14px;border-radius:20px;margin-bottom:24px;background:rgba(30,136,229,0.07);font-family:'Montserrat',sans-serif}
 .hero-dot{width:6px;height:6px;border-radius:50%;background:var(--sky)}
@@ -239,8 +239,8 @@ nav{background:#ffffff;padding:0 3rem;display:flex;justify-content:space-between
 
 /* ─── CTA BAND ─── */
 .cta-band{position:relative;overflow:hidden;padding:4.5rem 1.5rem;border-top:3px solid var(--blue-vivid)}
-.cta-band::before{content:'';position:absolute;inset:0;background:url('images/worldmap-banner-sm.jpg') center/cover no-repeat}
-@media(min-width:768px){.cta-band::before{background-image:url('images/worldmap-banner.jpg')}}
+.cta-band::before{content:'';position:absolute;inset:0;background:url('images/worldmap-banner-sm.webp') center/cover no-repeat}
+@media(min-width:768px){.cta-band::before{background-image:url('images/worldmap-banner.webp')}}
 .cta-glass{position:relative;z-index:1;max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:3rem;background:rgba(255,255,255,0.12);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,0.32);border-radius:18px;padding:2.6rem 3rem;box-shadow:0 8px 40px rgba(11,26,46,0.35)}
 .cta-band h2{font-family:'Montserrat',sans-serif;font-size:2rem;font-weight:800;color:white;line-height:1.2}
 .cta-band h2 em{font-style:normal;color:var(--sky)}
@@ -389,7 +389,7 @@ footer{background:var(--navy);padding:2rem 3rem;font-size:12px;color:var(--muted
 <!-- NAV -->
 <nav>
   <a href="index.html" class="logo">
-    <img src="images/logo.jpg" alt="Three Gent Intertrade" class="logo-img"/>
+    <img src="images/logo.jpg" alt="Three Gent Intertrade" class="logo-img" width="981" height="540"/>
   </a>
   <div class="nav-right">
     <ul class="nav-links">
@@ -468,21 +468,21 @@ footer{background:var(--navy);padding:2rem 3rem;font-size:12px;color:var(--muted
   <p style="font-size:1rem;color:#4A6080;margin-bottom:2rem;line-height:1.8;" data-en="Three minerals. All lab-verified. All available for export from Thailand." data-th="สามแร่ธาตุ ทั้งหมดผ่านการรับรองจากห้องปฏิบัติการ ทั้งหมดพร้อมส่งออกจากประเทศไทย">Three minerals. All lab-verified. All available for export from Thailand.</p>
   <div class="products-grid">
     <div class="product-card">
-      <img class="product-photo" src="images/Gypsum.jpg" alt="Gypsum industrial mineral powder — Three Gent Intertrade" data-alt-en="Gypsum industrial mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่ยิปซัมอุตสาหกรรม — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="lazy" decoding="async">
+      <img class="product-photo" src="images/Gypsum.webp" alt="Gypsum industrial mineral powder — Three Gent Intertrade" data-alt-en="Gypsum industrial mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่ยิปซัมอุตสาหกรรม — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="lazy" decoding="async">
       <div class="prod-sub" data-en="Calcium Sulfate" data-th="แคลเซียมซัลเฟต">Calcium Sulfate</div>
       <div class="prod-name" data-en="Gypsum" data-th="ยิปซัม">Gypsum</div>
       <p class="prod-desc" data-en="Used in cement, plasterboard, ceramics, and agriculture. Purity: 95.89% (lab-verified)." data-th="ใช้ในซีเมนต์ ยิปซัมบอร์ด เซรามิก และเกษตรกรรม ความบริสุทธิ์: 95.89% (ผ่านห้องปฏิบัติการ)">Used in cement, plasterboard, ceramics, and agriculture. Purity: 95.89% (lab-verified).</p>
       <a href="products.html#products" class="product-cta" data-en="View Specification →" data-th="ดูข้อมูลจำเพาะ →">View Specification →</a>
     </div>
     <div class="product-card">
-      <img class="product-photo" src="images/Dolomite.jpg" alt="Dolomite industrial mineral powder — Three Gent Intertrade" data-alt-en="Dolomite industrial mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่โดโลไมต์อุตสาหกรรม — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="lazy" decoding="async">
+      <img class="product-photo" src="images/Dolomite.webp" alt="Dolomite industrial mineral powder — Three Gent Intertrade" data-alt-en="Dolomite industrial mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่โดโลไมต์อุตสาหกรรม — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="lazy" decoding="async">
       <div class="prod-sub" data-en="Calcium Magnesium Carbonate" data-th="แคลเซียมแมกนีเซียมคาร์บอเนต">Calcium Magnesium Carbonate</div>
       <div class="prod-name" data-en="Dolomite" data-th="โดโลไมต์">Dolomite</div>
       <p class="prod-desc" data-en="Used in steel manufacturing, agriculture, and construction. CaO: 34.20% │ MgO: 21.64% (lab-verified)." data-th="ใช้ในการผลิตเหล็กกล้า เกษตรกรรม และการก่อสร้าง CaO: 34.20% │ MgO: 21.64% (ผ่านห้องปฏิบัติการ)">Used in steel manufacturing, agriculture, and construction. CaO: 34.20% │ MgO: 21.64% (lab-verified).</p>
       <a href="products.html#products" class="product-cta" data-en="View Specification →" data-th="ดูข้อมูลจำเพาะ →">View Specification →</a>
     </div>
     <div class="product-card">
-      <img class="product-photo" src="images/Kaolin.jpg" alt="Kaolin clay mineral powder — Three Gent Intertrade" data-alt-en="Kaolin clay mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่ดินขาว — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="lazy" decoding="async">
+      <img class="product-photo" src="images/Kaolin.webp" alt="Kaolin clay mineral powder — Three Gent Intertrade" data-alt-en="Kaolin clay mineral powder — Three Gent Intertrade" data-alt-th="ผงแร่ดินขาว — ทรีเจ้นท์ อินเตอร์เทรด" width="400" height="180" loading="lazy" decoding="async">
       <div class="prod-sub" data-en="Hydrous Aluminum Silicate" data-th="ไฮดรัสอะลูมินัมซิลิเคต">Hydrous Aluminum Silicate</div>
       <div class="prod-name" data-en="Kaolin" data-th="เคโอลิน">Kaolin</div>
       <p class="prod-desc" data-en="Used in ceramics, paper, and industrial applications. SiO₂: 22.97% │ Al₂O₃: 5.68% (lab-verified)." data-th="ใช้ในเซรามิก กระดาษ และการใช้งานอุตสาหกรรม SiO₂: 22.97% │ Al₂O₃: 5.68% (ผ่านห้องปฏิบัติการ)">Used in ceramics, paper, and industrial applications. SiO₂: 22.97% │ Al₂O₃: 5.68% (lab-verified).</p>
@@ -668,10 +668,19 @@ function buildTickerHTML(items){
   }).join('');
 }
 
+async function fetchJSON(url, ms){
+  const ctl = new AbortController();
+  const t = setTimeout(() => ctl.abort(), ms || 8000);
+  try{
+    const res = await fetch(url, {signal: ctl.signal});
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    return await res.json();
+  } finally { clearTimeout(t); }
+}
+
 async function fetchCrypto(){
   const ids = TICKER_SYMBOLS.map(s=>s.id).join(',');
-  const res = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${ids}&vs_currencies=usd&include_24hr_change=true`);
-  const data = await res.json();
+  const data = await fetchJSON(`https://api.coingecko.com/api/v3/simple/price?ids=${ids}&vs_currencies=usd&include_24hr_change=true`);
   return TICKER_SYMBOLS.map(s => ({
     symbol: s.symbol,
     price: '$' + formatPrice(data[s.id].usd, 2),
@@ -680,34 +689,37 @@ async function fetchCrypto(){
 }
 
 async function fetchFiat(){
+  const settled = await Promise.allSettled(
+    FIAT_PAIRS.map(pair => fetchJSON(`https://open.er-api.com/v6/latest/${pair.from}`))
+  );
   const results = [];
-  for(const pair of FIAT_PAIRS){
-    try{
-      const res = await fetch(`https://open.er-api.com/v6/latest/${pair.from}`);
-      const data = await res.json();
-      const rate = data.rates[pair.to];
-      const prev = tickerPrev[pair.symbol] ?? rate;
-      const change = prev ? ((rate - prev)/prev)*100 : null;
-      tickerPrev[pair.symbol] = rate;
-      results.push({symbol: pair.symbol, price: formatPrice(rate,2), change});
-    }catch(e){/* skip */}
-  }
+  settled.forEach((r, i) => {
+    if(r.status !== 'fulfilled') return;
+    const pair = FIAT_PAIRS[i];
+    const rate = (r.value && r.value.rates) ? r.value.rates[pair.to] : null;
+    if(typeof rate !== 'number') return;
+    const prev = tickerPrev[pair.symbol] ?? rate;
+    const change = prev ? ((rate - prev)/prev)*100 : null;
+    tickerPrev[pair.symbol] = rate;
+    results.push({symbol: pair.symbol, price: formatPrice(rate,2), change});
+  });
   return results;
 }
 
 async function refreshTicker(){
-  try{
-    const [crypto, fiat] = await Promise.all([fetchCrypto(), fetchFiat()]);
-    tickerData = [...fiat, ...crypto];
+  const wrap = document.getElementById('ticker-wrap');
+  const [cryptoRes, fiatRes] = await Promise.allSettled([fetchCrypto(), fetchFiat()]);
+  const crypto = cryptoRes.status === 'fulfilled' ? cryptoRes.value : [];
+  const fiat   = fiatRes.status   === 'fulfilled' ? fiatRes.value   : [];
+  const fresh  = [...fiat, ...crypto];
+  if(fresh.length > 0){
+    tickerData = fresh;
     const track = document.getElementById('ticker-track');
-    if(tickerData.length > 0){
-      track.innerHTML = buildTickerHTML(tickerData);
-      // Adjust animation speed based on content
-      const itemCount = tickerData.length;
-      track.style.animationDuration = (itemCount * 5) + 's';
-    }
-  }catch(e){
-    console.warn('Ticker fetch error',e);
+    track.innerHTML = buildTickerHTML(tickerData);
+    track.style.animationDuration = (tickerData.length * 5) + 's';
+    if(wrap) wrap.style.visibility = '';
+  } else if(tickerData.length === 0 && wrap){
+    wrap.style.visibility = 'hidden';
   }
 }
 
